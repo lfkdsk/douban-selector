@@ -37,6 +37,7 @@
         },
         sort: 'mark_date_desc',
         randomSeed: Math.random(),
+        rendered: 0,
     };
 
     const els = {};
@@ -59,6 +60,7 @@
             return;
         }
         bindEvents();
+        setupChunkObserver();
         renderTabs();
         switchTo('wish');
     }
@@ -100,6 +102,8 @@
         els.gridHeading = document.getElementById('grid-heading');
         els.grid = document.getElementById('movie-grid');
         els.empty = document.getElementById('empty-state');
+        els.loadMore = document.getElementById('load-more');
+        els.loadMoreBtn = document.getElementById('load-more-btn');
 
         els.modal = document.getElementById('modal');
         els.modalContent = els.modal.querySelector('.modal-content');
@@ -239,6 +243,7 @@
             applyFilters();
         });
         els.rollBtn.addEventListener('click', rollPick);
+        els.loadMoreBtn.addEventListener('click', appendChunk);
 
         els.modal.addEventListener('click', (e) => {
             if (e.target.dataset.close !== undefined) closeModal();
@@ -282,7 +287,7 @@
         });
 
         sortFiltered();
-        renderGrid();
+        renderGrid(/*reset=*/true);
         els.resultCount.textContent = `${state.filtered.length} 部`;
     }
 
@@ -317,18 +322,56 @@
         return h >>> 0;
     }
 
-    /* ───────────────────── grid render ───────────────────────── */
+    /* ───────────────────── grid render (chunked) ─────────────── */
 
-    function renderGrid() {
+    // 700+ cards triggered as many image fetches even with lazy <img>; we
+    // additionally render cards in chunks so DOM stays small until needed.
+    const CHUNK_SIZE = 60;
+    let chunkObserver = null;
+
+    function renderGrid(reset) {
+        if (reset) state.rendered = 0;
         if (!state.filtered.length) {
             els.grid.innerHTML = '';
             els.empty.hidden = false;
+            updateLoadMore();
             return;
         }
         els.empty.hidden = true;
+        if (reset) els.grid.innerHTML = '';
+        appendChunk();
+    }
+
+    function appendChunk() {
+        const start = state.rendered;
+        const end = Math.min(start + CHUNK_SIZE, state.filtered.length);
+        if (end <= start) return;
         const frag = document.createDocumentFragment();
-        for (const m of state.filtered) frag.appendChild(makeCard(m));
-        els.grid.replaceChildren(frag);
+        for (let i = start; i < end; i++) frag.appendChild(makeCard(state.filtered[i]));
+        els.grid.appendChild(frag);
+        state.rendered = end;
+        updateLoadMore();
+    }
+
+    function updateLoadMore() {
+        const remaining = state.filtered.length - state.rendered;
+        if (remaining <= 0) {
+            els.loadMore.hidden = true;
+            if (chunkObserver) chunkObserver.unobserve(els.loadMore);
+            return;
+        }
+        els.loadMore.hidden = false;
+        els.loadMoreBtn.textContent = `加载更多 · 还有 ${remaining} 部`;
+        if (chunkObserver) chunkObserver.observe(els.loadMore);
+    }
+
+    function setupChunkObserver() {
+        if (!('IntersectionObserver' in window)) return;
+        chunkObserver = new IntersectionObserver((entries) => {
+            for (const e of entries) {
+                if (e.isIntersecting) appendChunk();
+            }
+        }, { rootMargin: '600px 0px' });
     }
 
     function makeCard(m) {
@@ -339,7 +382,8 @@
             ? `<div class="card-stars">${'★'.repeat(m.rating)}<span class="card-stars-empty">${'★'.repeat(5 - m.rating)}</span></div>`
             : '';
         card.innerHTML = `
-            <div class="poster" style="background-image:url('${escapeAttr(posterUrl(m.cover))}')">
+            <div class="poster">
+                <img class="poster-img" src="${escapeAttr(posterUrl(m.cover))}" alt="${escapeAttr(m.title)}" loading="lazy" decoding="async" />
                 ${m.year ? `<div class="badge">${escapeHtml(m.year)}</div>` : ''}
                 ${rating}
             </div>

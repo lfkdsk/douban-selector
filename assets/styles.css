@@ -391,14 +391,24 @@ button { font-family: inherit; cursor: pointer; }
 }
 .card .poster {
     aspect-ratio: 2 / 3;
-    background-size: cover; background-position: center;
     position: relative;
     background-color: #1a1411;
+    overflow: hidden;
 }
+.card .poster-img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+.card .poster-img[src] { opacity: 1; }
 .card .poster::after {
     content: ''; position: absolute; inset: 0;
     background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.8) 100%);
     opacity: 0; transition: opacity .25s;
+    pointer-events: none;
 }
 .card:hover .poster::after { opacity: 1; }
 
@@ -444,6 +454,18 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .empty { text-align: center; color: var(--ink-2); padding: 60px 20px; }
+
+.load-more {
+    display: flex; justify-content: center;
+    margin: 36px 0 8px;
+}
+.load-more[hidden] { display: none; }
+.btn-loadmore {
+    min-width: 200px;
+    padding: 12px 28px;
+    font-size: 13px;
+    letter-spacing: 0.16em;
+}
 
 /* ───────────────────── footer ─────────────────────── */
 .footsig {
