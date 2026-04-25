@@ -4,7 +4,8 @@
 
 线上：<https://douban-selector.lfkdsk.org>
 
-![cover](https://cdn.jsdelivr.net/gh/lfkdsk/douban-selector@main/data/posters/2983437.jpg)
+<img width="1498" height="895" alt="image" src="https://github.com/user-attachments/assets/a2787246-ce0d-4c39-ab37-04379d88e0be" />
+
 
 ---
 
