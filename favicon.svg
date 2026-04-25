@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- background -->
+  <rect width="32" height="32" rx="7" fill="#0c0a09"/>
+  <!-- film strip bars -->
+  <rect x="0" y="0" width="32" height="7" rx="0" fill="#141110"/>
+  <rect x="0" y="25" width="32" height="7" rx="0" fill="#141110"/>
+  <!-- round the outer corners back -->
+  <rect x="0" y="0" width="7" height="7" rx="7" fill="#0c0a09"/>
+  <rect x="25" y="0" width="7" height="7" rx="7" fill="#0c0a09"/>
+  <rect x="0" y="25" width="7" height="7" rx="7" fill="#0c0a09"/>
+  <rect x="25" y="25" width="7" height="7" rx="7" fill="#0c0a09"/>
+  <!-- film holes top -->
+  <rect x="3"  y="1.5" width="4.5" height="4" rx="1.2" fill="#e6b34a" opacity="0.9"/>
+  <rect x="10" y="1.5" width="4.5" height="4" rx="1.2" fill="#e6b34a" opacity="0.9"/>
+  <rect x="17" y="1.5" width="4.5" height="4" rx="1.2" fill="#e6b34a" opacity="0.9"/>
+  <rect x="24" y="1.5" width="4.5" height="4" rx="1.2" fill="#e6b34a" opacity="0.9"/>
+  <!-- film holes bottom -->
+  <rect x="3"  y="26.5" width="4.5" height="4" rx="1.2" fill="#e6b34a" opacity="0.9"/>
+  <rect x="10" y="26.5" width="4.5" height="4" rx="1.2" fill="#e6b34a" opacity="0.9"/>
+  <rect x="17" y="26.5" width="4.5" height="4" rx="1.2" fill="#e6b34a" opacity="0.9"/>
+  <rect x="24" y="26.5" width="4.5" height="4" rx="1.2" fill="#e6b34a" opacity="0.9"/>
+  <!-- amber glow halo -->
+  <circle cx="16" cy="16" r="7.5" fill="#e6b34a" opacity="0.18"/>
+  <!-- center amber dot -->
+  <circle cx="16" cy="16" r="5" fill="#e6b34a"/>
+  <!-- inner specular -->
+  <circle cx="14.5" cy="14.5" r="1.5" fill="white" opacity="0.25"/>
+</svg>
