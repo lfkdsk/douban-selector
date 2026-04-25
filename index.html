@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="referrer" content="no-referrer" />
-    <title>豆瓣想看 · 随机抽片 — lfkdsk</title>
+    <title>豆瓣随机抽片 — lfkdsk</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/styles.css" />
 </head>
@@ -15,30 +16,36 @@
 
     <header class="topbar">
         <div class="brand">
-            <span class="brand-mark">●</span>
-            <span class="brand-text">DOUBAN <em>WISHLIST</em></span>
+            <span class="brand-mark"></span>
+            <span class="brand-text">DOUBAN <em>PICKER</em></span>
         </div>
         <nav class="meta">
             <a id="profile-link" href="https://www.douban.com/people/lfkdsk/" target="_blank" rel="noopener">@lfkdsk</a>
-            <span class="dot">·</span>
-            <span id="meta-count">— 部</span>
             <span class="dot">·</span>
             <span id="meta-updated">—</span>
         </nav>
     </header>
 
+    <div class="tabs" role="tablist">
+        <button class="tab on" role="tab" data-list="wish">
+            <span class="tab-label">想看</span>
+            <span class="tab-count" id="tab-count-wish">—</span>
+        </button>
+        <button class="tab" role="tab" data-list="collect">
+            <span class="tab-label">看过</span>
+            <span class="tab-count" id="tab-count-collect">—</span>
+        </button>
+    </div>
+
     <section class="hero">
         <div class="hero-copy">
-            <p class="kicker">TONIGHT'S PICK</p>
-            <h1>不知道看什么？<br/><span class="accent">让命运替你挑一部。</span></h1>
-            <p class="lede">从你 <strong id="lede-count">—</strong> 部豆瓣想看影片中随机抽取，可按类型、地区、年代、语言筛选。</p>
+            <p class="kicker" id="hero-kicker">TONIGHT'S PICK</p>
+            <h1 id="hero-title">不知道看什么？<br/><span class="accent">让命运替你挑一部。</span></h1>
+            <p class="lede"><span id="lede-prefix">从你</span> <strong id="lede-count">—</strong> 部<span id="lede-label">想看</span>影片中<span id="lede-action">随机抽取</span>，可按类型、地区、年代、语言筛选。</p>
             <div class="hero-actions">
                 <button id="roll-btn" class="btn-primary">
-                    <span class="btn-icon">🎬</span>
+                    <span class="btn-icon"></span>
                     <span class="btn-label">抽 一 部</span>
-                </button>
-                <button id="reroll-btn" class="btn-ghost" hidden>
-                    <span>↻</span> 再抽一次
                 </button>
             </div>
         </div>
@@ -83,16 +90,21 @@
             <summary>语言</summary>
             <div id="filter-languages" class="chips"></div>
         </details>
+        <details class="filter-group" id="filter-rating-group" hidden>
+            <summary>评分</summary>
+            <div id="filter-ratings" class="chips"></div>
+        </details>
     </section>
 
     <section class="grid-section">
         <div class="section-head">
-            <h2>全部影片</h2>
+            <h2 id="grid-heading">全部影片</h2>
             <div class="sort-row">
                 <label for="sort-select">排序</label>
                 <select id="sort-select">
-                    <option value="mark_date_desc">最近想看</option>
-                    <option value="mark_date_asc">最早想看</option>
+                    <option value="mark_date_desc">最近</option>
+                    <option value="mark_date_asc">最早</option>
+                    <option value="rating_desc">评分由高到低</option>
                     <option value="year_desc">年代由新到旧</option>
                     <option value="year_asc">年代由旧到新</option>
                     <option value="title_asc">标题 A→Z</option>
@@ -105,16 +117,15 @@
     </section>
 
     <footer class="footsig">
-        <span>数据抓取自 <a href="https://movie.douban.com/people/lfkdsk/wish" target="_blank" rel="noopener">豆瓣想看</a></span>
+        <span>数据抓取自 <a id="source-link" href="https://movie.douban.com/people/lfkdsk/wish" target="_blank" rel="noopener">豆瓣</a></span>
         <span class="dot">·</span>
-        <span>本页面仅作个人选片用途</span>
+        <span>仅作个人选片用途</span>
     </footer>
 
-    <!-- Modal -->
     <div id="modal" class="modal" hidden>
         <div class="modal-backdrop" data-close></div>
         <article class="modal-card" role="dialog" aria-modal="true">
-            <button class="modal-close" data-close aria-label="关闭">✕</button>
+            <button class="modal-close" data-close aria-label="关闭"></button>
             <div class="modal-content"></div>
         </article>
     </div>
