@@ -1,7 +1,10 @@
 {
   "user": "lfkdsk",
-  "total": 356,
+  "type": "wish",
+  "label": "想看",
+  "total_declared": 356,
   "fetched": 354,
+  "fetched_at": "2026-04-25T20:36:25+0000",
   "movies": [
     {
       "id": "2983437",

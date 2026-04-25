@@ -1,9 +1,31 @@
-/* Douban Wishlist random picker — vanilla JS */
+/* Douban random picker — vanilla JS, two-list (wish + collect) tabs. */
 (function () {
     'use strict';
 
+    /* ───────────────────── poster CDN routing ────────────────── */
+    // Posters are committed to main but excluded from the GitHub Pages bundle
+    // (they'd inflate the deploy by ~30 MB). When running off a hosted origin
+    // we rewrite each local-relative `data/posters/...` path to a jsDelivr URL
+    // so the browser fetches the raw blob from GitHub's CDN instead.
+    const CDN_OWNER = 'lfkdsk';
+    const CDN_REPO = 'douban-selector';
+    const CDN_REF = 'main';
+    const CDN_BASE = `https://cdn.jsdelivr.net/gh/${CDN_OWNER}/${CDN_REPO}@${CDN_REF}/`;
+    const isLocal = ['localhost', '127.0.0.1', '0.0.0.0', ''].includes(location.hostname);
+    function posterUrl(cover) {
+        if (!cover) return '';
+        if (cover.startsWith('http://') || cover.startsWith('https://')) return cover;
+        return isLocal ? cover : CDN_BASE + cover.replace(/^\.?\//, '');
+    }
+
+    /* ───────────────────── state ─────────────────────────────── */
+    const lists = {
+        wish:    { path: 'data/wishlist.json',    label: '想看', data: null },
+        collect: { path: 'data/collectlist.json', label: '看过', data: null },
+    };
+
     const state = {
-        all: [],
+        active: 'wish',
         filtered: [],
         filters: {
             search: '',
@@ -11,6 +33,7 @@
             countries: new Set(),
             decades: new Set(),
             languages: new Set(),
+            ratings: new Set(),
         },
         sort: 'mark_date_desc',
         randomSeed: Math.random(),
@@ -23,29 +46,43 @@
     async function init() {
         cacheEls();
         try {
-            const res = await fetch('data/wishlist.json', { cache: 'no-cache' });
-            if (!res.ok) throw new Error(res.status);
-            const data = await res.json();
-            state.all = data.movies || [];
-            updateMeta(data);
+            const [wish, collect] = await Promise.all([
+                fetch(lists.wish.path,    { cache: 'no-cache' }).then(r => r.ok ? r.json() : null),
+                fetch(lists.collect.path, { cache: 'no-cache' }).then(r => r.ok ? r.json() : null),
+            ]);
+            lists.wish.data = wish;
+            lists.collect.data = collect;
+            if (!wish && !collect) throw new Error('no data files loaded');
         } catch (e) {
             console.error(e);
-            els.grid.innerHTML = `<p class="empty">无法加载 data/wishlist.json，请通过 HTTP 服务访问本页。<br/>错误：${e.message}</p>`;
+            els.grid.innerHTML = `<p class="empty">无法加载 data/*.json，请通过 HTTP 服务访问本页。<br/>错误：${e.message}</p>`;
             return;
         }
-        buildFilters();
         bindEvents();
-        applyFilters();
+        renderTabs();
+        switchTo('wish');
     }
 
     function cacheEls() {
-        els.metaCount = document.getElementById('meta-count');
         els.metaUpdated = document.getElementById('meta-updated');
-        els.ledeCount = document.getElementById('lede-count');
         els.profileLink = document.getElementById('profile-link');
+        els.sourceLink = document.getElementById('source-link');
+
+        els.heroKicker = document.getElementById('hero-kicker');
+        els.heroTitle = document.getElementById('hero-title');
+        els.ledePrefix = document.getElementById('lede-prefix');
+        els.ledeCount = document.getElementById('lede-count');
+        els.ledeLabel = document.getElementById('lede-label');
+        els.ledeAction = document.getElementById('lede-action');
+
+        els.tabCounts = {
+            wish: document.getElementById('tab-count-wish'),
+            collect: document.getElementById('tab-count-collect'),
+        };
+        els.tabs = document.querySelectorAll('.tab');
 
         els.rollBtn = document.getElementById('roll-btn');
-        els.rerollBtn = document.getElementById('reroll-btn');
+        els.rollLabel = els.rollBtn.querySelector('.btn-label');
         els.pickStage = document.getElementById('pick-stage');
 
         els.search = document.getElementById('search-input');
@@ -57,7 +94,10 @@
         els.fCountries = document.getElementById('filter-countries');
         els.fDecades = document.getElementById('filter-decades');
         els.fLanguages = document.getElementById('filter-languages');
+        els.fRatings = document.getElementById('filter-ratings');
+        els.fRatingGroup = document.getElementById('filter-rating-group');
 
+        els.gridHeading = document.getElementById('grid-heading');
         els.grid = document.getElementById('movie-grid');
         els.empty = document.getElementById('empty-state');
 
@@ -65,40 +105,90 @@
         els.modalContent = els.modal.querySelector('.modal-content');
     }
 
-    function updateMeta(data) {
-        const total = state.all.length;
-        els.metaCount.textContent = `${total} 部`;
-        els.ledeCount.textContent = total;
-        const dates = state.all.map(m => m.mark_date).filter(Boolean).sort();
-        if (dates.length) {
-            els.metaUpdated.textContent = `更新于 ${dates[dates.length - 1]}`;
-        }
-        if (data.user) {
-            els.profileLink.href = `https://www.douban.com/people/${data.user}/`;
-            els.profileLink.textContent = '@' + data.user;
+    /* ───────────────────── tabs ──────────────────────────────── */
+
+    function renderTabs() {
+        for (const key of Object.keys(lists)) {
+            const d = lists[key].data;
+            if (els.tabCounts[key]) {
+                els.tabCounts[key].textContent = d ? d.movies.length : '—';
+            }
         }
     }
 
-    /* ─────────────────────── filters UI ─────────────────────── */
+    function switchTo(key) {
+        if (!lists[key] || !lists[key].data) return;
+        state.active = key;
+        // reset filters when switching tabs
+        state.filters.search = '';
+        state.filters.genres.clear();
+        state.filters.countries.clear();
+        state.filters.decades.clear();
+        state.filters.languages.clear();
+        state.filters.ratings.clear();
+        els.search.value = '';
+
+        // Update tab UI
+        els.tabs.forEach(t => t.classList.toggle('on', t.dataset.list === key));
+
+        // Update hero copy
+        const isWish = key === 'wish';
+        els.heroKicker.textContent = isWish ? "TONIGHT'S PICK" : 'REVISIT';
+        els.heroTitle.innerHTML = isWish
+            ? '不知道看什么？<br/><span class="accent">让命运替你挑一部。</span>'
+            : '想再看一部？<br/><span class="accent">回顾你看过的影片。</span>';
+        els.ledeLabel.textContent = lists[key].label;
+        els.ledeAction.textContent = isWish ? '随机抽取' : '随机回顾';
+        els.rollLabel.textContent = isWish ? '抽 一 部' : '回 顾 一 部';
+        els.gridHeading.textContent = lists[key].label + '影片';
+
+        // Update profile / source link based on type
+        els.profileLink.href = `https://www.douban.com/people/${lists[key].data.user || 'lfkdsk'}/`;
+        els.sourceLink.href = `https://movie.douban.com/people/${lists[key].data.user || 'lfkdsk'}/${key}`;
+
+        // metadata
+        const movies = lists[key].data.movies;
+        const dates = movies.map(m => m.mark_date).filter(Boolean).sort();
+        els.metaUpdated.textContent = dates.length ? `最近一次 ${dates[dates.length - 1]}` : '';
+        els.ledeCount.textContent = movies.length;
+
+        // rating filter only meaningful for collect
+        els.fRatingGroup.hidden = isWish;
+
+        // Reset pick stage to empty state
+        els.pickStage.innerHTML = `
+            <div class="pick-empty">
+                <div class="reel">
+                    <div class="reel-strip"><span>?</span><span>?</span><span>?</span></div>
+                </div>
+                <p class="hint">点击「${els.rollLabel.textContent}」开始</p>
+            </div>`;
+
+        document.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
+        buildFilters();
+        applyFilters();
+    }
+
+    /* ───────────────────── filters UI ────────────────────────── */
+
+    function activeMovies() { return lists[state.active].data.movies; }
 
     function buildFilters() {
-        const counts = {
-            genres: countBy(state.all, m => m.genres),
-            countries: countBy(state.all, m => m.countries),
-            decades: countBy(state.all, m => [decadeOf(m.year)].filter(Boolean)),
-            languages: countBy(state.all, m => m.languages),
-        };
-        renderChips(els.fGenres, counts.genres, 'genres');
-        renderChips(els.fCountries, counts.countries, 'countries', 14);
-        renderChips(els.fDecades, counts.decades, 'decades', null, decadeSort);
-        renderChips(els.fLanguages, counts.languages, 'languages', 12);
+        const all = activeMovies();
+        renderChips(els.fGenres,    countBy(all, m => m.genres),    'genres');
+        renderChips(els.fCountries, countBy(all, m => m.countries), 'countries', 14);
+        renderChips(els.fDecades,   countBy(all, m => [decadeOf(m.year)].filter(Boolean)), 'decades', null, decadeSort);
+        renderChips(els.fLanguages, countBy(all, m => m.languages), 'languages', 12);
+        if (state.active === 'collect') {
+            const ratingMap = countBy(all, m => m.rating ? [`${m.rating}星`] : []);
+            renderChips(els.fRatings, ratingMap, 'ratings', null, (a, b) => parseInt(b[0]) - parseInt(a[0]));
+        }
     }
 
     function countBy(arr, getter) {
         const m = new Map();
         for (const item of arr) {
-            const vals = getter(item) || [];
-            for (const v of vals) m.set(v, (m.get(v) || 0) + 1);
+            for (const v of (getter(item) || [])) m.set(v, (m.get(v) || 0) + 1);
         }
         return m;
     }
@@ -130,14 +220,14 @@
         if (!y || y < 1900) return null;
         return Math.floor(y / 10) * 10 + 's';
     }
+    function decadeSort(a, b) { return parseInt(b[0]) - parseInt(a[0]); }
 
-    function decadeSort(a, b) {
-        return parseInt(b[0]) - parseInt(a[0]);
-    }
-
-    /* ─────────────────────── filtering ──────────────────────── */
+    /* ───────────────────── filtering ─────────────────────────── */
 
     function bindEvents() {
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => switchTo(tab.dataset.list));
+        });
         els.search.addEventListener('input', () => {
             state.filters.search = els.search.value.trim().toLowerCase();
             applyFilters();
@@ -149,9 +239,7 @@
             applyFilters();
         });
         els.rollBtn.addEventListener('click', rollPick);
-        els.rerollBtn.addEventListener('click', rollPick);
 
-        // Modal close
         els.modal.addEventListener('click', (e) => {
             if (e.target.dataset.close !== undefined) closeModal();
         });
@@ -166,6 +254,7 @@
         state.filters.countries.clear();
         state.filters.decades.clear();
         state.filters.languages.clear();
+        state.filters.ratings.clear();
         els.search.value = '';
         document.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
         applyFilters();
@@ -174,7 +263,7 @@
     function applyFilters() {
         const f = state.filters;
         const q = f.search;
-        state.filtered = state.all.filter(m => {
+        state.filtered = activeMovies().filter(m => {
             if (q) {
                 const hay = (m.title + ' ' + (m.aka || []).join(' ') + ' ' + (m.people || []).join(' ')).toLowerCase();
                 if (!hay.includes(q)) return false;
@@ -185,6 +274,9 @@
             if (f.decades.size) {
                 const d = decadeOf(m.year);
                 if (!d || !f.decades.has(d)) return false;
+            }
+            if (f.ratings.size) {
+                if (!m.rating || !f.ratings.has(`${m.rating}星`)) return false;
             }
             return true;
         });
@@ -198,25 +290,20 @@
         const arr = state.filtered;
         switch (state.sort) {
             case 'mark_date_desc':
-                arr.sort((a, b) => (b.mark_date || '').localeCompare(a.mark_date || ''));
-                break;
+                arr.sort((a, b) => (b.mark_date || '').localeCompare(a.mark_date || '')); break;
             case 'mark_date_asc':
-                arr.sort((a, b) => (a.mark_date || '').localeCompare(b.mark_date || ''));
-                break;
+                arr.sort((a, b) => (a.mark_date || '').localeCompare(b.mark_date || '')); break;
+            case 'rating_desc':
+                arr.sort((a, b) => (b.rating || 0) - (a.rating || 0) || (b.mark_date || '').localeCompare(a.mark_date || '')); break;
             case 'year_desc':
-                arr.sort((a, b) => (parseInt(b.year || 0)) - (parseInt(a.year || 0)));
-                break;
+                arr.sort((a, b) => (parseInt(b.year || 0)) - (parseInt(a.year || 0))); break;
             case 'year_asc':
-                arr.sort((a, b) => (parseInt(a.year || 9999)) - (parseInt(b.year || 9999)));
-                break;
+                arr.sort((a, b) => (parseInt(a.year || 9999)) - (parseInt(b.year || 9999))); break;
             case 'title_asc':
-                arr.sort((a, b) => a.title.localeCompare(b.title, 'zh'));
-                break;
+                arr.sort((a, b) => a.title.localeCompare(b.title, 'zh')); break;
             case 'random': {
-                // seedable shuffle so re-render is stable until reroll
                 const seed = state.randomSeed;
-                arr.sort((a, b) => hash(a.id + seed) - hash(b.id + seed));
-                break;
+                arr.sort((a, b) => hash(a.id + seed) - hash(b.id + seed)); break;
             }
         }
     }
@@ -230,7 +317,7 @@
         return h >>> 0;
     }
 
-    /* ─────────────────────── grid render ────────────────────── */
+    /* ───────────────────── grid render ───────────────────────── */
 
     function renderGrid() {
         if (!state.filtered.length) {
@@ -240,9 +327,7 @@
         }
         els.empty.hidden = true;
         const frag = document.createDocumentFragment();
-        for (const m of state.filtered) {
-            frag.appendChild(makeCard(m));
-        }
+        for (const m of state.filtered) frag.appendChild(makeCard(m));
         els.grid.replaceChildren(frag);
     }
 
@@ -250,9 +335,13 @@
         const card = document.createElement('article');
         card.className = 'card';
         const subtitle = [m.year, m.countries[0], m.genres[0]].filter(Boolean).join(' · ');
+        const rating = (state.active === 'collect' && m.rating)
+            ? `<div class="card-stars">${'★'.repeat(m.rating)}<span class="card-stars-empty">${'★'.repeat(5 - m.rating)}</span></div>`
+            : '';
         card.innerHTML = `
-            <div class="poster" style="background-image:url('${escapeAttr(m.cover)}')">
+            <div class="poster" style="background-image:url('${escapeAttr(posterUrl(m.cover))}')">
                 ${m.year ? `<div class="badge">${escapeHtml(m.year)}</div>` : ''}
+                ${rating}
             </div>
             <div class="card-body">
                 <div class="card-title">${escapeHtml(m.title)}</div>
@@ -263,32 +352,29 @@
         return card;
     }
 
-    /* ─────────────────────── random pick ────────────────────── */
+    /* ───────────────────── random pick ───────────────────────── */
 
     let rolling = false;
     function rollPick() {
         if (rolling) return;
-        const pool = state.filtered.length ? state.filtered : state.all;
+        const pool = state.filtered.length ? state.filtered : activeMovies();
         if (!pool.length) return;
         rolling = true;
         els.rollBtn.disabled = true;
-        els.rerollBtn.disabled = true;
 
         let count = 0;
-        const total = 14; // shuffle frames
+        const total = 14;
         const interval = setInterval(() => {
             count++;
             const m = pool[Math.floor(Math.random() * pool.length)];
-            renderPick(m, /*shuffling=*/true);
+            renderPick(m, true);
             if (count >= total) {
                 clearInterval(interval);
                 const final = pool[Math.floor(Math.random() * pool.length)];
                 renderPick(final, false);
-                els.rerollBtn.hidden = false;
                 els.rollBtn.disabled = false;
-                els.rerollBtn.disabled = false;
                 rolling = false;
-                els.rollBtn.querySelector('.btn-label').textContent = '换一部';
+                els.rollLabel.textContent = state.active === 'wish' ? '换 一 部' : '换 一 部';
             }
         }, 80);
     }
@@ -299,10 +385,14 @@
             ...(m.countries || []).slice(0, 2),
         ];
         const sub = [m.year, m.runtime, (m.languages || [])[0]].filter(Boolean).join(' · ');
+        const stars = (state.active === 'collect' && m.rating)
+            ? `<div class="pick-stars">${'★'.repeat(m.rating)}<span class="card-stars-empty">${'★'.repeat(5 - m.rating)}</span></div>`
+            : '';
         els.pickStage.innerHTML = `
             <div class="pick-card ${shuffling ? 'shuffling' : ''}">
-                <div class="pick-poster" style="background-image:url('${escapeAttr(m.cover)}')"></div>
+                <div class="pick-poster" style="background-image:url('${escapeAttr(posterUrl(m.cover))}')"></div>
                 <div class="pick-info">
+                    ${stars}
                     <div class="pick-title">${escapeHtml(m.title)}</div>
                     <div class="pick-sub">${escapeHtml(sub)}</div>
                     <div class="pick-tags">${tags.map(t => `<span>${escapeHtml(t)}</span>`).join('')}</div>
@@ -315,17 +405,21 @@
         }
     }
 
-    /* ─────────────────────── modal ──────────────────────────── */
+    /* ───────────────────── modal ─────────────────────────────── */
 
     function openModal(m) {
         const akaTxt = (m.aka && m.aka.length) ? m.aka.filter(t => t !== m.title).join(' / ') : '';
-        const directorGuess = guessDirector(m);
-        const actorsGuess = guessActors(m);
+        const actorsGuess = (m.people && m.people.length) ? m.people.slice(0, 6).join(' / ') : '';
+        const stars = m.rating
+            ? `<div class="m-stars">${'★'.repeat(m.rating)}<span class="card-stars-empty">${'★'.repeat(5 - m.rating)}</span></div>`
+            : '';
+        const dateLabel = state.active === 'wish' ? '想看于' : '看过于';
         els.modalContent.innerHTML = `
-            <div class="m-poster" style="background-image:url('${escapeAttr(m.cover)}')"></div>
+            <div class="m-poster" style="background-image:url('${escapeAttr(posterUrl(m.cover))}')"></div>
             <div class="m-info">
                 <h3>${escapeHtml(m.title)}</h3>
                 ${akaTxt ? `<div class="m-aka">${escapeHtml(akaTxt)}</div>` : ''}
+                ${stars}
                 <div class="m-tags">
                     ${(m.genres || []).map(g => `<span>${escapeHtml(g)}</span>`).join('')}
                 </div>
@@ -334,9 +428,9 @@
                     ${m.countries.length ? `<dt>地区</dt><dd>${m.countries.map(escapeHtml).join(' / ')}</dd>` : ''}
                     ${m.languages.length ? `<dt>语言</dt><dd>${m.languages.map(escapeHtml).join(' / ')}</dd>` : ''}
                     ${m.runtime ? `<dt>片长</dt><dd>${escapeHtml(m.runtime)}</dd>` : ''}
-                    ${directorGuess ? `<dt>导演</dt><dd>${escapeHtml(directorGuess)}</dd>` : ''}
-                    ${actorsGuess ? `<dt>演员</dt><dd>${escapeHtml(actorsGuess)}</dd>` : ''}
-                    ${m.mark_date ? `<dt>想看于</dt><dd>${escapeHtml(m.mark_date)}</dd>` : ''}
+                    ${actorsGuess ? `<dt>主创</dt><dd>${escapeHtml(actorsGuess)}</dd>` : ''}
+                    ${m.comment ? `<dt>短评</dt><dd>${escapeHtml(m.comment)}</dd>` : ''}
+                    ${m.mark_date ? `<dt>${dateLabel}</dt><dd>${escapeHtml(m.mark_date)}</dd>` : ''}
                 </dl>
                 <a class="m-link" href="${escapeAttr(m.url)}" target="_blank" rel="noopener">
                     在豆瓣查看 →
@@ -348,17 +442,7 @@
 
     function closeModal() { els.modal.hidden = true; }
 
-    function guessDirector(m) {
-        // intro_raw heuristic: directors usually appear once between actors and country/runtime
-        // Here we just take the first 'people' entry that isn't an actor heuristically — fallback: omit.
-        return '';
-    }
-    function guessActors(m) {
-        if (!m.people || !m.people.length) return '';
-        return m.people.slice(0, 5).join(' / ');
-    }
-
-    /* ─────────────────────── utils ──────────────────────────── */
+    /* ───────────────────── utils ─────────────────────────────── */
 
     function escapeHtml(s) {
         return String(s == null ? '' : s)

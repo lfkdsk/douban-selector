@@ -83,6 +83,43 @@ button { font-family: inherit; cursor: pointer; }
 .meta a { color: var(--ink-1); border-bottom: 1px dashed var(--line-strong); padding-bottom: 1px; }
 .dot { color: var(--ink-3); }
 
+/* ───────────────────── tabs ───────────────────────── */
+.tabs {
+    position: relative; z-index: 5;
+    display: flex; gap: 4px;
+    margin: 0 clamp(20px, 5vw, 64px);
+    padding: 18px 0 0;
+    border-bottom: 1px solid var(--line);
+}
+.tab {
+    background: none; border: none; cursor: pointer;
+    color: var(--ink-2);
+    padding: 12px 22px 14px;
+    font-size: 14px; letter-spacing: 0.08em;
+    display: inline-flex; align-items: center; gap: 10px;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+    position: relative;
+    margin-bottom: -1px;
+}
+.tab:hover { color: var(--ink-0); }
+.tab.on {
+    color: var(--amber-bright);
+    border-bottom-color: var(--amber);
+}
+.tab .tab-count {
+    font-size: 11px; padding: 2px 9px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.06);
+    color: var(--ink-2);
+    letter-spacing: 0;
+    font-variant-numeric: tabular-nums;
+}
+.tab.on .tab-count {
+    background: rgba(230, 179, 74, 0.18);
+    color: var(--amber-bright);
+}
+
 /* ───────────────────── hero ───────────────────────── */
 .hero {
     position: relative; z-index: 4;
@@ -371,6 +408,24 @@ button { font-family: inherit; cursor: pointer; }
     color: var(--amber-bright);
     padding: 3px 9px; font-size: 11px; letter-spacing: 0.06em;
     border-radius: 999px; border: 1px solid rgba(230, 179, 74, 0.3);
+}
+.card-stars {
+    position: absolute; bottom: 10px; right: 10px;
+    color: var(--amber-bright);
+    font-size: 12px; letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.7);
+}
+.card-stars-empty { color: rgba(255,255,255,0.25); }
+.pick-stars {
+    color: var(--amber-bright);
+    font-size: 16px; letter-spacing: 2px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+    margin-bottom: 4px;
+}
+.m-stars {
+    color: var(--amber-bright);
+    font-size: 18px; letter-spacing: 3px;
+    margin-bottom: 14px;
 }
 .card-body {
     padding: 12px 12px 14px;
