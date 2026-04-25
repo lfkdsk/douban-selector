@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>豆瓣想看 · 随机抽片 — lfkdsk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+    <div class="grain"></div>
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-mark">●</span>
+            <span class="brand-text">DOUBAN <em>WISHLIST</em></span>
+        </div>
+        <nav class="meta">
+            <a id="profile-link" href="https://www.douban.com/people/lfkdsk/" target="_blank" rel="noopener">@lfkdsk</a>
+            <span class="dot">·</span>
+            <span id="meta-count">— 部</span>
+            <span class="dot">·</span>
+            <span id="meta-updated">—</span>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-copy">
+            <p class="kicker">TONIGHT'S PICK</p>
+            <h1>不知道看什么？<br/><span class="accent">让命运替你挑一部。</span></h1>
+            <p class="lede">从你 <strong id="lede-count">—</strong> 部豆瓣想看影片中随机抽取，可按类型、地区、年代、语言筛选。</p>
+            <div class="hero-actions">
+                <button id="roll-btn" class="btn-primary">
+                    <span class="btn-icon">🎬</span>
+                    <span class="btn-label">抽 一 部</span>
+                </button>
+                <button id="reroll-btn" class="btn-ghost" hidden>
+                    <span>↻</span> 再抽一次
+                </button>
+            </div>
+        </div>
+
+        <div id="pick-stage" class="pick-stage">
+            <div class="pick-empty">
+                <div class="reel">
+                    <div class="reel-strip">
+                        <span>?</span><span>?</span><span>?</span>
+                    </div>
+                </div>
+                <p class="hint">点击「抽一部」开始</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="filters" id="filters">
+        <div class="filter-row">
+            <div class="search">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+                <input id="search-input" type="text" placeholder="搜片名 / 演员 / 导演…" />
+            </div>
+            <div class="filter-actions">
+                <span id="result-count" class="result-count">— 部</span>
+                <button id="reset-btn" class="btn-text">清除筛选</button>
+            </div>
+        </div>
+
+        <details class="filter-group" open>
+            <summary>类型</summary>
+            <div id="filter-genres" class="chips"></div>
+        </details>
+        <details class="filter-group">
+            <summary>地区</summary>
+            <div id="filter-countries" class="chips"></div>
+        </details>
+        <details class="filter-group">
+            <summary>年代</summary>
+            <div id="filter-decades" class="chips"></div>
+        </details>
+        <details class="filter-group">
+            <summary>语言</summary>
+            <div id="filter-languages" class="chips"></div>
+        </details>
+    </section>
+
+    <section class="grid-section">
+        <div class="section-head">
+            <h2>全部影片</h2>
+            <div class="sort-row">
+                <label for="sort-select">排序</label>
+                <select id="sort-select">
+                    <option value="mark_date_desc">最近想看</option>
+                    <option value="mark_date_asc">最早想看</option>
+                    <option value="year_desc">年代由新到旧</option>
+                    <option value="year_asc">年代由旧到新</option>
+                    <option value="title_asc">标题 A→Z</option>
+                    <option value="random">随机排列</option>
+                </select>
+            </div>
+        </div>
+        <div id="movie-grid" class="movie-grid"></div>
+        <p id="empty-state" class="empty" hidden>没有匹配的影片，试试别的筛选条件。</p>
+    </section>
+
+    <footer class="footsig">
+        <span>数据抓取自 <a href="https://movie.douban.com/people/lfkdsk/wish" target="_blank" rel="noopener">豆瓣想看</a></span>
+        <span class="dot">·</span>
+        <span>本页面仅作个人选片用途</span>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <article class="modal-card" role="dialog" aria-modal="true">
+            <button class="modal-close" data-close aria-label="关闭">✕</button>
+            <div class="modal-content"></div>
+        </article>
+    </div>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
