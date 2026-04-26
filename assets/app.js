@@ -7,7 +7,7 @@
     // (they'd inflate the deploy by ~30 MB). When running off a hosted origin
     // we rewrite each local-relative `data/posters/...` path to a jsDelivr URL
     // so the browser fetches the raw blob from GitHub's CDN instead.
-    const CDN_OWNER = 'lfkdsk';
+    const CDN_OWNER = 'st-youth';
     const CDN_REPO = 'douban-selector';
     const CDN_REF = 'main';
     const CDN_BASE = `https://cdn.jsdelivr.net/gh/${CDN_OWNER}/${CDN_REPO}@${CDN_REF}/`;
