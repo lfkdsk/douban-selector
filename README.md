@@ -4,8 +4,7 @@
 
 线上：<https://douban-selector.lfkdsk.org>
 
-<img width="1498" height="895" alt="image" src="https://github.com/user-attachments/assets/a2787246-ce0d-4c39-ab37-04379d88e0be" />
-
+<img alt="image" src="https://github.com/user-attachments/assets/a2787246-ce0d-4c39-ab37-04379d88e0be" />
 
 ---
 
