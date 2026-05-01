@@ -4,7 +4,7 @@
   "label": "看过",
   "total_declared": 715,
   "fetched": 713,
-  "fetched_at": "2026-04-30T00:02:53+0000",
+  "fetched_at": "2026-05-01T00:02:53+0000",
   "movies": [
     {
       "id": "37293378",
@@ -22511,7 +22511,7 @@
         "李·昂克里奇 Lee Unkrich",
         "詹森·卡茨 Jason Katz"
       ],
-      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2505426431.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2461812747.jpg"
     },
     {
       "id": "4873490",
@@ -28228,7 +28228,7 @@
       "aka": [
         "Full Metal Jacket",
         "烈血焚城(港)",
-        "金甲部队(台)"
+        "金甲部队(台) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/1300055/",
       "cover": "data/posters/1300055.jpg",
