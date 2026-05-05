@@ -2,10 +2,44 @@
   "user": "156631516",
   "type": "wish",
   "label": "想看",
-  "total_declared": 645,
-  "fetched": 633,
-  "fetched_at": "2026-05-04T00:01:22+0000",
+  "total_declared": 646,
+  "fetched": 634,
+  "fetched_at": "2026-05-05T00:01:23+0000",
   "movies": [
+    {
+      "id": "38061818",
+      "cid": "4834414314",
+      "title": "不良一族寻爱记 第二季",
+      "aka": [
+        "ラヴ上等 シーズン2",
+        "Badly in Love season 2",
+        "爱情万岁 第二季"
+      ],
+      "url": "https://movie.douban.com/subject/38061818/",
+      "cover": "data/posters/38061818.jpg",
+      "year": "2026",
+      "mark_date": "2026-05-04",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "日本"
+      ],
+      "genres": [
+        "真人秀"
+      ],
+      "languages": [
+        "日语"
+      ],
+      "runtime": "",
+      "intro_raw": "2026(未定) / 山野仁 / 日本 / 山野仁 / 不良一族寻爱记 / 不良一族寻爱记 第二季 / 真人秀 / 日语",
+      "people": [
+        "山野仁",
+        "山野仁",
+        "不良一族寻爱记",
+        "不良一族寻爱记 第二季"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2928402899.jpg"
+    },
     {
       "id": "37356488",
       "cid": "4798218788",

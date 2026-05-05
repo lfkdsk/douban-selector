@@ -2,10 +2,45 @@
   "user": "156631516",
   "type": "collect",
   "label": "看过",
-  "total_declared": 715,
-  "fetched": 713,
-  "fetched_at": "2026-05-04T00:02:53+0000",
+  "total_declared": 716,
+  "fetched": 714,
+  "fetched_at": "2026-05-05T00:02:55+0000",
   "movies": [
+    {
+      "id": "37309254",
+      "cid": "4834413709",
+      "title": "不良一族寻爱记",
+      "aka": [
+        "ラヴ上等",
+        "Badly in Love",
+        "爱情万岁"
+      ],
+      "url": "https://movie.douban.com/subject/37309254/",
+      "cover": "data/posters/37309254.jpg",
+      "year": "2025",
+      "mark_date": "2026-05-04",
+      "rating": 5,
+      "comment": "",
+      "countries": [
+        "日本"
+      ],
+      "genres": [
+        "爱情",
+        "真人秀"
+      ],
+      "languages": [
+        "日语"
+      ],
+      "runtime": "57分钟",
+      "intro_raw": "2025-12-09(日本网络) / 山野仁 / 日本 / 山野仁 / 不良一族寻爱记 / 57分钟 / 不良一族寻爱记 / 爱情 / 真人秀 / 日语",
+      "people": [
+        "山野仁",
+        "山野仁",
+        "不良一族寻爱记",
+        "不良一族寻爱记"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2926990548.jpg"
+    },
     {
       "id": "37293378",
       "cid": "4800301248",
@@ -2569,7 +2604,7 @@
         "安川正吾 Shogo Yasukawa",
         "加藤敏幸 Toshiyuki Kato"
       ],
-      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2931959021.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2390559277.jpg"
     },
     {
       "id": "5992987",
@@ -21802,7 +21837,7 @@
         "庄文强 Felix Chong",
         "麦兆辉 Alan Mak"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1839391107.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1839391043.jpg"
     },
     {
       "id": "1329936",
