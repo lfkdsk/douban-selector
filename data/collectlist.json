@@ -2,10 +2,52 @@
   "user": "156631516",
   "type": "collect",
   "label": "看过",
-  "total_declared": 716,
-  "fetched": 714,
-  "fetched_at": "2026-05-05T00:02:55+0000",
+  "total_declared": 717,
+  "fetched": 715,
+  "fetched_at": "2026-05-06T00:03:06+0000",
   "movies": [
+    {
+      "id": "37332784",
+      "cid": "4835090980",
+      "title": "我，许可",
+      "aka": [
+        "两分钟的事",
+        "It's OK"
+      ],
+      "url": "https://movie.douban.com/subject/37332784/",
+      "cover": "data/posters/37332784.jpg",
+      "year": "2026",
+      "mark_date": "2026-05-05",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "118分钟",
+      "intro_raw": "2026-04-03(中国大陆) / 文淇 / 秦海璐 / 白客 / 李雪琴 / 牛莉 / 刘佳 / 啜妮 / 王和 / 张馨文 / 张懿曼 / 中国大陆 / 杨荔钠 / 2026-03-14 / 118分钟 / 剧情 / 喜剧 / 游晓颖 Xiaoying You / 汉语普通话",
+      "people": [
+        "文淇",
+        "秦海璐",
+        "白客",
+        "李雪琴",
+        "牛莉",
+        "刘佳",
+        "啜妮",
+        "王和",
+        "张馨文",
+        "张懿曼",
+        "杨荔钠",
+        "游晓颖 Xiaoying You"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931053953.jpg"
+    },
     {
       "id": "37309254",
       "cid": "4834413709",
