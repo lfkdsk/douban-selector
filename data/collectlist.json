@@ -4,7 +4,7 @@
   "label": "看过",
   "total_declared": 717,
   "fetched": 715,
-  "fetched_at": "2026-05-06T00:03:06+0000",
+  "fetched_at": "2026-05-07T00:02:58+0000",
   "movies": [
     {
       "id": "37332784",
@@ -25698,7 +25698,7 @@
       "aka": [
         "Memento",
         "凶心人(港)",
-        "记忆拼图(台) [可播放]"
+        "记忆拼图(台)"
       ],
       "url": "https://movie.douban.com/subject/1304447/",
       "cover": "data/posters/1304447.jpg",
