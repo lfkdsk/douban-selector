@@ -1,0 +1,80 @@
+name: Sync Douban Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      user:
+        description: "豆瓣 ID（留空则用 repo variable DOUBAN_USER，再 fallback 到仓库 owner）"
+        required: false
+        type: string
+        default: ""
+      types:
+        description: "要同步的清单"
+        required: true
+        type: choice
+        default: both
+        options:
+          - both
+          - wish
+          - collect
+  schedule:
+    # 每周一 22:00 UTC（北京周二 06:00）
+    - cron: "0 22 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-douban
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Resolve target user
+        id: who
+        env:
+          INPUT_USER: ${{ inputs.user }}
+          VAR_USER: ${{ vars.DOUBAN_USER }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          user="${INPUT_USER:-${VAR_USER:-$OWNER}}"
+          echo "user=$user" >> "$GITHUB_OUTPUT"
+          echo "==> target douban user: $user"
+
+      - name: Run sync
+        run: |
+          types="${{ inputs.types || 'both' }}"
+          case "$types" in
+            both)    scripts/sync.sh "${{ steps.who.outputs.user }}" ;;
+            wish)    scripts/sync.sh "${{ steps.who.outputs.user }}" wish ;;
+            collect) scripts/sync.sh "${{ steps.who.outputs.user }}" collect ;;
+          esac
+
+      - name: Commit & push if data changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "==> nothing to commit"
+            exit 0
+          fi
+          git commit -m "sync douban data (${{ steps.who.outputs.user }} / ${{ inputs.types || 'both' }})"
+          for i in 1 2 3 4; do
+            if git push origin main; then
+              exit 0
+            fi
+            sleep $((2 ** i))
+          done
+          echo "push failed after retries" >&2
+          exit 1

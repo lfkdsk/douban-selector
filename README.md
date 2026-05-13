@@ -51,6 +51,8 @@ python3 -m http.server 8765
 
 ## 🔄 同步最新数据
 
+### 本地跑
+
 ```sh
 scripts/sync.sh                  # 默认 lfkdsk，刷 wish + collect
 scripts/sync.sh somebody         # 换个用户
@@ -59,6 +61,17 @@ scripts/sync.sh lfkdsk collect   # 只刷看过
 ```
 
 底层是先跑 `scripts/fetch_list.py --type wish|collect|do --user <user>` 写 `data/<type>list.json`，再跑 `scripts/cache_posters.py` 增量补海报（已下载的会跳过）。
+
+### 走 GitHub Action
+
+仓库自带 `.github/workflows/sync.yml`，两种触发方式：
+
+- **手动**：仓库 → Actions → *Sync Douban Data* → *Run workflow*，可选填豆瓣 ID 和清单类型（`both` / `wish` / `collect`）。
+- **定时**：每周一 UTC 22:00（北京周二 06:00）自动跑一次全量。
+
+豆瓣 ID 解析顺序：手动输入 > repo variable `DOUBAN_USER` > 仓库 owner 用户名。
+
+Action 跑完会用 `github-actions[bot]` 把 `data/` 的变更 commit 回 `main`，进而触发 `deploy.yml` 重新部署 Pages。`data/` 没变就跳过提交。
 
 ## 🍴 Fork 改成你自己的
 
@@ -70,11 +83,18 @@ scripts/sync.sh lfkdsk collect   # 只刷看过
 
 ### 2. 替换豆瓣账号
 
+两条路二选一：
+
+**A. 本地抓一次推上去**
+
 ```sh
-# 用你自己的豆瓣 ID 重新抓一份
 scripts/sync.sh <你的豆瓣 ID>
 git add data/ && git commit -m "sync my data" && git push
 ```
+
+**B. 让 Action 跑**
+
+仓库 → Settings → *Secrets and variables* → *Actions* → *Variables* 新增 `DOUBAN_USER` 填你的豆瓣 ID，然后 Actions → *Sync Douban Data* → *Run workflow* 就行（之后定时任务也会用这个 ID）。
 
 注意：豆瓣需要把账号设为公开才能抓（Settings → 隐私 → 收藏内容公开）。
 
