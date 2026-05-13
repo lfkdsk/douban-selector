@@ -2,10 +2,410 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 740,
-  "fetched": 733,
-  "fetched_at": "2026-04-25T20:37:57+0000",
+  "total_declared": 749,
+  "fetched": 742,
+  "fetched_at": "2026-05-13T21:26:26+0000",
   "movies": [
+    {
+      "id": "36539452",
+      "cid": "4841181587",
+      "title": "拼桌",
+      "aka": [
+        "二食一餐",
+        "A Table For Two [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/36539452/",
+      "cover": "data/posters/36539452.jpg",
+      "year": "2026",
+      "mark_date": "2026-05-13",
+      "rating": 3,
+      "comment": "结尾有点刻意了。但真的也就是只有在上海能拍这种风味日剧，在经济下学期给人带来淡淡的死感。",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "喜剧",
+        "爱情"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "98分钟",
+      "intro_raw": "2026-03-14(中国大陆) / 王传君 / 江疏影 / 李雪琴 / 郑云龙 / 傅首尔 / 刘佳 / 王彩平 / 杜家毅 / 吴冕 / 白举纲 / 中国大陆 / 吴靖 / 2026-03-12 / 98分钟 / 喜剧 / 爱情 / 吴靖 Jing Wu / 汉语普通话",
+      "people": [
+        "王传君",
+        "江疏影",
+        "李雪琴",
+        "郑云龙",
+        "傅首尔",
+        "刘佳",
+        "王彩平",
+        "杜家毅",
+        "吴冕",
+        "白举纲",
+        "吴靖",
+        "吴靖 Jing Wu"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2930539333.jpg"
+    },
+    {
+      "id": "35267224",
+      "cid": "4841140110",
+      "title": "孤注一掷",
+      "aka": [
+        "捕鱼行动",
+        "捕鱼之放手一搏 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/35267224/",
+      "cover": "data/posters/35267224.jpg",
+      "year": "2023",
+      "mark_date": "2026-05-13",
+      "rating": 2,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "130分钟",
+      "intro_raw": "2023-08-05(大规模点映) / 2023-08-08(中国大陆) / 2024-08-24(中国大陆重映) / 张艺兴 / 金晨 / 咏梅 / 王传君 / 王大陆 / 周也 / 孙阳 / 邓萃雯 / 林威 / 黄艺馨 / 中国大陆 / 申奥 / 2023-08-05 16:10 / 130分钟 / 剧情 / 犯罪 / 申奥 Ao Shen / 张艺凡 Emily Zhang / 许渌洋 Luyang Xu / 汉语普通话",
+      "people": [
+        "张艺兴",
+        "金晨",
+        "咏梅",
+        "王传君",
+        "王大陆",
+        "周也",
+        "孙阳",
+        "邓萃雯",
+        "林威",
+        "黄艺馨",
+        "申奥",
+        "申奥 Ao Shen",
+        "张艺凡 Emily Zhang",
+        "许渌洋 Luyang Xu"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2911964046.jpg"
+    },
+    {
+      "id": "1294713",
+      "cid": "4840966008",
+      "title": "O记三合会档案",
+      "aka": [
+        "O記三合會檔案",
+        "The H.K. Triad [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1294713/",
+      "cover": "data/posters/1294713.jpg",
+      "year": "1999",
+      "mark_date": "2026-05-13",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国香港"
+      ],
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "languages": [
+        "粤语"
+      ],
+      "runtime": "102分钟",
+      "intro_raw": "1999-03-18 / 刘青云 / 吴镇宇 / 朱茵 / 彭丹 / 谢天华 / 李兆基 / 吴志雄 / 林尚义 / 林雪 / 林富伟 / 中国香港 / 霍耀良 / 102分钟 / O记三合会档案 / 动作 / 犯罪 / 王晶 Jing Wong / 粤语",
+      "people": [
+        "刘青云",
+        "吴镇宇",
+        "朱茵",
+        "彭丹",
+        "谢天华",
+        "李兆基",
+        "吴志雄",
+        "林尚义",
+        "林雪",
+        "林富伟",
+        "霍耀良",
+        "O记三合会档案",
+        "王晶 Jing Wong"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1946287538.jpg"
+    },
+    {
+      "id": "27133303",
+      "cid": "4839711817",
+      "title": "超时空同居",
+      "aka": [
+        "口袋宇宙",
+        "How Long Will I Love U [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/27133303/",
+      "cover": "data/posters/27133303.jpg",
+      "year": "2018",
+      "mark_date": "2026-05-11",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "喜剧",
+        "爱情",
+        "奇幻"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "101分钟",
+      "intro_raw": "2018-05-18(中国大陆) / 雷佳音 / 佟丽娅 / 张衣 / 于和伟 / 王正佳 / 陶虹 / 李念 / 李光洁 / 杨玏 / 范明 / 中国大陆 / 苏伦 / 101分钟 / 喜剧 / 爱情 / 奇幻 / 苏伦 Lun Su / 汉语普通话",
+      "people": [
+        "雷佳音",
+        "佟丽娅",
+        "张衣",
+        "于和伟",
+        "王正佳",
+        "陶虹",
+        "李念",
+        "李光洁",
+        "杨玏",
+        "范明",
+        "苏伦",
+        "苏伦 Lun Su"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2520331478.jpg"
+    },
+    {
+      "id": "37311135",
+      "cid": "4839678462",
+      "title": "飞驰人生3",
+      "aka": [
+        "Pegasus 3 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/37311135/",
+      "cover": "data/posters/37311135.jpg",
+      "year": "2026",
+      "mark_date": "2026-05-11",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "运动"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "126分钟",
+      "intro_raw": "2026-02-17(中国大陆) / 沈腾 / 尹正 / 黄景瑜 / 张本煜 / 魏翔 / 沙溢 / 范丞丞 / 孙艺洲 / 段奕宏 / 张新成 / 中国大陆 / 韩寒 / 126分钟 / 剧情 / 喜剧 / 运动 / 韩寒 Han Han / 周运海 Yunhai Zhou / 蒙问雨 Wenyu Meng / 汉语普通话",
+      "people": [
+        "沈腾",
+        "尹正",
+        "黄景瑜",
+        "张本煜",
+        "魏翔",
+        "沙溢",
+        "范丞丞",
+        "孙艺洲",
+        "段奕宏",
+        "张新成",
+        "韩寒",
+        "韩寒 Han Han",
+        "周运海 Yunhai Zhou",
+        "蒙问雨 Wenyu Meng"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2929427346.jpg"
+    },
+    {
+      "id": "24751763",
+      "cid": "4839453436",
+      "title": "罗曼蒂克消亡史",
+      "aka": [
+        "旧社会",
+        "浮生如梦 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/24751763/",
+      "cover": "data/posters/24751763.jpg",
+      "year": "2016",
+      "mark_date": "2026-05-11",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国大陆",
+        "中国香港"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "languages": [
+        "汉语普通话",
+        "上海话",
+        "日语",
+        "英语"
+      ],
+      "runtime": "125分钟",
+      "intro_raw": "2016-12-16(中国大陆) / 葛优 / 章子怡 / 浅野忠信 / 杜淳 / 钟欣潼 / 倪大红 / 赵宝刚 / 袁泉 / 闫妮 / 韩庚 / 中国大陆 / 中国香港 / 程耳 / 125分钟 / 剧情 / 程耳 Er Cheng / 汉语普通话 / 上海话 / 日语 / 英语",
+      "people": [
+        "葛优",
+        "章子怡",
+        "浅野忠信",
+        "杜淳",
+        "钟欣潼",
+        "倪大红",
+        "赵宝刚",
+        "袁泉",
+        "闫妮",
+        "韩庚",
+        "程耳",
+        "程耳 Er Cheng"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2404553168.jpg"
+    },
+    {
+      "id": "1299739",
+      "cid": "4832830706",
+      "title": "西游记",
+      "aka": [
+        "西遊記",
+        "Monkey Goes West",
+        "西游记 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1299739/",
+      "cover": "data/posters/1299739.jpg",
+      "year": "1966",
+      "mark_date": "2026-05-03",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国香港"
+      ],
+      "genres": [
+        "剧情",
+        "动作",
+        "奇幻",
+        "古装"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "112 分钟",
+      "intro_raw": "1966-01-18 / 岳华 / 何藩 / 彭鹏 / 任浩 / 李笑丛 / 尤情 / 李影 / 崔智姬 / 叶青 / 火星 / 中国香港 / 何梦华 / 112 分钟 / 西游记 / 剧情 / 动作 / 奇幻 / 古装 / 程刚 / 汉语普通话",
+      "people": [
+        "岳华",
+        "何藩",
+        "彭鹏",
+        "任浩",
+        "李笑丛",
+        "尤情",
+        "李影",
+        "崔智姬",
+        "叶青",
+        "火星",
+        "何梦华",
+        "西游记",
+        "程刚"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2457391959.jpg"
+    },
+    {
+      "id": "1962665",
+      "cid": "4411949287",
+      "title": "银河铁道之夜",
+      "aka": [
+        "銀河鉄道の夜",
+        "Ginga-tetsudo no yoru",
+        "Night on the Galactic Railroad"
+      ],
+      "url": "https://movie.douban.com/subject/1962665/",
+      "cover": "data/posters/1962665.jpg",
+      "year": "1985",
+      "mark_date": "2026-04-27",
+      "rating": 5,
+      "comment": "不知为何我能疯狂带入。。。",
+      "countries": [
+        "日本"
+      ],
+      "genres": [
+        "动画",
+        "冒险",
+        "剧情",
+        "奇幻",
+        "悬疑"
+      ],
+      "languages": [
+        "日语"
+      ],
+      "runtime": "113分钟",
+      "intro_raw": "1985-07-13(日本) / 田中真弓 / 坂本千夏 / 堀绚子 / 一城美由希 / 岛村佳江 / 槐柳二 / 八代骏 / 新村礼子 / 大塚周夫 / 菊地英博 / 日本 / 杉井仪三郎 / 113分钟 / 银河铁道之夜 / 动画 / 冒险 / 剧情 / 奇幻 / 悬疑 / 宫泽贤治 Kenji Miyazawa / 增村博 Hiroshi Masumura / 別役实 Minoru Betsuyaku / 日语",
+      "people": [
+        "田中真弓",
+        "坂本千夏",
+        "堀绚子",
+        "一城美由希",
+        "岛村佳江",
+        "槐柳二",
+        "八代骏",
+        "新村礼子",
+        "大塚周夫",
+        "菊地英博",
+        "杉井仪三郎",
+        "银河铁道之夜",
+        "宫泽贤治 Kenji Miyazawa",
+        "增村博 Hiroshi Masumura",
+        "別役实 Minoru Betsuyaku"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p740452252.jpg"
+    },
+    {
+      "id": "1292220",
+      "cid": "3223446856",
+      "title": "情书",
+      "aka": [
+        "Love Letter",
+        "When I Close My Eyes",
+        "Letters of Love [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1292220/",
+      "cover": "data/posters/1292220.jpg",
+      "year": "1995",
+      "mark_date": "2026-04-26",
+      "rating": 5,
+      "comment": "难以言喻 🇯🇵 电影在这种隐秘情绪表达上真的非常好",
+      "countries": [
+        "日本"
+      ],
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "languages": [
+        "日语"
+      ],
+      "runtime": "117分钟",
+      "intro_raw": "1995-03-25(日本) / 1999-03(中国大陆) / 2021-05-20(中国大陆重映) / 2025-05-20(中国大陆重映) / 中山美穗 / 丰川悦司 / 酒井美纪 / 柏原崇 / 范文雀 / 篠原胜之 / 铃木庆一 / 田口智朗 / 加贺麻理子 / 光石研 / 日本 / 岩井俊二 / 117分钟 / 情书 / 剧情 / 爱情 / 岩井俊二 Shunji Iwai / 日语",
+      "people": [
+        "中山美穗",
+        "丰川悦司",
+        "酒井美纪",
+        "柏原崇",
+        "范文雀",
+        "篠原胜之",
+        "铃木庆一",
+        "田口智朗",
+        "加贺麻理子",
+        "光石研",
+        "岩井俊二",
+        "情书",
+        "岩井俊二 Shunji Iwai"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.jpg"
+    },
     {
       "id": "1400668",
       "cid": "4172559659",
@@ -4268,7 +4668,7 @@
         "无职转生：到了异世界就拿出真本事",
         "冈本学 Okamoto Manabu"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2627757433.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2919762107.jpg"
     },
     {
       "id": "6126502",
@@ -9997,7 +10397,7 @@
         "日语"
       ],
       "runtime": "60分钟",
-      "intro_raw": "2024-01-26(日本) / 阿部贞夫 / 仲里依纱 / 矶村勇斗 / 吉田羊 / 河合优实 / 坂元爱登 / 山本耕史 / 古田新太 / 三宅弘城 / 袴田吉彦 / 日本 / 金子文纪 / 坂上卓哉 / 古林淳太郎 / 渡部笃史 / 井村太一 / 60分钟 / 不合适也要有个限度！ / 喜剧 / 奇幻 / 宫藤官九郎 Kankurô Kudô / 日语",
+      "intro_raw": "2024-01-26(日本) / 阿部贞夫 / 仲里依纱 / 矶村勇斗 / 吉田羊 / 河合优实 / 坂元爱登 / 三宅弘城 / 袴田吉彦 / 中岛步 / 山本耕史 / 日本 / 金子文纪 / 坂上卓哉 / 古林淳太郎 / 渡部笃史 / 井村太一 / 60分钟 / 不合适也要有个限度！ / 喜剧 / 奇幻 / 宫藤官九郎 Kankurô Kudô / 日语",
       "people": [
         "阿部贞夫",
         "仲里依纱",
@@ -10005,10 +10405,10 @@
         "吉田羊",
         "河合优实",
         "坂元爱登",
-        "山本耕史",
-        "古田新太",
         "三宅弘城",
         "袴田吉彦",
+        "中岛步",
+        "山本耕史",
         "金子文纪",
         "坂上卓哉",
         "古林淳太郎",
@@ -11070,7 +11470,7 @@
         "李·昂克里奇 Lee Unkrich",
         "詹森·卡茨 Jason Katz"
       ],
-      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2505426431.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2461812747.jpg"
     },
     {
       "id": "34477588",
@@ -19684,7 +20084,7 @@
         "粤语"
       ],
       "runtime": "105分钟",
-      "intro_raw": "1983-12-22(中国香港) / 成龙 / 洪金宝 / 元彪 / 黄曼凝 / 狄威 / 太保 / 午马 / 钱嘉乐 / 火星 / 李海生 / 中国香港 / 成龙 / 105分钟 / A计划 / 动作 / 喜剧 / 邓景生 Edward Tang / 成龙 Jackie Chan / 粤语",
+      "intro_raw": "1983-12-22(中国香港) / 成龙 / 洪金宝 / 元彪 / 黄曼凝 / 狄威 / 太保 / 午马 / 钱嘉乐 / 火星 / 李海生 / 中国香港 / 成龙 / 105分钟 / 115分钟(加长版) / A计划 / 动作 / 喜剧 / 邓景生 Edward Tang / 成龙 Jackie Chan / 粤语",
       "people": [
         "成龙",
         "洪金宝",
@@ -19697,6 +20097,7 @@
         "火星",
         "李海生",
         "成龙",
+        "115分钟(加长版)",
         "A计划",
         "邓景生 Edward Tang",
         "成龙 Jackie Chan"
@@ -25904,7 +26305,7 @@
         "马特·利伯曼 Matt Lieberman",
         "扎克·佩恩 Zak Penn"
       ],
-      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2576282791.jpg"
+      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2677330181.jpg"
     },
     {
       "id": "1418189",
@@ -33846,8 +34247,8 @@
       "languages": [
         "汉语普通话"
       ],
-      "runtime": "",
-      "intro_raw": "2001-02-12(中国台湾) / 2001-02-17(中国大陆) / 陈坤 / 罗海琼 / 周迅 / 陆毅 / 寇世勋 / 孙红雷 / 李小冉 / 许还幻 / 廖凡 / 刘瑞琪 / 中国大陆 / 赵宝刚 / 汪俊 / 剧情 / 爱情 / 张永琛 Zhang Yongchen / 李晓明 Xiaoming Li / 汉语普通话",
+      "runtime": "45分钟",
+      "intro_raw": "2001-02-12(中国台湾) / 2001-02-17(中国大陆) / 陈坤 / 罗海琼 / 周迅 / 陆毅 / 寇世勋 / 孙红雷 / 李小冉 / 许还幻 / 廖凡 / 刘瑞琪 / 中国大陆 / 赵宝刚 / 汪俊 / 45分钟 / 剧情 / 爱情 / 张永琛 Zhang Yongchen / 李晓明 Xiaoming Li / 汉语普通话",
       "people": [
         "陈坤",
         "罗海琼",
