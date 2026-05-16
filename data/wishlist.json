@@ -2,10 +2,55 @@
   "user": "156631516",
   "type": "wish",
   "label": "想看",
-  "total_declared": 646,
-  "fetched": 634,
-  "fetched_at": "2026-05-15T00:01:24+0000",
+  "total_declared": 647,
+  "fetched": 635,
+  "fetched_at": "2026-05-16T00:01:26+0000",
   "movies": [
+    {
+      "id": "35956190",
+      "cid": "4842380119",
+      "title": "走走停停",
+      "aka": [
+        "Gold or Shit",
+        "G for Gap [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/35956190/",
+      "cover": "data/posters/35956190.jpg",
+      "year": "2024",
+      "mark_date": "2026-05-15",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "家庭"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "103分钟",
+      "intro_raw": "2024-04-19(北京国际电影节) / 2024-06-08(中国大陆) / 胡歌 / 高圆圆 / 岳红 / 周野芒 / 金靖 / 刘钧 / 甘昀宸 / 刘仪伟 / 张鲁一 / 袁弘 / 中国大陆 / 龙飞 / 2024-04-19 20:00 / 103分钟 / 99分钟(北京国际电影节) / 剧情 / 喜剧 / 家庭 / 黄佳 Huang Jia / 汉语普通话 / 四川话",
+      "people": [
+        "胡歌",
+        "高圆圆",
+        "岳红",
+        "周野芒",
+        "金靖",
+        "刘钧",
+        "甘昀宸",
+        "刘仪伟",
+        "张鲁一",
+        "袁弘",
+        "龙飞",
+        "99分钟(北京国际电影节)",
+        "黄佳 Huang Jia",
+        "四川话"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2907440658.jpg"
+    },
     {
       "id": "38061818",
       "cid": "4834414314",
