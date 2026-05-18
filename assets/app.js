@@ -153,7 +153,11 @@
         // metadata
         const movies = lists[key].data.movies;
         const dates = movies.map(m => m.mark_date).filter(Boolean).sort();
-        els.metaUpdated.textContent = dates.length ? `最近一次 ${dates[dates.length - 1]}` : '';
+        const parts = [];
+        if (dates.length) parts.push(`最近一次 ${dates[dates.length - 1]}`);
+        const syncDate = (lists[key].data.fetched_at || '').slice(0, 10);
+        if (syncDate) parts.push(`数据同步于 ${syncDate}`);
+        els.metaUpdated.textContent = parts.join(' · ');
         els.ledeCount.textContent = movies.length;
 
         // rating filter only meaningful for collect
