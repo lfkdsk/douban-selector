@@ -2,10 +2,52 @@
   "user": "156631516",
   "type": "collect",
   "label": "看过",
-  "total_declared": 717,
-  "fetched": 715,
-  "fetched_at": "2026-05-17T00:02:57+0000",
+  "total_declared": 718,
+  "fetched": 716,
+  "fetched_at": "2026-05-18T00:03:47+0000",
   "movies": [
+    {
+      "id": "37178027",
+      "cid": "4844140918",
+      "title": "8号出口",
+      "aka": [
+        "8番出口",
+        "八号出口",
+        "Exit 8"
+      ],
+      "url": "https://movie.douban.com/subject/37178027/",
+      "cover": "data/posters/37178027.jpg",
+      "year": "2025",
+      "mark_date": "2026-05-17",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "日本"
+      ],
+      "genres": [
+        "冒险",
+        "恐怖"
+      ],
+      "languages": [
+        "日语"
+      ],
+      "runtime": "95分钟",
+      "intro_raw": "2025-05-18(戛纳国际电影节) / 2025-08-29(日本) / 二宫和也 / 河内大和 / 小松菜奈 / 浅沼成 / 花濑琴音  / 大塚弘太 / 日本 / exit8-movie.toho.co.jp / 川村元气 / 95分钟 / 8号出口 / 冒险 / 恐怖 / 平濑谦太朗 Hirase Kentaro / 川村元气 Genki Kawamura / 日语",
+      "people": [
+        "二宫和也",
+        "河内大和",
+        "小松菜奈",
+        "浅沼成",
+        "花濑琴音",
+        "大塚弘太",
+        "exit8-movie.toho.co.jp",
+        "川村元气",
+        "8号出口",
+        "平濑谦太朗 Hirase Kentaro",
+        "川村元气 Genki Kawamura"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2927027583.jpg"
+    },
     {
       "id": "37332784",
       "cid": "4835090980",
