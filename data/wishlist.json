@@ -4,7 +4,7 @@
   "label": "想看",
   "total_declared": 647,
   "fetched": 635,
-  "fetched_at": "2026-05-28T00:01:24+0000",
+  "fetched_at": "2026-05-29T00:01:30+0000",
   "movies": [
     {
       "id": "35956190",
@@ -11874,11 +11874,11 @@
       "aka": [
         "Dead Men Don&#39;t Wear Plaid",
         "大侦探对大明星",
-        "死人不穿裙"
+        "死人不穿格子"
       ],
       "url": "https://movie.douban.com/subject/1293547/",
       "cover": "data/posters/1293547.jpg",
-      "year": "1982",
+      "year": "1983",
       "mark_date": "2020-05-13",
       "rating": 0,
       "comment": "",
@@ -11894,7 +11894,7 @@
         "英语"
       ],
       "runtime": "88 分钟",
-      "intro_raw": "1982-05-21 / 史蒂夫·马丁 / 蕾切尔·沃德 / 卡尔·雷纳 / 查利·皮切尔尼 / 弗朗西斯·X.麦卡蒂 / 琼·克劳馥 / 美国 / 卡尔·雷纳 / 88 分钟 / 大侦探对大明星 / 喜剧 / 犯罪 / 悬疑 / 卡尔·雷纳 Carl Reiner / George Gipe / 史蒂夫·马丁 Steve Martin / 英语",
+      "intro_raw": "1983-01-13 / 史蒂夫·马丁 / 蕾切尔·沃德 / 卡尔·雷纳 / 查利·皮切尔尼 / 弗朗西斯·X.麦卡蒂 / 琼·克劳馥 / 美国 / 卡尔·雷纳 / 88 分钟 / 大侦探对大明星 / 喜剧 / 犯罪 / 悬疑 / 卡尔·雷纳 Carl Reiner / George Gipe / 史蒂夫·马丁 Steve Martin / 英语",
       "people": [
         "史蒂夫·马丁",
         "蕾切尔·沃德",
