@@ -2,10 +2,54 @@
   "user": "156631516",
   "type": "collect",
   "label": "看过",
-  "total_declared": 718,
-  "fetched": 716,
-  "fetched_at": "2026-05-30T00:03:00+0000",
+  "total_declared": 719,
+  "fetched": 717,
+  "fetched_at": "2026-05-31T00:02:54+0000",
   "movies": [
+    {
+      "id": "20376577",
+      "cid": "4854795374",
+      "title": "小时代",
+      "aka": [
+        "小时代1.0折纸时代",
+        "小时代电影版 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/20376577/",
+      "cover": "data/posters/20376577.jpg",
+      "year": "2013",
+      "mark_date": "2026-05-30",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国大陆",
+        "中国台湾"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "116分钟",
+      "intro_raw": "2013-06-27(中国大陆) / 杨幂 / 柯震东 / 郭采洁 / 郭碧婷 / 谢依霖 / 凤小岳 / 李悦铭 / 陈学冬 / 姜潮 / 杜天皓 / 中国大陆 / 中国台湾 / 郭敬明 / 116分钟 / 剧情 / 喜剧 / 爱情 / 郭敬明 Jingming Guo / 汉语普通话",
+      "people": [
+        "杨幂",
+        "柯震东",
+        "郭采洁",
+        "郭碧婷",
+        "谢依霖",
+        "凤小岳",
+        "李悦铭",
+        "陈学冬",
+        "姜潮",
+        "杜天皓",
+        "郭敬明",
+        "郭敬明 Jingming Guo"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2004121607.jpg"
+    },
     {
       "id": "37178027",
       "cid": "4844140918",
