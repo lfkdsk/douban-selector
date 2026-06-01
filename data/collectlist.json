@@ -4,7 +4,7 @@
   "label": "看过",
   "total_declared": 719,
   "fetched": 717,
-  "fetched_at": "2026-05-31T00:02:54+0000",
+  "fetched_at": "2026-06-01T00:03:01+0000",
   "movies": [
     {
       "id": "20376577",
@@ -12153,14 +12153,14 @@
         "英语"
       ],
       "runtime": "",
-      "intro_raw": "2003-05-13 / John 5 / Tim Skold / Madonna Wayne Gacy / 艾瑞儿·吉欧凡妮 / 玛丽莲·曼森 / 蒂塔·万·提斯 / 美国 / 玛丽莲·曼森 / 双心脏 / 短片 / 英语",
+      "intro_raw": "2003-05-13 / 玛丽莲·曼森 / John 5 / Tim Skold / 蒂塔·万·提斯 / 艾瑞儿·吉欧凡妮 / Madonna Wayne Gacy / 美国 / 玛丽莲·曼森 / 双心脏 / 短片 / 英语",
       "people": [
+        "玛丽莲·曼森",
         "John 5",
         "Tim Skold",
-        "Madonna Wayne Gacy",
-        "艾瑞儿·吉欧凡妮",
-        "玛丽莲·曼森",
         "蒂塔·万·提斯",
+        "艾瑞儿·吉欧凡妮",
+        "Madonna Wayne Gacy",
         "玛丽莲·曼森",
         "双心脏"
       ],
