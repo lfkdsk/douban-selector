@@ -2,10 +2,58 @@
   "user": "156631516",
   "type": "collect",
   "label": "看过",
-  "total_declared": 719,
-  "fetched": 717,
-  "fetched_at": "2026-06-05T00:02:58+0000",
+  "total_declared": 720,
+  "fetched": 718,
+  "fetched_at": "2026-06-06T00:02:57+0000",
   "movies": [
+    {
+      "id": "1329562",
+      "cid": "4859058286",
+      "title": "头文字D",
+      "aka": [
+        "頭文字D",
+        "飘移族",
+        "Initial D [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1329562/",
+      "cover": "data/posters/1329562.jpg",
+      "year": "2005",
+      "mark_date": "2026-06-05",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国香港",
+        "日本"
+      ],
+      "genres": [
+        "剧情",
+        "动作"
+      ],
+      "languages": [
+        "粤语",
+        "英语"
+      ],
+      "runtime": "109分钟",
+      "intro_raw": "2005-06-19(北京首映) / 2005-06-23(中国大陆) / 2005-06-23(中国香港) / 周杰伦 / 陈冠希 / 黄秋生 / 铃木杏 / 余文乐 / 钟镇涛 / 陈小春 / 津村和幸 / 阿部力 / 田中千绘 / 中国香港 / 日本 / 刘伟强 / 麦兆辉 / 拉尔夫·里埃克曼 / 109分钟 / 头文字D / 剧情 / 动作 / 庄文强 Felix Chong / 粤语 / 英语",
+      "people": [
+        "周杰伦",
+        "陈冠希",
+        "黄秋生",
+        "铃木杏",
+        "余文乐",
+        "钟镇涛",
+        "陈小春",
+        "津村和幸",
+        "阿部力",
+        "田中千绘",
+        "刘伟强",
+        "麦兆辉",
+        "拉尔夫·里埃克曼",
+        "头文字D",
+        "庄文强 Felix Chong"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2171302998.jpg"
+    },
     {
       "id": "20376577",
       "cid": "4854795374",
@@ -5401,7 +5449,7 @@
         "奇巧计程车",
         "此元和津也 Kazuya Konomoto"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2631090442.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2641117603.jpg"
     },
     {
       "id": "1773217",
