@@ -4,7 +4,7 @@
   "label": "想看",
   "total_declared": 360,
   "fetched": 358,
-  "fetched_at": "2026-06-01T22:46:13+0000",
+  "fetched_at": "2026-06-08T22:34:42+0000",
   "movies": [
     {
       "id": "35517408",
@@ -4753,7 +4753,7 @@
         "喜安浩平 Kohei Kiyasu",
         "三浦紫苑 Shiwon Miura"
       ],
-      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2543203159.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2535645337.jpg"
     },
     {
       "id": "3060542",
@@ -7270,7 +7270,7 @@
       ],
       "url": "https://movie.douban.com/subject/1985222/",
       "cover": "data/posters/1985222.jpg",
-      "year": "1976",
+      "year": "1975",
       "mark_date": "2024-06-13",
       "rating": 0,
       "comment": "",
@@ -7287,7 +7287,7 @@
         "汉语普通话"
       ],
       "runtime": "95分钟",
-      "intro_raw": "1976-10-28(中国台湾) / 田鹏 / 上官灵凤 / 黄家达 / 柯佑民 / 张翼 / 易原 / 鲁平 / 江南 / 卢碧云 / 邵罗辉 / 中国台湾 / 中国香港 / 郭南宏 / 81分钟 / 95分钟 / 少林寺十八铜人 / 动作 / 剧情 / 战争 / 郭南宏 Joseph Kuo Nan-Hong / 严重 Chung Yen / 张信义 Hsin Yi Chang / 汉语普通话",
+      "intro_raw": "1975-12-31(中国台湾) / 1976-04-01(中国香港) / 田鹏 / 上官灵凤 / 黄家达 / 柯佑民 / 张翼 / 易原 / 鲁平 / 江南 / 卢碧云 / 邵罗辉 / 中国台湾 / 中国香港 / 郭南宏 / 81分钟 / 95分钟 / 少林寺十八铜人 / 动作 / 剧情 / 战争 / 郭南宏 Joseph Kuo Nan-Hong / 严重 Chung Yen / 张信义 Hsin Yi Chang / 汉语普通话",
       "people": [
         "田鹏",
         "上官灵凤",
