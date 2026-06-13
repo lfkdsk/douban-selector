@@ -4,7 +4,7 @@
   "label": "看过",
   "total_declared": 720,
   "fetched": 718,
-  "fetched_at": "2026-06-12T00:02:57+0000",
+  "fetched_at": "2026-06-13T00:02:56+0000",
   "movies": [
     {
       "id": "1329562",
@@ -14475,7 +14475,7 @@
       "aka": [
         "賭神2",
         "God of Gamblers Return",
-        "God of Gamblers 2"
+        "God of Gamblers 2 [可播放]"
       ],
       "url": "https://movie.douban.com/subject/1292506/",
       "cover": "data/posters/1292506.jpg",
@@ -15298,12 +15298,15 @@
       "rating": 0,
       "comment": "",
       "countries": [
-        "泰国"
+        "泰国",
+        "中国香港",
+        "法国",
+        "澳大利亚"
       ],
       "genres": [
+        "剧情",
         "动作",
         "犯罪",
-        "剧情",
         "惊悚"
       ],
       "languages": [
@@ -15312,21 +15315,26 @@
         "汉语普通话",
         "越南语"
       ],
-      "runtime": "111分钟",
-      "intro_raw": "2005-08-11 / 托尼·贾 / 金星 / 内森·琼斯 / 派特察泰·王卡姆劳 / 阮明智 / 拉蒂夫·克劳德 / 泰国 / 普拉奇亚·平克尧 / 111分钟 / 冬荫功 / 动作 / 犯罪 / 剧情 / 惊悚 / 拿柏里 / 柏也路斯芳迪 / 祖云拿柏 / 江迪积杜云华斯美 / 泰语 / 英语 / 汉语普通话 / 越南语",
+      "runtime": "83分钟",
+      "intro_raw": "2005-08-11(泰国) / 托尼·贾 / 派特察泰·王卡姆劳 / 波昂科·德昂马莱 / 金星 / 内森·琼斯 / 阮明智 / 拉蒂夫·克劳德 / 傅尊 / 达米安·德·蒙特马斯 / 大卫·阿萨瓦纳德 / 泰国 / 中国香港 / 法国 / 澳大利亚 / 普拉奇亚·平克尧 / 83分钟 / 冬荫功 / 剧情 / 动作 / 犯罪 / 惊悚 / Napalee / Piyaros Thongdee / Joe Wannapin / 空德·扎度蓝拉密 Kongdej Jaturanrasamee / 普拉奇亚·平克尧 Prachya Pinkaew / 泰语 / 英语 / 汉语普通话 / 越南语",
       "people": [
         "托尼·贾",
+        "派特察泰·王卡姆劳",
+        "波昂科·德昂马莱",
         "金星",
         "内森·琼斯",
-        "派特察泰·王卡姆劳",
         "阮明智",
         "拉蒂夫·克劳德",
+        "傅尊",
+        "达米安·德·蒙特马斯",
+        "大卫·阿萨瓦纳德",
         "普拉奇亚·平克尧",
         "冬荫功",
-        "拿柏里",
-        "柏也路斯芳迪",
-        "祖云拿柏",
-        "江迪积杜云华斯美"
+        "Napalee",
+        "Piyaros Thongdee",
+        "Joe Wannapin",
+        "空德·扎度蓝拉密 Kongdej Jaturanrasamee",
+        "普拉奇亚·平克尧 Prachya Pinkaew"
       ],
       "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2029269446.jpg"
     },
@@ -28922,7 +28930,7 @@
         "英语"
       ],
       "runtime": "52分钟",
-      "intro_raw": "2011-12-04(英国) / 罗里·金尼尔 / 鲁伯特·艾弗雷特 / 丹尼尔·卡卢亚 / 托比·凯贝尔 / 杰西卡·布朗·芬德利 / 艾伦·里奇 / 保罗·帕波维尔 / 汤姆·库伦 / 芮姬·阿约拉 / 约翰·迈尔斯 / 英国 / www.channel4.com/programmes/black-mirror / 奥图·巴瑟赫斯特 / 尤洛斯·林 / 布莱恩·威尔许 / 黑镜 / 52分钟 / 黑镜 / 剧情 / 科幻 / 惊悚 / 查理·布鲁克 Charlie Brooker / Jesse Armstrong / Kanak Huq / 英语",
+      "intro_raw": "2011-12-04(英国) / 罗里·金尼尔 / 鲁伯特·艾弗雷特 / 丹尼尔·卡卢亚 / 托比·凯贝尔 / 杰西卡·布朗·芬德利 / 艾伦·里奇 / 保罗·帕波维尔 / 汤姆·库伦 / 芮姬·阿约拉 / 约翰·迈尔斯 / 英国 / www.channel4.com/programmes/black-mirror / 奥托·巴瑟斯特 / 尤洛斯·林 / 布莱恩·威尔许 / 黑镜 / 52分钟 / 黑镜 / 剧情 / 科幻 / 惊悚 / 查理·布鲁克 Charlie Brooker / Jesse Armstrong / Kanak Huq / 英语",
       "people": [
         "罗里·金尼尔",
         "鲁伯特·艾弗雷特",
@@ -28937,7 +28945,7 @@
         "www.channel4.com",
         "programmes",
         "black-mirror",
-        "奥图·巴瑟赫斯特",
+        "奥托·巴瑟斯特",
         "尤洛斯·林",
         "布莱恩·威尔许",
         "黑镜",
