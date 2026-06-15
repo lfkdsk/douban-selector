@@ -4,7 +4,7 @@
   "label": "看过",
   "total_declared": 750,
   "fetched": 743,
-  "fetched_at": "2026-06-08T22:36:53+0000",
+  "fetched_at": "2026-06-15T22:46:25+0000",
   "movies": [
     {
       "id": "37332784",
@@ -10798,7 +10798,7 @@
       ],
       "url": "https://movie.douban.com/subject/1306873/",
       "cover": "data/posters/1306873.jpg",
-      "year": "1964",
+      "year": "1963",
       "mark_date": "2025-01-13",
       "rating": 4,
       "comment": "",
@@ -10816,21 +10816,22 @@
         "英语"
       ],
       "runtime": "80分钟",
-      "intro_raw": "1964-05-28 / 塞巴斯蒂安·卡伯特 / 卡尔·斯温森 / 瑞奇·索伦森 / 玛莎·温特沃思 / 瑟尔·莱文斯克洛福特 / 阿兰·纳皮尔 / 詹姆斯·麦克唐纳 / 芭芭拉·乔·艾伦 / 诺曼·阿尔登 / 朱尼乌斯·马修斯 / 美国 / 沃夫冈·雷瑟曼 / 80分钟 / 石中剑 / 动画 / 奇幻 / 冒险 / 音乐 / 家庭 / 比尔 皮特 (Bill Peet) / 英语",
+      "intro_raw": "1963-12-25(美国) / 塞巴斯蒂安·卡伯特 / 卡尔·斯温森 / 瑞奇·索伦森 / 朱尼乌斯·马修斯 / 玛莎·温特沃思 / 诺曼·阿尔登 / 阿兰·纳皮尔 / 瑟尔·莱文斯克洛福特 / 詹姆斯·麦克唐纳 / 芭芭拉·乔·艾伦 / 美国 / 沃夫冈·雷瑟曼 / 80分钟 / 石中剑 / 动画 / 奇幻 / 冒险 / 音乐 / 家庭 / Bill Peet / T.H. White / 英语",
       "people": [
         "塞巴斯蒂安·卡伯特",
         "卡尔·斯温森",
         "瑞奇·索伦森",
+        "朱尼乌斯·马修斯",
         "玛莎·温特沃思",
-        "瑟尔·莱文斯克洛福特",
+        "诺曼·阿尔登",
         "阿兰·纳皮尔",
+        "瑟尔·莱文斯克洛福特",
         "詹姆斯·麦克唐纳",
         "芭芭拉·乔·艾伦",
-        "诺曼·阿尔登",
-        "朱尼乌斯·马修斯",
         "沃夫冈·雷瑟曼",
         "石中剑",
-        "比尔 皮特 (Bill Peet)"
+        "Bill Peet",
+        "T.H. White"
       ],
       "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1157766425.jpg"
     },
@@ -19694,8 +19695,8 @@
       "languages": [
         "英语"
       ],
-      "runtime": "275分钟",
-      "intro_raw": "2006-05(戛纳电影节) / 2025-12-05(美国) / 乌玛·瑟曼 / 刘玉玲 / 薇薇卡·福克斯 / 迈克尔·马德森 / 达丽尔·汉纳 / 大卫·卡拉丁 / 朱莉·德赖弗斯 / 栗山千明 / 千叶真一 / 刘家辉 / 美国 / 昆汀·塔伦蒂诺 / 275分钟 / 杀死比尔：整个血腥事件 / 动作 / 犯罪 / 昆汀·塔伦蒂诺 Quentin Tarantino / 乌玛·瑟曼 Uma Thurman / 英语",
+      "runtime": "253分钟",
+      "intro_raw": "2006-05(戛纳电影节) / 2025-12-05(美国) / 乌玛·瑟曼 / 刘玉玲 / 薇薇卡·福克斯 / 迈克尔·马德森 / 达丽尔·汉纳 / 大卫·卡拉丁 / 朱莉·德赖弗斯 / 栗山千明 / 千叶真一 / 刘家辉 / 美国 / 昆汀·塔伦蒂诺 / 253分钟 / 杀死比尔：整个血腥事件 / 动作 / 犯罪 / 昆汀·塔伦蒂诺 Quentin Tarantino / 乌玛·瑟曼 Uma Thurman / 英语",
       "people": [
         "乌玛·瑟曼",
         "刘玉玲",
@@ -21036,7 +21037,7 @@
         "疾速追杀",
         "德里克·科尔斯塔 Derek Kolstad"
       ],
-      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2210801408.jpg"
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2933018274.jpg"
     },
     {
       "id": "1296201",
@@ -22096,7 +22097,7 @@
       "aka": [
         "賭神2",
         "God of Gamblers Return",
-        "God of Gamblers 2"
+        "God of Gamblers 2 [可播放]"
       ],
       "url": "https://movie.douban.com/subject/1292506/",
       "cover": "data/posters/1292506.jpg",
@@ -31748,7 +31749,7 @@
         "奇巧计程车",
         "此元和津也 Kazuya Konomoto"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2641117603.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2631090442.jpg"
     },
     {
       "id": "5344178",
