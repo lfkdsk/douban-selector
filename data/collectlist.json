@@ -4,7 +4,7 @@
   "label": "看过",
   "total_declared": 720,
   "fetched": 718,
-  "fetched_at": "2026-06-15T00:03:00+0000",
+  "fetched_at": "2026-06-16T00:02:57+0000",
   "movies": [
     {
       "id": "1329562",
@@ -30384,7 +30384,7 @@
       "aka": [
         "The Shining",
         "鬼店(台)",
-        "幻觉"
+        "幻觉 [可播放]"
       ],
       "url": "https://movie.douban.com/subject/1292225/",
       "cover": "data/posters/1292225.jpg",
