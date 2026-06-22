@@ -2,10 +2,99 @@
   "user": "lfkdsk",
   "type": "wish",
   "label": "想看",
-  "total_declared": 360,
-  "fetched": 358,
-  "fetched_at": "2026-06-15T22:44:20+0000",
+  "total_declared": 362,
+  "fetched": 360,
+  "fetched_at": "2026-06-22T22:37:07+0000",
   "movies": [
+    {
+      "id": "1815487",
+      "cid": "4870187617",
+      "title": "新扎师妹3",
+      "aka": [
+        "新紮師妹3",
+        "Love Undercover 3",
+        "新扎师妹3 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1815487/",
+      "cover": "data/posters/1815487.jpg",
+      "year": "2006",
+      "mark_date": "2026-06-20",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "中国香港"
+      ],
+      "genres": [
+        "喜剧"
+      ],
+      "languages": [
+        "粤语"
+      ],
+      "runtime": "101 分钟",
+      "intro_raw": "2006-06-29 / 薛凯琪 / 铃木仁 / 森美 / 许绍雄 / 黄浩然 / 周振辉 / 周家声 / 郑保瑞 / 易冰如 / 李华柱 / 中国香港 / 马伟豪 / 101 分钟 / 新扎师妹3 / 喜剧 / 陈咏燊 Sunny Chan / 邹凯光 Matt Chow / 谭广源 Frankie Tam / 粤语",
+      "people": [
+        "薛凯琪",
+        "铃木仁",
+        "森美",
+        "许绍雄",
+        "黄浩然",
+        "周振辉",
+        "周家声",
+        "郑保瑞",
+        "易冰如",
+        "李华柱",
+        "马伟豪",
+        "新扎师妹3",
+        "陈咏燊 Sunny Chan",
+        "邹凯光 Matt Chow",
+        "谭广源 Frankie Tam"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2525736229.jpg"
+    },
+    {
+      "id": "1308232",
+      "cid": "4870187590",
+      "title": "新扎师妹2",
+      "aka": [
+        "新紮師妹2",
+        "新扎师妹2美丽任务",
+        "Love Undercover 2: Love Mission [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1308232/",
+      "cover": "data/posters/1308232.jpg",
+      "year": "2003",
+      "mark_date": "2026-06-20",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "中国香港"
+      ],
+      "genres": [
+        "喜剧"
+      ],
+      "languages": [
+        "粤语"
+      ],
+      "runtime": "100分钟",
+      "intro_raw": "2003-07-04(中国香港) / 杨千嬅 / 吴彦祖 / 林雪 / 黄浩然 / 张英才 / 蒋怡 / 许绍雄 / 森美 / 周家声 / 黄燕强 / 中国香港 / 马伟豪 / 100分钟 / 新扎师妹2 / 喜剧 / 马伟豪 Joe Ma / 陈咏燊 Sunny Chan / 粤语",
+      "people": [
+        "杨千嬅",
+        "吴彦祖",
+        "林雪",
+        "黄浩然",
+        "张英才",
+        "蒋怡",
+        "许绍雄",
+        "森美",
+        "周家声",
+        "黄燕强",
+        "马伟豪",
+        "新扎师妹2",
+        "马伟豪 Joe Ma",
+        "陈咏燊 Sunny Chan"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2515686674.jpg"
+    },
     {
       "id": "35517408",
       "cid": "4846638868",
@@ -9385,7 +9474,7 @@
         "汉语普通话"
       ],
       "runtime": "90分钟",
-      "intro_raw": "2012-11-11(金马影展) / 2016-03-11(中国大陆) / 宋洋 / 于承惠 / 李呈媛 / 王燕妮 / 赵峥 / 李长麟 / 马君 / 薄冰 / 王星凯 / 中国大陆 / 徐浩峰 / 90分钟 / 剧情 / 动作 / 武侠 / 古装 / 徐浩峰 Haofeng Xu / 汉语普通话",
+      "intro_raw": "2012-11-11(金马影展) / 2016-03-11(中国大陆) / 宋洋 / 于承惠 / 李呈媛 / 王燕妮 / 赵峥 / 李长麟 / 马君 / 王星凯 / 薄冰 / 中国大陆 / 徐浩峰 / 90分钟 / 剧情 / 动作 / 武侠 / 古装 / 徐浩峰 Haofeng Xu / 汉语普通话",
       "people": [
         "宋洋",
         "于承惠",
@@ -9394,8 +9483,8 @@
         "赵峥",
         "李长麟",
         "马君",
-        "薄冰",
         "王星凯",
+        "薄冰",
         "徐浩峰",
         "徐浩峰 Haofeng Xu"
       ],
