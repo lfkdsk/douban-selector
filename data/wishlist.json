@@ -2,10 +2,225 @@
   "user": "lfkdsk",
   "type": "wish",
   "label": "想看",
-  "total_declared": 362,
-  "fetched": 360,
-  "fetched_at": "2026-06-22T22:37:07+0000",
+  "total_declared": 366,
+  "fetched": 364,
+  "fetched_at": "2026-06-29T22:26:57+0000",
   "movies": [
+    {
+      "id": "37894778",
+      "cid": "4873389078",
+      "title": "徒手独攀台北101：直播",
+      "aka": [
+        "Skyscraper Live",
+        "赤手獨攀台北101：直播(台)"
+      ],
+      "url": "https://movie.douban.com/subject/37894778/",
+      "cover": "data/posters/37894778.jpg",
+      "year": "2026",
+      "mark_date": "2026-06-24",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "英国"
+      ],
+      "genres": [
+        "纪录片",
+        "运动"
+      ],
+      "languages": [
+        "英语"
+      ],
+      "runtime": "120分钟",
+      "intro_raw": "2026-01-24(美国网络) / 亚历克斯·霍诺德 / 塞斯·罗林斯 / 艾米丽·哈林顿 / 马克·罗伯 / 埃勒·邓肯 / 皮特·伍兹 / 英国 / 乔·德米奥 / 120分钟 / 徒手独攀台北101：直播 / 纪录片 / 运动 / 英语",
+      "people": [
+        "亚历克斯·霍诺德",
+        "塞斯·罗林斯",
+        "艾米丽·哈林顿",
+        "马克·罗伯",
+        "埃勒·邓肯",
+        "皮特·伍兹",
+        "乔·德米奥",
+        "徒手独攀台北101：直播"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2928331446.jpg"
+    },
+    {
+      "id": "36812879",
+      "cid": "4873387896",
+      "title": "抓特务",
+      "aka": [
+        "无悔追踪",
+        "I Know Who You Are"
+      ],
+      "url": "https://movie.douban.com/subject/36812879/",
+      "cover": "data/posters/36812879.jpg",
+      "year": "2026",
+      "mark_date": "2026-06-24",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "141分钟",
+      "intro_raw": "2026-06-19(中国大陆) / 雷佳音 / 胡歌 / 啜妮 / 张瑶 / 林晓凡 / 杨舒伊 / 刘佩琦 / 姜武 / 杨青 / 陈国星 / 中国大陆 / 冯小刚 / 141分钟 / 剧情 / 史建全 Jianquan Shi / 汉语普通话",
+      "people": [
+        "雷佳音",
+        "胡歌",
+        "啜妮",
+        "张瑶",
+        "林晓凡",
+        "杨舒伊",
+        "刘佩琦",
+        "姜武",
+        "杨青",
+        "陈国星",
+        "冯小刚",
+        "史建全 Jianquan Shi"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2933198755.jpg"
+    },
+    {
+      "id": "38359420",
+      "cid": "4873387710",
+      "title": "孤独的美食家 第十一季",
+      "aka": [
+        "孤独のグルメ Season11"
+      ],
+      "url": "https://movie.douban.com/subject/38359420/",
+      "cover": "data/posters/38359420.jpg",
+      "year": "2026",
+      "mark_date": "2026-06-24",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "日本"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "languages": [
+        "日语"
+      ],
+      "runtime": "29分钟",
+      "intro_raw": "2026-04-03(日本) / 松重丰 / 户田菜穗 / 小梅太夫 / 中井友望 / 须永庆 / 观月亚理莎 / 金田明夫 / 丘光子 / 山田真步 / 奥贯薰 / 日本 / 北畑龙一 / 井川尊史 / 中山大晖 / 田尾彩美 / 北尾賢人 / 29分钟 / 孤独的美食家 第十一季 / 剧情 / 田口佳宏 Yoshihiro Taguchi / 儿玉赖子 Yoriko Kodama / 日语",
+      "people": [
+        "松重丰",
+        "户田菜穗",
+        "小梅太夫",
+        "中井友望",
+        "须永庆",
+        "观月亚理莎",
+        "金田明夫",
+        "丘光子",
+        "山田真步",
+        "奥贯薰",
+        "北畑龙一",
+        "井川尊史",
+        "中山大晖",
+        "田尾彩美",
+        "北尾賢人",
+        "孤独的美食家 第十一季",
+        "田口佳宏 Yoshihiro Taguchi",
+        "儿玉赖子 Yoriko Kodama"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2930746515.jpg"
+    },
+    {
+      "id": "36902609",
+      "cid": "4873387660",
+      "title": "新宿野战医院",
+      "aka": [
+        "新宿野戦病院"
+      ],
+      "url": "https://movie.douban.com/subject/36902609/",
+      "cover": "data/posters/36902609.jpg",
+      "year": "2024",
+      "mark_date": "2026-06-24",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "日本"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "languages": [
+        "日语"
+      ],
+      "runtime": "45分钟",
+      "intro_raw": "2024-07-03(日本) / 小池荣子 / 仲野太贺 / 桥本爱 / 平岩纸 / 冈部敬史 / 马场彻 / 塚地武雅 /  中井千圣 / 滨田岳 / 石川萌香 / 日本 / 河毛俊作 / 泽田镰作 / 45分钟 / 新宿野战医院 / 剧情 / 喜剧 / 宫藤官九郎 Kankurô Kudô / 日语",
+      "people": [
+        "小池荣子",
+        "仲野太贺",
+        "桥本爱",
+        "平岩纸",
+        "冈部敬史",
+        "马场彻",
+        "塚地武雅",
+        "中井千圣",
+        "滨田岳",
+        "石川萌香",
+        "河毛俊作",
+        "泽田镰作",
+        "新宿野战医院",
+        "宫藤官九郎 Kankurô Kudô"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2909993898.jpg"
+    },
+    {
+      "id": "26270502",
+      "cid": "4873385623",
+      "title": "绣春刀II：修罗战场",
+      "aka": [
+        "绣春刀2：修罗战场",
+        "绣春刀：修罗场 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/26270502/",
+      "cover": "data/posters/26270502.jpg",
+      "year": "2017",
+      "mark_date": "2026-06-24",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "动作",
+        "武侠",
+        "古装"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "120分钟",
+      "intro_raw": "2017-06-18(上海电影节) / 2017-07-19(中国大陆) / 张震 / 杨幂 / 张译 / 雷佳音 / 辛芷蕾 / 金士杰 / 刘端端 / 武强 / 杨轶 / 李媛 / 中国大陆 / 路阳 / 120分钟 / 剧情 / 动作 / 武侠 / 古装 / 陈舒 Shu Chen / 路阳 Yang Lu / 禹扬 Yang Yu / 汉语普通话 / 满语",
+      "people": [
+        "张震",
+        "杨幂",
+        "张译",
+        "雷佳音",
+        "辛芷蕾",
+        "金士杰",
+        "刘端端",
+        "武强",
+        "杨轶",
+        "李媛",
+        "路阳",
+        "陈舒 Shu Chen",
+        "路阳 Yang Lu",
+        "禹扬 Yang Yu",
+        "满语"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2561713454.jpg"
+    },
     {
       "id": "1815487",
       "cid": "4870187617",
@@ -313,51 +528,6 @@
         "埃罗尔·莫里斯 Errol Morris"
       ],
       "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2182771216.jpg"
-    },
-    {
-      "id": "1308820",
-      "cid": "4828590574",
-      "title": "花与爱丽丝",
-      "aka": [
-        "花とアリス",
-        "花与爱丽诗(港)",
-        "Hana & Alice [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1308820/",
-      "cover": "data/posters/1308820.jpg",
-      "year": "2004",
-      "mark_date": "2026-04-27",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "日本"
-      ],
-      "genres": [
-        "剧情",
-        "喜剧",
-        "爱情"
-      ],
-      "languages": [
-        "日语"
-      ],
-      "runtime": "135分钟",
-      "intro_raw": "2004-03-13(日本) / 铃木杏 / 苍井优 / 西村和泉 / 平泉成 / 木村多江 / 相田翔子 / 阿部宽 / 广末凉子 / 大泽隆夫 / 伊藤步 / 日本 / 岩井俊二 / 135分钟 / 花与爱丽丝 / 剧情 / 喜剧 / 爱情 / 岩井俊二 Shunji Iwai / 日语",
-      "people": [
-        "铃木杏",
-        "苍井优",
-        "西村和泉",
-        "平泉成",
-        "木村多江",
-        "相田翔子",
-        "阿部宽",
-        "广末凉子",
-        "大泽隆夫",
-        "伊藤步",
-        "岩井俊二",
-        "花与爱丽丝",
-        "岩井俊二 Shunji Iwai"
-      ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2196652087.jpg"
     },
     {
       "id": "2983437",
@@ -8732,7 +8902,7 @@
         "粤语"
       ],
       "runtime": "100分钟",
-      "intro_raw": "1992-01-25(中国香港) / 张国荣 / 周星驰 / 张曼玉 / 吴君如 / 黄百鸣 / 陈淑兰 / 毛舜筠 / 李香琴 / 关海山 / 高志森 / 中国香港 / 高志森 / 100分钟 / 106分钟(修复加长版) / 家有喜事 / 剧情 / 喜剧 / 爱情 / 家庭 / 谷德昭 Vincent Kok / 蔡婷婷 Tingting Cai / 张肇麟 Roman Cheung / 杨振耀 Jan Yiu Yeung / 粤语",
+      "intro_raw": "1992-01-25(中国香港) / 张国荣 / 周星驰 / 张曼玉 / 吴君如 / 黄百鸣 / 陈淑兰 / 毛舜筠 / 李香琴 / 关海山 / 黄光亮 / 中国香港 / 高志森 / 100分钟 / 106分钟(修复加长版) / 家有喜事 / 剧情 / 喜剧 / 爱情 / 家庭 / 谷德昭 Vincent Kok / 蔡婷婷 Tingting Cai / 张肇麟 Roman Cheung / 杨振耀 Jan Yiu Yeung / 粤语",
       "people": [
         "张国荣",
         "周星驰",
@@ -8743,7 +8913,7 @@
         "毛舜筠",
         "李香琴",
         "关海山",
-        "高志森",
+        "黄光亮",
         "高志森",
         "106分钟(修复加长版)",
         "家有喜事",
@@ -13248,7 +13418,7 @@
         "日语"
       ],
       "runtime": "46分钟",
-      "intro_raw": "2006-01-12(日本) / 山田孝之 / 绫濑遥 / 八千草薰 / 小出惠介 / 大塚千弘 / 武田铁矢 / 盐谷瞬 / 麻生祐未 / 西田尚美 / 奥贯薫 / 日本 / www.tbs.co.jp/byakuyakou/ / 平川雄一朗 / 那须田淳 / 石井康晴 / 46分钟 / 剧情 / 森下佳子 Keiko Morishita / 东野圭吾 Keigo Higashino / 日语",
+      "intro_raw": "2006-01-12(日本) / 山田孝之 / 绫濑遥 / 八千草薰 / 小出惠介 / 大塚千弘 / 武田铁矢 / 盐谷瞬 / 麻生祐未 / 西田尚美 / 奥贯薰 / 日本 / www.tbs.co.jp/byakuyakou/ / 平川雄一朗 / 那须田淳 / 石井康晴 / 46分钟 / 剧情 / 森下佳子 Keiko Morishita / 东野圭吾 Keigo Higashino / 日语",
       "people": [
         "山田孝之",
         "绫濑遥",
@@ -13259,7 +13429,7 @@
         "盐谷瞬",
         "麻生祐未",
         "西田尚美",
-        "奥贯薫",
+        "奥贯薰",
         "www.tbs.co.jp",
         "byakuyakou",
         "平川雄一朗",
