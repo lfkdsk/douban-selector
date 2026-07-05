@@ -2,10 +2,98 @@
   "user": "156631516",
   "type": "collect",
   "label": "看过",
-  "total_declared": 721,
-  "fetched": 719,
-  "fetched_at": "2026-07-04T00:02:56+0000",
+  "total_declared": 723,
+  "fetched": 721,
+  "fetched_at": "2026-07-05T00:02:59+0000",
   "movies": [
+    {
+      "id": "24847343",
+      "cid": "4881147370",
+      "title": "小时代4：灵魂尽头",
+      "aka": [
+        "小时代4",
+        "Tiny Time 4.0 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/24847343/",
+      "cover": "data/posters/24847343.jpg",
+      "year": "2015",
+      "mark_date": "2026-07-04",
+      "rating": 1,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "喜剧",
+        "爱情"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "116分钟",
+      "intro_raw": "2015-07-09(中国大陆) / 杨幂 / 郭采洁 / 陈学冬 / 郭碧婷 / 谢依霖 / 李贤宰 / 锦荣 / 任言恺 / 姜潮 / 王琳 / 中国大陆 / 郭敬明 / 116分钟 / 152分钟(特别版) / 喜剧 / 爱情 / 郭敬明 Jingming Guo / 汉语普通话",
+      "people": [
+        "杨幂",
+        "郭采洁",
+        "陈学冬",
+        "郭碧婷",
+        "谢依霖",
+        "李贤宰",
+        "锦荣",
+        "任言恺",
+        "姜潮",
+        "王琳",
+        "郭敬明",
+        "152分钟(特别版)",
+        "郭敬明 Jingming Guo"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2250399288.jpg"
+    },
+    {
+      "id": "24847340",
+      "cid": "4881022886",
+      "title": "小时代3：刺金时代",
+      "aka": [
+        "小时代3",
+        "Tiny Time 3.0 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/24847340/",
+      "cover": "data/posters/24847340.jpg",
+      "year": "2014",
+      "mark_date": "2026-07-04",
+      "rating": 1,
+      "comment": "震撼人类竟能创造如此奇迹",
+      "countries": [
+        "中国大陆",
+        "中国台湾"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "languages": [
+        "汉语普通话",
+        "英语"
+      ],
+      "runtime": "126分钟",
+      "intro_raw": "2014-07-17(中国大陆) / 杨幂 / 柯震东 / 郭采洁 / 陈学冬 / 郭碧婷 / 谢依霖 / 李贤宰 / 锦荣 / 任言恺 / 王琳 / 中国大陆 / 中国台湾 / 郭敬明 / 126分钟 / 剧情 / 喜剧 / 爱情 / 郭敬明 Jingming Guo / 汉语普通话 / 英语",
+      "people": [
+        "杨幂",
+        "柯震东",
+        "郭采洁",
+        "陈学冬",
+        "郭碧婷",
+        "谢依霖",
+        "李贤宰",
+        "锦荣",
+        "任言恺",
+        "王琳",
+        "郭敬明",
+        "郭敬明 Jingming Guo"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2189080319.jpg"
+    },
     {
       "id": "24721493",
       "cid": "4875845219",
@@ -304,7 +392,7 @@
       "aka": [
         "Hoppers",
         "狸想奇兵(港)",
-        "狸想世界(台)"
+        "狸想世界(台) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/36999793/",
       "cover": "data/posters/36999793.jpg",
