@@ -2,10 +2,56 @@
   "user": "156631516",
   "type": "collect",
   "label": "看过",
-  "total_declared": 723,
-  "fetched": 721,
-  "fetched_at": "2026-07-11T00:03:01+0000",
+  "total_declared": 724,
+  "fetched": 722,
+  "fetched_at": "2026-07-12T00:03:06+0000",
   "movies": [
+    {
+      "id": "30279170",
+      "cid": "4886358137",
+      "title": "倒数时刻",
+      "aka": [
+        "Tick, Tick…Boom!",
+        "滴答，滴答……轰隆隆",
+        "梦想期限(港)"
+      ],
+      "url": "https://movie.douban.com/subject/30279170/",
+      "cover": "data/posters/30279170.jpg",
+      "year": "2021",
+      "mark_date": "2026-07-11",
+      "rating": 5,
+      "comment": "",
+      "countries": [
+        "美国"
+      ],
+      "genres": [
+        "剧情",
+        "传记",
+        "歌舞"
+      ],
+      "languages": [
+        "英语"
+      ],
+      "runtime": "115分钟",
+      "intro_raw": "2021-11-10(美国电影学会电影节) / 2021-11-12(美国) / 2021-11-19(美国网络) / 安德鲁·加菲尔德 / 亚历山德拉·希普 / 罗宾·德·齐泽斯 / 凡妮莎·哈金斯 / 约书亚·亨利 / 乔纳森·马克·谢尔曼 / MJ·罗德里格斯 / 朱迪斯·赖特 / 布莱德利·惠特福德 / 林-曼努尔·米兰达 / 美国 / 林-曼努尔·米兰达 / 115分钟 / 倒数时刻 / 剧情 / 传记 / 歌舞 / 史蒂文·莱文森 Steven Levenson / 乔纳森·拉森 Jonathan Larson / 英语",
+      "people": [
+        "安德鲁·加菲尔德",
+        "亚历山德拉·希普",
+        "罗宾·德·齐泽斯",
+        "凡妮莎·哈金斯",
+        "约书亚·亨利",
+        "乔纳森·马克·谢尔曼",
+        "MJ·罗德里格斯",
+        "朱迪斯·赖特",
+        "布莱德利·惠特福德",
+        "林-曼努尔·米兰达",
+        "林-曼努尔·米兰达",
+        "倒数时刻",
+        "史蒂文·莱文森 Steven Levenson",
+        "乔纳森·拉森 Jonathan Larson"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2690712224.jpg"
+    },
     {
       "id": "24847343",
       "cid": "4881147370",
