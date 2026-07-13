@@ -2,10 +2,55 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 756,
-  "fetched": 749,
-  "fetched_at": "2026-06-29T22:28:53+0000",
+  "total_declared": 757,
+  "fetched": 750,
+  "fetched_at": "2026-07-13T22:23:39+0000",
   "movies": [
+    {
+      "id": "35956190",
+      "cid": "4219412660",
+      "title": "走走停停",
+      "aka": [
+        "Gold or Shit",
+        "G for Gap [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/35956190/",
+      "cover": "data/posters/35956190.jpg",
+      "year": "2024",
+      "mark_date": "2026-07-06",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "家庭"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "103分钟",
+      "intro_raw": "2024-04-19(北京国际电影节) / 2024-06-08(中国大陆) / 胡歌 / 高圆圆 / 岳红 / 周野芒 / 金靖 / 刘钧 / 甘昀宸 / 刘仪伟 / 张鲁一 / 袁弘 / 中国大陆 / 龙飞 / 2024-04-19 20:00 / 103分钟 / 99分钟(北京国际电影节) / 剧情 / 喜剧 / 家庭 / 黄佳 Huang Jia / 汉语普通话 / 四川话",
+      "people": [
+        "胡歌",
+        "高圆圆",
+        "岳红",
+        "周野芒",
+        "金靖",
+        "刘钧",
+        "甘昀宸",
+        "刘仪伟",
+        "张鲁一",
+        "袁弘",
+        "龙飞",
+        "99分钟(北京国际电影节)",
+        "黄佳 Huang Jia",
+        "四川话"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2907440658.jpg"
+    },
     {
       "id": "1308820",
       "cid": "4828590574",
@@ -13180,9 +13225,7 @@
       "id": "2133474",
       "cid": "4212119959",
       "title": "地下交通站",
-      "aka": [
-        "[可播放]"
-      ],
+      "aka": [],
       "url": "https://movie.douban.com/subject/2133474/",
       "cover": "data/posters/2133474.jpg",
       "year": "2007",
@@ -19976,24 +20019,25 @@
         "英语"
       ],
       "runtime": "253分钟",
-      "intro_raw": "2006-05(戛纳电影节) / 2025-12-05(美国) / 2026(中国大陆) / 乌玛·瑟曼 / 刘玉玲 / 薇薇卡·福克斯 / 迈克尔·马德森 / 达丽尔·汉纳 / 大卫·卡拉丁 / 朱莉·德赖弗斯 / 栗山千明 / 千叶真一 / 刘家辉 / 美国 / 昆汀·塔伦蒂诺 / 253分钟 / 杀死比尔：血色全传 / 动作 / 犯罪 / 昆汀·塔伦蒂诺 Quentin Tarantino / 乌玛·瑟曼 Uma Thurman / 英语",
+      "intro_raw": "2006-05(戛纳电影节) / 2025-12-05(美国) / 2026-08-07(中国大陆) / 乌玛·瑟曼 / 刘玉玲 / 薇薇卡·福克斯 / 达丽尔·汉纳 / 迈克尔·马德森 / 大卫·卡拉丁 / 千叶真一 / 朱莉·德赖弗斯 / 栗山千明 / 刘家辉 / 美国 / 昆汀·塔伦蒂诺 / 253分钟 / 275分钟(重映版) / 杀死比尔：血色全传 / 动作 / 犯罪 / 昆汀·塔伦蒂诺 Quentin Tarantino / 乌玛·瑟曼 Uma Thurman / 英语",
       "people": [
         "乌玛·瑟曼",
         "刘玉玲",
         "薇薇卡·福克斯",
-        "迈克尔·马德森",
         "达丽尔·汉纳",
+        "迈克尔·马德森",
         "大卫·卡拉丁",
+        "千叶真一",
         "朱莉·德赖弗斯",
         "栗山千明",
-        "千叶真一",
         "刘家辉",
         "昆汀·塔伦蒂诺",
+        "275分钟(重映版)",
         "杀死比尔：血色全传",
         "昆汀·塔伦蒂诺 Quentin Tarantino",
         "乌玛·瑟曼 Uma Thurman"
       ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1557229084.jpg"
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2933745954.jpg"
     },
     {
       "id": "35118256",
@@ -20052,7 +20096,7 @@
         "Jan Bartkowicz",
         "Łukasz Ludkowski"
       ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2928741186.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933686853.jpg"
     },
     {
       "id": "1291584",
@@ -23258,7 +23302,7 @@
         "英语"
       ],
       "runtime": "99分钟",
-      "intro_raw": "2009-10-16(英国) / 梅利莎·乔治 / 迈克尔·多曼 / 利亚姆·海姆斯沃斯 / 瑞秋·卡帕尼 / 亨利·尼克松 / 艾玛·朗 / 约书亚·麦基弗 / 杰克·泰勒 / 布莱恩·普罗贝茨 / 英国 / 澳大利亚 / 克里斯托弗·史密斯 / 99分钟 / 恐怖游轮 / 科幻 / 悬疑 / 奇幻 / 惊悚 / 克里斯托弗·史密斯 Christopher Smith / 英语",
+      "intro_raw": "2009-10-16(英国) / 2026-07-17(中国大陆) / 梅利莎·乔治 / 迈克尔·多曼 / 利亚姆·海姆斯沃斯 / 瑞秋·卡帕尼 / 亨利·尼克松 / 艾玛·朗 / 约书亚·麦基弗 / 杰克·泰勒 / 布莱恩·普罗贝茨 / 英国 / 澳大利亚 / 克里斯托弗·史密斯 / 99分钟 / 恐怖游轮 / 科幻 / 悬疑 / 奇幻 / 惊悚 / 克里斯托弗·史密斯 Christopher Smith / 英语",
       "people": [
         "梅利莎·乔治",
         "迈克尔·多曼",
@@ -23273,7 +23317,7 @@
         "恐怖游轮",
         "克里斯托弗·史密斯 Christopher Smith"
       ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p462470694.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933909877.jpg"
     },
     {
       "id": "1433736",
