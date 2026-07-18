@@ -4,7 +4,7 @@
   "label": "想看",
   "total_declared": 647,
   "fetched": 635,
-  "fetched_at": "2026-07-17T00:01:25+0000",
+  "fetched_at": "2026-07-18T00:01:24+0000",
   "movies": [
     {
       "id": "35956190",
@@ -1189,7 +1189,7 @@
         "英语"
       ],
       "runtime": "45分钟",
-      "intro_raw": "2015-02-08(美国) / 罗伯特·德斯特 / 安德鲁·亚雷茨基 / 珍妮·皮洛 / Kevin J. Hynes / 切斯拉·冈萨雷兹 / 马克·斯默林 / 苏珊·伯曼 / 克尔斯滕·邓斯特 / 弗兰克·兰格拉 / Kim Lankford / 美国 / www.hbo.com/the-jinx-the-life-and-deaths-of-robert-durst# / 安德鲁·亚雷茨基 / 纽约灾星 / 45分钟 / 纽约灾星 / 犯罪 / 悬疑 / 纪录片 / 安德鲁·杰瑞克奇 Andrew Jarecki / Marc Smerling / Zachary Stuart-Pontier / 英语",
+      "intro_raw": "2015-02-08(美国) / 罗伯特·德斯特 / 安德鲁·亚雷茨基 / 珍妮·皮洛 / Kevin J. Hynes / 切斯拉·冈萨雷兹 / 马克·斯默林 / 苏珊·伯曼 / 克尔斯滕·邓斯特 / 弗兰克·兰格拉 / Kim Lankford / 美国 / www.hbo.com/the-jinx-the-life-and-deaths-of-robert-durst# / 安德鲁·亚雷茨基 / 纽约灾星 / 45分钟 / 纽约灾星 / 犯罪 / 悬疑 / 纪录片 / 安德鲁·杰瑞克奇 Andrew Jarecki / 马克·斯默林 Marc Smerling / 扎克利·斯图尔特-庞提尔 Zachary Stuart-Pontier / 英语",
       "people": [
         "罗伯特·德斯特",
         "安德鲁·亚雷茨基",
@@ -1207,8 +1207,8 @@
         "纽约灾星",
         "纽约灾星",
         "安德鲁·杰瑞克奇 Andrew Jarecki",
-        "Marc Smerling",
-        "Zachary Stuart-Pontier"
+        "马克·斯默林 Marc Smerling",
+        "扎克利·斯图尔特-庞提尔 Zachary Stuart-Pontier"
       ],
       "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2226819920.jpg"
     },
