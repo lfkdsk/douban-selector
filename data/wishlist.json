@@ -4,7 +4,7 @@
   "label": "想看",
   "total_declared": 648,
   "fetched": 636,
-  "fetched_at": "2026-07-20T00:01:27+0000",
+  "fetched_at": "2026-07-21T00:01:27+0000",
   "movies": [
     {
       "id": "36936169",
@@ -2540,7 +2540,7 @@
         "马尔科姆与玛丽",
         "萨姆·莱文森 Sam Levinson"
       ],
-      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2632596629.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2631141353.jpg"
     },
     {
       "id": "35341588",
@@ -16758,7 +16758,7 @@
         "韩语"
       ],
       "runtime": "148分钟",
-      "intro_raw": "2018-05-16(戛纳电影节) / 2018-05-17(韩国) / 刘亚仁 / 史蒂文·元 / 全钟瑞 / 金秀京 / 崔承浩 / 玉子妍 / 赵勇俊 / 张元亨 / 文成根 / 李仲玉 / 韩国 / 李沧东 / 148分钟 / 燃烧 / 剧情 / 犯罪 / 悬疑 / 李沧东 Chang-dong Lee / Jungmi Oh / 村上春树 Haruki Murakami / 韩语",
+      "intro_raw": "2018-05-16(戛纳电影节) / 2018-05-17(韩国) / 刘亚仁 / 史蒂文·元 / 全钟瑞 / 金秀京 / 崔承浩 / 玉子妍 / 赵勇俊 / 张元亨 / 文成根 / 李仲玉 / 韩国 / 李沧东 / 148分钟 / 燃烧 / 剧情 / 犯罪 / 悬疑 / 李沧东 Chang-dong Lee / Jungmi Oh / 韩语",
       "people": [
         "刘亚仁",
         "史蒂文·元",
@@ -16773,8 +16773,7 @@
         "李沧东",
         "燃烧",
         "李沧东 Chang-dong Lee",
-        "Jungmi Oh",
-        "村上春树 Haruki Murakami"
+        "Jungmi Oh"
       ],
       "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2520095279.jpg"
     },
