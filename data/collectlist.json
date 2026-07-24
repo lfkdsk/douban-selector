@@ -4,7 +4,7 @@
   "label": "看过",
   "total_declared": 725,
   "fetched": 723,
-  "fetched_at": "2026-07-23T00:03:00+0000",
+  "fetched_at": "2026-07-24T00:02:58+0000",
   "movies": [
     {
       "id": "35801594",
@@ -76,13 +76,14 @@
       "genres": [
         "剧情",
         "传记",
+        "音乐",
         "歌舞"
       ],
       "languages": [
         "英语"
       ],
       "runtime": "115分钟",
-      "intro_raw": "2021-11-10(美国电影学会电影节) / 2021-11-12(美国) / 2021-11-19(美国网络) / 安德鲁·加菲尔德 / 亚历山德拉·希普 / 罗宾·德·齐泽斯 / 凡妮莎·哈金斯 / 约书亚·亨利 / 乔纳森·马克·谢尔曼 / MJ·罗德里格斯 / 朱迪斯·赖特 / 布莱德利·惠特福德 / 林-曼努尔·米兰达 / 美国 / 林-曼努尔·米兰达 / 115分钟 / 倒数时刻 / 剧情 / 传记 / 歌舞 / 史蒂文·莱文森 Steven Levenson / 乔纳森·拉森 Jonathan Larson / 英语",
+      "intro_raw": "2021-11-10(美国电影学会电影节) / 2021-11-12(美国) / 2021-11-19(美国网络) / 安德鲁·加菲尔德 / 亚历山德拉·希普 / 罗宾·德·齐泽斯 / 凡妮莎·哈金斯 / 约书亚·亨利 / 乔纳森·马克·谢尔曼 / MJ·罗德里格斯 / 朱迪斯·赖特 / 布莱德利·惠特福德 / 林-曼努尔·米兰达 / 美国 / 林-曼努尔·米兰达 / 115分钟 / 倒数时刻 / 剧情 / 传记 / 音乐 / 歌舞 / 史蒂文·莱文森 Steven Levenson / 乔纳森·拉森 Jonathan Larson / 英语",
       "people": [
         "安德鲁·加菲尔德",
         "亚历山德拉·希普",
@@ -1894,7 +1895,7 @@
         "猫猫的奇幻漂流",
         "金兹·兹巴洛迪斯 Gints Zilbalodis"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2917594343.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934155823.jpg"
     },
     {
       "id": "26725184",
@@ -1951,7 +1952,7 @@
       "aka": [
         "幸せカナコの殺し屋生活",
         "Happy Kanako's Killer Life",
-        "伽菜子的幸福杀手生活"
+        "伽菜子的幸福杀手生活 [可播放]"
       ],
       "url": "https://movie.douban.com/subject/36883141/",
       "cover": "data/posters/36883141.jpg",
@@ -2864,7 +2865,7 @@
       "title": "钛",
       "aka": [
         "Titane",
-        "变钛(港)"
+        "变钛(港) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/34820925/",
       "cover": "data/posters/34820925.jpg",
@@ -8046,7 +8047,7 @@
       "aka": [
         "The Tragedy of Macbeth",
         "森林复活记(台)",
-        "浴血金銮殿(港)"
+        "浴血金銮殿(港) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/1437096/",
       "cover": "data/posters/1437096.jpg",
@@ -10817,7 +10818,7 @@
       "aka": [
         "ジョジョの奇妙な冒険 黄金の風",
         "JOJO的奇妙冒险 第五季",
-        "JoJo's Bizarre Adventure: Golden Wind"
+        "JoJo's Bizarre Adventure: Golden Wind [可播放]"
       ],
       "url": "https://movie.douban.com/subject/27666505/",
       "cover": "data/posters/27666505.jpg",
@@ -19645,7 +19646,8 @@
       "cid": "1313920449",
       "title": "拽妹黛薇儿 第三季",
       "aka": [
-        "Daria Season 3"
+        "Daria Season 3",
+        "[可播放]"
       ],
       "url": "https://movie.douban.com/subject/26583811/",
       "cover": "data/posters/26583811.jpg",
@@ -20411,7 +20413,7 @@
       "aka": [
         "Day &amp; Night",
         "阳光昼与阴郁夜",
-        "白天与夜晚"
+        "白天与夜晚 [可播放]"
       ],
       "url": "https://movie.douban.com/subject/4718352/",
       "cover": "data/posters/4718352.jpg",
@@ -23153,7 +23155,8 @@
       "cid": "1313920361",
       "title": "拽妹黛薇儿 第二季",
       "aka": [
-        "Daria Season 2"
+        "Daria Season 2",
+        "[可播放]"
       ],
       "url": "https://movie.douban.com/subject/26583810/",
       "cover": "data/posters/26583810.jpg",
@@ -23189,7 +23192,7 @@
       "title": "拽妹黛薇儿 第一季",
       "aka": [
         "Daria Season 1",
-        "跩妹黛薇兒"
+        "跩妹黛薇兒 [可播放]"
       ],
       "url": "https://movie.douban.com/subject/1839600/",
       "cover": "data/posters/1839600.jpg",
