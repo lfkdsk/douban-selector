@@ -4,7 +4,7 @@
   "label": "看过",
   "total_declared": 762,
   "fetched": 755,
-  "fetched_at": "2026-07-20T22:25:09+0000",
+  "fetched_at": "2026-07-27T22:28:54+0000",
   "movies": [
     {
       "id": "1307394",
@@ -5237,13 +5237,14 @@
       ],
       "genres": [
         "动画",
+        "奇幻",
         "冒险"
       ],
       "languages": [
         "日语"
       ],
       "runtime": "24分钟",
-      "intro_raw": "2021-01-10(日本) / 内山夕实 / 小原好美 / 茅野爱衣 / 加隈亚衣 / 森川智之 / 金元寿子 / Lynn / 浪川大辅 / 岩泽俊树 / 竹田海渡 / 日本 / 冈本学 / 24分钟 / 无职转生：到了异世界就拿出真本事 / 动画 / 冒险 / 冈本学 Okamoto Manabu / 日语",
+      "intro_raw": "2021-01-10(日本) / 内山夕实 / 小原好美 / 茅野爱衣 / 加隈亚衣 / 森川智之 / 金元寿子 / Lynn / 浪川大辅 / 岩泽俊树 / 竹田海渡 / 日本 / 冈本学 / 24分钟 / 无职转生：到了异世界就拿出真本事 / 动画 / 奇幻 / 冒险 / 冈本学 Okamoto Manabu / 日语",
       "people": [
         "内山夕实",
         "小原好美",
@@ -6877,18 +6878,18 @@
         "日语"
       ],
       "runtime": "23分钟",
-      "intro_raw": "1990-01-07(日本) / 鳕子 / 水谷优子 / 一龙斋贞友 / 屋良有作 / 富山敬 / 青野武 / 岛田敏 / 佐佐木优子 / 渡边菜生子 / 川田妙子 / 日本 / 芝山努 / 棚桥一德 / 楠叶宏三 / 佐藤龙雄 / 高木淳 / 高松信司 / 小林常夫 / 宫下新平 / 片渊须直 / 西田健一 / 23分钟 / 樱桃小丸子 / 动画 / 喜剧 / 剧情 / 家庭 / 樱桃子 Momoko Sakura / 芝山努 Tsutomu Shibayama / 叶山阳一郎 Yôichirô Hayama / 日语",
+      "intro_raw": "1990-01-07(日本) / 鳕子 / 水谷优子 / 一龙斋贞友 / 屋良有作 / 富山敬 / 佐佐木优子 / 渡边菜生子 / 川田妙子 / 楢桥美纪 / 田野惠 / 日本 / 芝山努 / 棚桥一德 / 楠叶宏三 / 佐藤龙雄 / 高木淳 / 高松信司 / 小林常夫 / 宫下新平 / 片渊须直 / 西田健一 / 23分钟 / 樱桃小丸子 / 动画 / 喜剧 / 剧情 / 家庭 / 樱桃子 Momoko Sakura / 芝山努 Tsutomu Shibayama / 叶山阳一郎 Yôichirô Hayama / 日语",
       "people": [
         "鳕子",
         "水谷优子",
         "一龙斋贞友",
         "屋良有作",
         "富山敬",
-        "青野武",
-        "岛田敏",
         "佐佐木优子",
         "渡边菜生子",
         "川田妙子",
+        "楢桥美纪",
+        "田野惠",
         "芝山努",
         "棚桥一德",
         "楠叶宏三",
@@ -8881,7 +8882,7 @@
         "日语"
       ],
       "runtime": "30分钟",
-      "intro_raw": "1999-03-07(日本) / 藤田淑子 / 风间勇刀 / 水谷优子 / 天神有海 / 前田爱 / 菊池正美 / 小西宽子 / 荒木香惠 / 坂本千夏 / 山口真弓 / 日本 / 角铜博之 / 芝田浩树 / 川田武范 / 今泽哲男 / 早川启二 / 志水淳儿 / 小坂春女 / 中村哲治 / 细田守 / 30分钟 / 数码宝贝 / 动画 / 动作 / 冒险 / 家庭 / 奇幻 / 惊悚 / 本乡昭由 Akiyoshi Hongo / 西园悟 Nishizono Satoru / 雅木宏 Masaki Hiro / 前川淳 Atsushi Maekawa / 吉村元希 Genki Yoshimura / 浦泽义雄 Yoshio Urasawa / 大和屋晓 Akatsuki Yamatoya / 吉田玲子 Reiko Yoshida / 日语",
+      "intro_raw": "1999-03-07(日本) / 藤田淑子 / 风间勇刀 / 水谷优子 / 天神有海 / 前田爱 / 菊池正美 / 小西宽子 / 荒木香惠 / 坂本千夏 / 山口真弓 / 日本 / 角铜博之 / 芝田浩树 / 川田武范 / 今泽哲男 / 早川启二 / 志水淳儿 / 小坂春女 / 中村哲治 / 细田守 / 今村隆宽 / 30分钟 / 数码宝贝 / 动画 / 动作 / 冒险 / 家庭 / 奇幻 / 惊悚 / 本乡昭由 Akiyoshi Hongo / 西园悟 Nishizono Satoru / 雅木宏 Masaki Hiro / 前川淳 Atsushi Maekawa / 吉村元希 Genki Yoshimura / 浦泽义雄 Yoshio Urasawa / 大和屋晓 Akatsuki Yamatoya / 吉田玲子 Reiko Yoshida / 日语",
       "people": [
         "藤田淑子",
         "风间勇刀",
@@ -8902,6 +8903,7 @@
         "小坂春女",
         "中村哲治",
         "细田守",
+        "今村隆宽",
         "数码宝贝",
         "本乡昭由 Akiyoshi Hongo",
         "西园悟 Nishizono Satoru",
@@ -34703,7 +34705,7 @@
         "英语"
       ],
       "runtime": "111分钟",
-      "intro_raw": "1995-07-15(日本) / 本名阳子 / 小林桂树 / 高山南 / 高桥一生 / 山下容莉枝 / 室井滋 / 露口茂 / 饭冢雅弓 / 加利·艾尔维斯 / 珍·斯玛特 / 日本 / 近藤喜文 / 111分钟 / 侧耳倾听 / 剧情 / 爱情 / 动画 / 宫崎骏 Hayao Miyazaki / 柊葵 Aoi Hîragi / 日语 / 英语",
+      "intro_raw": "1995-07-15(日本) / 本名阳子 / 小林桂树 / 高山南 / 高桥一生 / 山下容莉枝 / 室井滋 / 露口茂 / 饭冢雅弓 / 加利·艾尔维斯 / 布里特妮·斯诺 / 日本 / 近藤喜文 / 111分钟 / 侧耳倾听 / 剧情 / 爱情 / 动画 / 宫崎骏 Hayao Miyazaki / 柊葵 Aoi Hîragi / 日语 / 英语",
       "people": [
         "本名阳子",
         "小林桂树",
@@ -34714,7 +34716,7 @@
         "露口茂",
         "饭冢雅弓",
         "加利·艾尔维斯",
-        "珍·斯玛特",
+        "布里特妮·斯诺",
         "近藤喜文",
         "侧耳倾听",
         "宫崎骏 Hayao Miyazaki",
@@ -35052,7 +35054,7 @@
         "艾瑞克·罗斯 Eric Roth",
         "Winston Groom"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500944103.jpg"
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p510876609.jpg"
     },
     {
       "id": "1849031",
@@ -35098,7 +35100,7 @@
         "当幸福来敲门",
         "史帝文·康拉德 Steve Conrad"
       ],
-      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.jpg"
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2220721286.jpg"
     },
     {
       "id": "1292001",
