@@ -2,10 +2,176 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 762,
-  "fetched": 755,
-  "fetched_at": "2026-08-10T22:16:50+0000",
+  "total_declared": 766,
+  "fetched": 759,
+  "fetched_at": "2026-08-17T22:25:40+0000",
   "movies": [
+    {
+      "id": "4135710",
+      "cid": "4172540456",
+      "title": "Hello！树先生",
+      "aka": [
+        "Mr. Tree [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/4135710/",
+      "cover": "data/posters/4135710.jpg",
+      "year": "2011",
+      "mark_date": "2026-08-17",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "88分钟",
+      "intro_raw": "2011-11-04(中国大陆) / 王宝强 / 谭卓 / 何洁 / 白培将 / 王大治 / 王亚彬 / 李京怡 / 邱士鉴 / 中国大陆 / 韩杰 / 88分钟 / 剧情 / 韩杰 Jie Han / 汉语普通话",
+      "people": [
+        "王宝强",
+        "谭卓",
+        "何洁",
+        "白培将",
+        "王大治",
+        "王亚彬",
+        "李京怡",
+        "邱士鉴",
+        "韩杰",
+        "韩杰 Jie Han"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1271999126.jpg"
+    },
+    {
+      "id": "25895276",
+      "cid": "4920517149",
+      "title": "煎饼侠",
+      "aka": [
+        "屌丝男士大电影",
+        "Jian Bing Man [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/25895276/",
+      "cover": "data/posters/25895276.jpg",
+      "year": "2015",
+      "mark_date": "2026-08-16",
+      "rating": 2,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "喜剧"
+      ],
+      "languages": [
+        "汉语普通话",
+        "英语",
+        "粤语"
+      ],
+      "runtime": "113分钟",
+      "intro_raw": "2015-07-17(中国大陆) / 大鹏 / 袁姗姗 / 柳岩 / 吴君如 / 曾志伟 / 岳云鹏 / 衣云鹤 / 梁超 / 潘斌龙 / 崔志佳 / 中国大陆 / 大鹏 / 113分钟 / 喜剧 / 董成鹏 Da Peng / 苏彪 Biao Su / 汉语普通话 / 英语 / 粤语",
+      "people": [
+        "大鹏",
+        "袁姗姗",
+        "柳岩",
+        "吴君如",
+        "曾志伟",
+        "岳云鹏",
+        "衣云鹤",
+        "梁超",
+        "潘斌龙",
+        "崔志佳",
+        "大鹏",
+        "董成鹏 Da Peng",
+        "苏彪 Biao Su"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2253038483.jpg"
+    },
+    {
+      "id": "26926321",
+      "cid": "4920340364",
+      "title": "缝纫机乐队",
+      "aka": [
+        "City of Rock [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/26926321/",
+      "cover": "data/posters/26926321.jpg",
+      "year": "2017",
+      "mark_date": "2026-08-16",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "喜剧",
+        "音乐"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "117分钟",
+      "intro_raw": "2017-09-29(中国大陆) / 大鹏 / 乔杉 / 古力娜扎 / 李鸿其 / 韩童生 / 曲隽希 / 于谦 / 岳云鹏 / 王劲松 / 于洋 / 中国大陆 / 大鹏 / 117分钟 / 喜剧 / 音乐 / 大鹏 Da Peng / 苏彪 Biao Su / 汉语普通话",
+      "people": [
+        "大鹏",
+        "乔杉",
+        "古力娜扎",
+        "李鸿其",
+        "韩童生",
+        "曲隽希",
+        "于谦",
+        "岳云鹏",
+        "王劲松",
+        "于洋",
+        "大鹏",
+        "大鹏 Da Peng",
+        "苏彪 Biao Su"
+      ],
+      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2498558511.jpg"
+    },
+    {
+      "id": "36372941",
+      "cid": "4920155899",
+      "title": "森中有林",
+      "aka": [
+        "All The Good Eyes [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/36372941/",
+      "cover": "data/posters/36372941.jpg",
+      "year": "2026",
+      "mark_date": "2026-08-16",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "犯罪"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "117分钟",
+      "intro_raw": "2026-04-17(北京国际电影节) / 2026-05-23(中国大陆) / 于和伟 / 高圆圆 / 韩庚 / 张天爱 / 乔杉 / 夏之光 / 邬家楷 / 谢可寅 / 宋小宝 / 安韩瑾 / 中国大陆 / 郑执 / 2026-04-17 / 117分钟 / 剧情 / 爱情 / 犯罪 / 郑执 Zhi Zheng / 汉语普通话",
+      "people": [
+        "于和伟",
+        "高圆圆",
+        "韩庚",
+        "张天爱",
+        "乔杉",
+        "夏之光",
+        "邬家楷",
+        "谢可寅",
+        "宋小宝",
+        "安韩瑾",
+        "郑执",
+        "郑执 Zhi Zheng"
+      ],
+      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2931808301.jpg"
+    },
     {
       "id": "1307394",
       "cid": "3337819319",
@@ -8798,7 +8964,7 @@
         "安川正吾 Shogo Yasukawa",
         "加藤敏幸 Toshiyuki Kato"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2390559277.jpg"
+      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2327210831.jpg"
     },
     {
       "id": "25984031",
@@ -13574,7 +13740,7 @@
         "汉语普通话"
       ],
       "runtime": "20分钟",
-      "intro_raw": "1993-07-01(中国大陆) / 1994-04-25(中国香港) / 文兴宇 / 宋丹丹 / 杨立新 / 梁天 / 关凌 / 赵明明 / 沈羽倩 / 刘蓓 / 李蕴桥 / 句号 / 中国大陆 / 英达 / 林丛 / 20分钟 / 喜剧 / 家庭 / 梁左 Zuo Liang / 英壮 Zhuang Ying / 梁欢 Huan Liang / 臧里 Li Zang / 汉语普通话 / 北京话",
+      "intro_raw": "1993-07-01(中国大陆) / 1994-04-25(中国香港) / 文兴宇 / 宋丹丹 / 杨立新 / 梁天 / 关凌 / 赵明明 / 沈羽倩 / 李明启 / 方青卓 / 蔡明 / 中国大陆 / 英达 / 林丛 / 20分钟 / 喜剧 / 家庭 / 梁左 Zuo Liang / 英壮 Zhuang Ying / 梁欢 Huan Liang / 臧里 Li Zang / 汉语普通话 / 北京话",
       "people": [
         "文兴宇",
         "宋丹丹",
@@ -13583,9 +13749,9 @@
         "关凌",
         "赵明明",
         "沈羽倩",
-        "刘蓓",
-        "李蕴桥",
-        "句号",
+        "李明启",
+        "方青卓",
+        "蔡明",
         "英达",
         "林丛",
         "梁左 Zuo Liang",
@@ -29483,7 +29649,7 @@
         "日语"
       ],
       "runtime": "181分钟",
-      "intro_raw": "2019-04-24(中国大陆) / 2019-04-26(美国) / 2026-09(中国大陆重映) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 马克·鲁法洛 / 斯嘉丽·约翰逊 / 杰瑞米·雷纳 / 乔什·布洛林 / 保罗·路德 / 凯伦·吉兰 / 唐·钱德尔 / 美国 / www.marvel.com/movies/avengers-endgame / 安东尼·罗素 / 乔·罗素 / 181分钟 / 复仇者联盟4：终局之战 / 剧情 / 动作 / 科幻 / 奇幻 / 冒险 / 克里斯托弗·马库斯 Christopher Markus / 斯蒂芬·麦克菲利 Stephen McFeely / 斯坦·李 Stan Lee / 杰克·科比 Jack Kirby / 吉姆·斯特林 Jim Starlin / 英语 / 日语 / 科萨语",
+      "intro_raw": "2019-04-24(中国大陆) / 2019-04-26(美国) / 2026-09-25(美国重映) / 2026-09(中国大陆重映) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 马克·鲁法洛 / 斯嘉丽·约翰逊 / 杰瑞米·雷纳 / 乔什·布洛林 / 保罗·路德 / 凯伦·吉兰 / 唐·钱德尔 / 美国 / www.marvel.com/movies/avengers-endgame / 安东尼·罗素 / 乔·罗素 / 181分钟 / 复仇者联盟4：终局之战 / 剧情 / 动作 / 科幻 / 奇幻 / 冒险 / 克里斯托弗·马库斯 Christopher Markus / 斯蒂芬·麦克菲利 Stephen McFeely / 斯坦·李 Stan Lee / 杰克·科比 Jack Kirby / 吉姆·斯特林 Jim Starlin / 英语 / 日语 / 科萨语",
       "people": [
         "小罗伯特·唐尼",
         "克里斯·埃文斯",

@@ -4,8 +4,40 @@
   "label": "想看",
   "total_declared": 360,
   "fetched": 358,
-  "fetched_at": "2026-08-10T22:14:48+0000",
+  "fetched_at": "2026-08-17T22:23:20+0000",
   "movies": [
+    {
+      "id": "38581618",
+      "cid": "4919197084",
+      "title": "牛来",
+      "aka": [
+        "Niu Lai"
+      ],
+      "url": "https://movie.douban.com/subject/38581618/",
+      "cover": "data/posters/38581618.jpg",
+      "year": "2026",
+      "mark_date": "2026-08-15",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "动画"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "86分钟",
+      "intro_raw": "2026-08-05(中国大陆) / 信雨萌 / 孙丽芳 / 中国大陆 / 信雨萌 / 86分钟 / 动画 / 孙丽芳 Lifang Sun / 汉语普通话",
+      "people": [
+        "信雨萌",
+        "孙丽芳",
+        "信雨萌",
+        "孙丽芳 Lifang Sun"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2934945600.jpg"
+    },
     {
       "id": "37894778",
       "cid": "4873389078",
@@ -307,7 +339,7 @@
       "aka": [
         "Project Hail Mary",
         "极限返航(台)",
-        "末日圣母号(港)"
+        "末日圣母号(港) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/35010610/",
       "cover": "data/posters/35010610.jpg",
@@ -4508,7 +4540,7 @@
         "日语"
       ],
       "runtime": "24分钟",
-      "intro_raw": "2012-10-01(日本) / 三森铃子 / 立花慎之介 / 岸尾大辅 / 冈本信彦 / 石田彰 / 堀江由衣 / 山崎雅美 / 矢部雅史 / 中野裕斗 / 佐藤聪美 / 日本 / 大地丙太郎 / 山本泰一郎 / 永冈智佳 / 湖山祯崇 / 菱川直树 / 神原敏昭 / 小野田雄亮 / 24分钟 / 元气少女缘结神 / 剧情 / 动画 / 大地丙太郎 Akitarô Daichi / 横手美智子 Michiko Yokote / 铃木朱丽叶塔 / 日语",
+      "intro_raw": "2012-10-01(日本) / 三森铃子 / 立花慎之介 / 岸尾大辅 / 冈本信彦 / 石田彰 / 堀江由衣 / 佐藤聪美 / 浪川大辅 / 山崎雅美 / 松井菜樱子 / 日本 / 大地丙太郎 / 山本泰一郎 / 永冈智佳 / 湖山祯崇 / 菱川直树 / 神原敏昭 / 小野田雄亮 / 24分钟 / 元气少女缘结神 / 剧情 / 动画 / 大地丙太郎 Akitarô Daichi / 横手美智子 Michiko Yokote / 铃木朱丽叶塔 / 日语",
       "people": [
         "三森铃子",
         "立花慎之介",
@@ -4516,10 +4548,10 @@
         "冈本信彦",
         "石田彰",
         "堀江由衣",
-        "山崎雅美",
-        "矢部雅史",
-        "中野裕斗",
         "佐藤聪美",
+        "浪川大辅",
+        "山崎雅美",
+        "松井菜樱子",
         "大地丙太郎",
         "山本泰一郎",
         "永冈智佳",
@@ -10020,44 +10052,6 @@
         "阿图·阿拉里 Arthur Harari"
       ],
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2896940977.jpg"
-    },
-    {
-      "id": "4135710",
-      "cid": "4172540456",
-      "title": "Hello！树先生",
-      "aka": [
-        "Mr. Tree [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/4135710/",
-      "cover": "data/posters/4135710.jpg",
-      "year": "2011",
-      "mark_date": "2024-04-28",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "中国大陆"
-      ],
-      "genres": [
-        "剧情"
-      ],
-      "languages": [
-        "汉语普通话"
-      ],
-      "runtime": "88分钟",
-      "intro_raw": "2011-11-04(中国大陆) / 王宝强 / 谭卓 / 何洁 / 白培将 / 王大治 / 王亚彬 / 李京怡 / 邱士鉴 / 中国大陆 / 韩杰 / 88分钟 / 剧情 / 韩杰 Jie Han / 汉语普通话",
-      "people": [
-        "王宝强",
-        "谭卓",
-        "何洁",
-        "白培将",
-        "王大治",
-        "王亚彬",
-        "李京怡",
-        "邱士鉴",
-        "韩杰",
-        "韩杰 Jie Han"
-      ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1271999126.jpg"
     },
     {
       "id": "26647117",
