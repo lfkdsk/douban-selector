@@ -2,10 +2,55 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 766,
-  "fetched": 759,
-  "fetched_at": "2026-08-17T22:25:40+0000",
+  "total_declared": 767,
+  "fetched": 760,
+  "fetched_at": "2026-08-24T22:26:45+0000",
   "movies": [
+    {
+      "id": "1305164",
+      "cid": "4922582441",
+      "title": "甜蜜蜜",
+      "aka": [
+        "Comrades: Almost a Love Story [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1305164/",
+      "cover": "data/posters/1305164.jpg",
+      "year": "1996",
+      "mark_date": "2026-08-18",
+      "rating": 5,
+      "comment": "",
+      "countries": [
+        "中国香港"
+      ],
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "languages": [
+        "粤语",
+        "汉语普通话",
+        "英语"
+      ],
+      "runtime": "",
+      "intro_raw": "1996-11-02(中国香港) / 2015-02-13(中国大陆) / 黎明 / 张曼玉 / 杨恭如 / 曾志伟 / 杜可风 / 张同祖 / 诸慧荷 / 丁羽 / 谢志华 / 关信辉 / 中国香港 / 陈可辛 / 118分钟(中国大陆) / 116分钟(台湾) / 剧情 / 爱情 / 岸西 Ivy Ho / 粤语 / 汉语普通话 / 英语",
+      "people": [
+        "黎明",
+        "张曼玉",
+        "杨恭如",
+        "曾志伟",
+        "杜可风",
+        "张同祖",
+        "诸慧荷",
+        "丁羽",
+        "谢志华",
+        "关信辉",
+        "陈可辛",
+        "118分钟(中国大陆)",
+        "116分钟(台湾)",
+        "岸西 Ivy Ho"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2223011274.jpg"
+    },
     {
       "id": "4135710",
       "cid": "4172540456",
@@ -18742,7 +18787,7 @@
       "cover": "data/posters/35588177.jpg",
       "year": "2023",
       "mark_date": "2023-05-24",
-      "rating": 3,
+      "rating": 4,
       "comment": "",
       "countries": [
         "中国大陆"
@@ -30932,7 +30977,7 @@
       "aka": [
         "The Shawshank Redemption",
         "月黑高飞(港)",
-        "刺激1995(台) [可播放]"
+        "刺激1995(台)"
       ],
       "url": "https://movie.douban.com/subject/1292052/",
       "cover": "data/posters/1292052.jpg",
