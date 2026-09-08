@@ -2,9 +2,9 @@
   "user": "lfkdsk",
   "type": "wish",
   "label": "想看",
-  "total_declared": 366,
-  "fetched": 364,
-  "fetched_at": "2026-09-01T01:00:19+0000",
+  "total_declared": 365,
+  "fetched": 363,
+  "fetched_at": "2026-09-08T00:00:22+0000",
   "movies": [
     {
       "id": "2238727",
@@ -765,7 +765,7 @@
       "aka": [
         "The Thin Blue Line",
         "一线之差(港)",
-        "正义难伸(台) [可播放]"
+        "正义难伸(台)"
       ],
       "url": "https://movie.douban.com/subject/1296388/",
       "cover": "data/posters/1296388.jpg",
@@ -1455,55 +1455,6 @@
         "宫藤官九郎 Kankurô Kudô"
       ],
       "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2327923746.jpg"
-    },
-    {
-      "id": "37375594",
-      "cid": "4789045666",
-      "title": "夜王",
-      "aka": [
-        "Night King",
-        "夜王(导演版)"
-      ],
-      "url": "https://movie.douban.com/subject/37375594/",
-      "cover": "data/posters/37375594.jpg",
-      "year": "2026",
-      "mark_date": "2026-03-08",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "中国大陆",
-        "中国香港"
-      ],
-      "genres": [
-        "剧情",
-        "喜剧"
-      ],
-      "languages": [
-        "粤语",
-        "汉语普通话",
-        "英语",
-        "越南语"
-      ],
-      "runtime": "133分钟",
-      "intro_raw": "2026-02-17(中国香港) / 2026-02-20(中国大陆) / 黄子华 / 郑秀文 / 王丹妮 / 廖子妤 / 杨伟伦 / 谢君豪 / 卢镇业 / 何启华 / 杨偲泳 / 谭旻萱 / 中国大陆 / 中国香港 / 吴炜伦 / 133分钟 / 162分钟(导演剪辑版) / 剧情 / 喜剧 / 吴炜伦 Wai Lun Ng / 何妙祺 Miu-Kei Ho / 张云青 Jay Cheung / 粤语 / 汉语普通话 / 英语 / 越南语",
-      "people": [
-        "黄子华",
-        "郑秀文",
-        "王丹妮",
-        "廖子妤",
-        "杨伟伦",
-        "谢君豪",
-        "卢镇业",
-        "何启华",
-        "杨偲泳",
-        "谭旻萱",
-        "吴炜伦",
-        "162分钟(导演剪辑版)",
-        "吴炜伦 Wai Lun Ng",
-        "何妙祺 Miu-Kei Ho",
-        "张云青 Jay Cheung"
-      ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2929673775.jpg"
     },
     {
       "id": "1297418",
@@ -5725,7 +5676,7 @@
       "aka": [
         "ソロ活女子のススメ",
         "Solo活女子的推荐",
-        "独活女子的守则 [可播放]"
+        "独活女子的守则"
       ],
       "url": "https://movie.douban.com/subject/35384315/",
       "cover": "data/posters/35384315.jpg",
@@ -12293,7 +12244,7 @@
       "aka": [
         "The Matrix Revolutions",
         "22世纪杀人网络3：惊变世纪(港)",
-        "骇客任务完结篇：最后战役(台) [可播放]"
+        "骇客任务完结篇：最后战役(台)"
       ],
       "url": "https://movie.douban.com/subject/1302467/",
       "cover": "data/posters/1302467.jpg",
@@ -13922,7 +13873,7 @@
       "aka": [
         "夢と狂気の王国",
         "The Kingdom of Dreams and Madness",
-        "Yume to kyôki no ôkoku [可播放]"
+        "Yume to kyôki no ôkoku"
       ],
       "url": "https://movie.douban.com/subject/24851523/",
       "cover": "data/posters/24851523.jpg",
