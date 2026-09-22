@@ -2,10 +2,189 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 772,
-  "fetched": 765,
-  "fetched_at": "2026-09-15T00:21:21+0000",
+  "total_declared": 776,
+  "fetched": 769,
+  "fetched_at": "2026-09-22T00:38:28+0000",
   "movies": [
+    {
+      "id": "36850814",
+      "cid": "4948210027",
+      "title": "年会不能停！2",
+      "aka": [
+        "年会不能停2",
+        "年会不能停2！ [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/36850814/",
+      "cover": "data/posters/36850814.jpg",
+      "year": "2026",
+      "mark_date": "2026-09-20",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "喜剧"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "125分钟",
+      "intro_raw": "2026-08-01(中国大陆) / 张若昀 / 白客 / 高叶 / 大鹏 / 庄达菲 / 孙艺洲 / 田雨 / 王耀庆 / 李乃文 / 李晨 / 中国大陆 / 董润年 / 2026-07-24 21:00 / 125分钟 / 喜剧 / 董润年 Runnian Dong / 应萝佳 Luojia Ying / 汉语普通话",
+      "people": [
+        "张若昀",
+        "白客",
+        "高叶",
+        "大鹏",
+        "庄达菲",
+        "孙艺洲",
+        "田雨",
+        "王耀庆",
+        "李乃文",
+        "李晨",
+        "董润年",
+        "董润年 Runnian Dong",
+        "应萝佳 Luojia Ying"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934583425.jpg"
+    },
+    {
+      "id": "35457272",
+      "cid": "4948206994",
+      "title": "保你平安",
+      "aka": [
+        "洗白白",
+        "Post Truth [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/35457272/",
+      "cover": "data/posters/35457272.jpg",
+      "year": "2022",
+      "mark_date": "2026-09-20",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "112分钟",
+      "intro_raw": "2022-12-18(海南岛国际电影节) / 2023-03-10(中国大陆) / 大鹏 / 李雪琴 / 尹正 / 王迅 / 王圣迪 / 马丽 / 宋茜 / 白宇 / 贾冰 / 杨迪 / 中国大陆 / 大鹏 / 112分钟 / 剧情 / 喜剧 / 苏彪 Biao Su / 大鹏 Chengpeng Dong / 汉语普通话",
+      "people": [
+        "大鹏",
+        "李雪琴",
+        "尹正",
+        "王迅",
+        "王圣迪",
+        "马丽",
+        "宋茜",
+        "白宇",
+        "贾冰",
+        "杨迪",
+        "大鹏",
+        "苏彪 Biao Su",
+        "大鹏 Chengpeng Dong"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2889498097.jpg"
+    },
+    {
+      "id": "34841067",
+      "cid": "4948206826",
+      "title": "你好，李焕英",
+      "aka": [
+        "Hi, Mom",
+        "こんにちは、私のお母さん [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/34841067/",
+      "cover": "data/posters/34841067.jpg",
+      "year": "2021",
+      "mark_date": "2026-09-20",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "奇幻"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "128分钟",
+      "intro_raw": "2021-02-12(中国大陆) / 贾玲 / 张小斐 / 沈腾 / 陈赫 / 刘佳 / 丁嘉丽 / 王琳 / 杜源 / 何翯 / 何欢 / 中国大陆 / 贾玲 / 128分钟 / 剧情 / 喜剧 / 奇幻 / 贾玲 Ling Jia / 孙集斌 Jibin Sun / 王宇 Yu Wang / 刘宏禄 Honglu Liu / 卜钰 Yu Bu / 郭宇鹏 Yupeng Guo / 汉语普通话",
+      "people": [
+        "贾玲",
+        "张小斐",
+        "沈腾",
+        "陈赫",
+        "刘佳",
+        "丁嘉丽",
+        "王琳",
+        "杜源",
+        "何翯",
+        "何欢",
+        "贾玲",
+        "贾玲 Ling Jia",
+        "孙集斌 Jibin Sun",
+        "王宇 Yu Wang",
+        "刘宏禄 Honglu Liu",
+        "卜钰 Yu Bu",
+        "郭宇鹏 Yupeng Guo"
+      ],
+      "cover_remote": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2629056068.jpg"
+    },
+    {
+      "id": "20515070",
+      "cid": "4612909034",
+      "title": "军中乐园",
+      "aka": [
+        "軍中樂園",
+        "Paradise in Service"
+      ],
+      "url": "https://movie.douban.com/subject/20515070/",
+      "cover": "data/posters/20515070.jpg",
+      "year": "2014",
+      "mark_date": "2026-09-20",
+      "rating": 5,
+      "comment": "",
+      "countries": [
+        "中国台湾",
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "历史",
+        "爱情"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "133分钟",
+      "intro_raw": "2014-09-05(中国台湾) / 阮经天 / 万茜 / 陈意涵 / 陈建斌 / 王柏杰 / 苗可丽 / 陈大天 / 洪都拉斯 / 吴志庆 / 廖启智 / 中国台湾 / 中国大陆 / 钮承泽 / 133分钟 / 军中乐园 / 剧情 / 历史 / 爱情 / 钮承泽 Doze Niu Chen-Zer / 曾莉婷 Li-ting Tseng / 汉语普通话",
+      "people": [
+        "阮经天",
+        "万茜",
+        "陈意涵",
+        "陈建斌",
+        "王柏杰",
+        "苗可丽",
+        "陈大天",
+        "洪都拉斯",
+        "吴志庆",
+        "廖启智",
+        "钮承泽",
+        "军中乐园",
+        "钮承泽 Doze Niu Chen-Zer",
+        "曾莉婷 Li-ting Tseng"
+      ],
+      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2244406291.jpg"
+    },
     {
       "id": "26261188",
       "cid": "4944160964",
@@ -20731,7 +20910,7 @@
         "昆汀·塔伦蒂诺 Quentin Tarantino",
         "乌玛·瑟曼 Uma Thurman"
       ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2933745954.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2935283057.jpg"
     },
     {
       "id": "35118256",
@@ -29928,7 +30107,7 @@
         "日语"
       ],
       "runtime": "181分钟",
-      "intro_raw": "2019-04-24(中国大陆) / 2019-04-26(美国) / 2026-09-25(美国重映) / 2026-09-25(中国大陆重映) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 马克·鲁法洛 / 斯嘉丽·约翰逊 / 杰瑞米·雷纳 / 乔什·布洛林 / 保罗·路德 / 凯伦·吉兰 / 唐·钱德尔 / 美国 / www.marvel.com/movies/avengers-endgame / 安东尼·罗素 / 乔·罗素 / 181分钟 / 复仇者联盟4：终局之战 / 剧情 / 动作 / 科幻 / 奇幻 / 冒险 / 克里斯托弗·马库斯 Christopher Markus / 斯蒂芬·麦克菲利 Stephen McFeely / 斯坦·李 Stan Lee / 杰克·科比 Jack Kirby / 吉姆·斯特林 Jim Starlin / 英语 / 日语 / 科萨语",
+      "intro_raw": "2019-04-24(中国大陆) / 2019-04-26(美国) / 2026-09-25(美国重映) / 2026-09-25(中国大陆重映) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 马克·鲁法洛 / 斯嘉丽·约翰逊 / 杰瑞米·雷纳 / 乔什·布洛林 / 保罗·路德 / 凯伦·吉兰 / 唐·钱德尔 / 美国 / www.marvel.com/movies/avengers-endgame / 安东尼·罗素 / 乔·罗素 / 181分钟 / 186分钟(加长版) / 复仇者联盟4：终局之战 / 剧情 / 动作 / 科幻 / 奇幻 / 冒险 / 克里斯托弗·马库斯 Christopher Markus / 斯蒂芬·麦克菲利 Stephen McFeely / 斯坦·李 Stan Lee / 杰克·科比 Jack Kirby / 吉姆·斯特林 Jim Starlin / 英语 / 日语 / 科萨语",
       "people": [
         "小罗伯特·唐尼",
         "克里斯·埃文斯",
@@ -29945,6 +30124,7 @@
         "avengers-endgame",
         "安东尼·罗素",
         "乔·罗素",
+        "186分钟(加长版)",
         "复仇者联盟4：终局之战",
         "克里斯托弗·马库斯 Christopher Markus",
         "斯蒂芬·麦克菲利 Stephen McFeely",
