@@ -2,10 +2,107 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 787,
-  "fetched": 780,
-  "fetched_at": "2026-09-29T01:31:48+0000",
+  "total_declared": 789,
+  "fetched": 782,
+  "fetched_at": "2026-10-06T02:06:34+0000",
   "movies": [
+    {
+      "id": "1306029",
+      "cid": "3235910649",
+      "title": "美丽心灵",
+      "aka": [
+        "A Beautiful Mind",
+        "有你终生美丽(港)",
+        "美丽境界(台) [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1306029/",
+      "cover": "data/posters/1306029.jpg",
+      "year": "2001",
+      "mark_date": "2026-10-01",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "美国"
+      ],
+      "genres": [
+        "传记",
+        "剧情"
+      ],
+      "languages": [
+        "英语"
+      ],
+      "runtime": "135分钟",
+      "intro_raw": "2001-12-13(加州首映) / 2002-01-04(美国) / 罗素·克劳 / 艾德·哈里斯 / 詹妮弗·康纳利 / 克里斯托弗·普卢默 / 保罗·贝坦尼 / 亚当·戈德堡 / 乔什·卢卡斯 / 安东尼·拉普 / 贾森·加里-斯坦福德 / 贾德·赫希 / 美国 / 朗·霍华德 / 135分钟 / 美丽心灵 / 传记 / 剧情 / 阿齐瓦·高斯曼 Akiva Goldsman / 西尔维娅·纳萨尔 Sylvia Nasar / 英语",
+      "people": [
+        "罗素·克劳",
+        "艾德·哈里斯",
+        "詹妮弗·康纳利",
+        "克里斯托弗·普卢默",
+        "保罗·贝坦尼",
+        "亚当·戈德堡",
+        "乔什·卢卡斯",
+        "安东尼·拉普",
+        "贾森·加里-斯坦福德",
+        "贾德·赫希",
+        "朗·霍华德",
+        "美丽心灵",
+        "阿齐瓦·高斯曼 Akiva Goldsman",
+        "西尔维娅·纳萨尔 Sylvia Nasar"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1665997400.jpg"
+    },
+    {
+      "id": "30394797",
+      "cid": "4954170374",
+      "title": "尚气与十环传奇",
+      "aka": [
+        "Shang-Chi and the Legend of the Ten Rings",
+        "尚气与十戒传奇",
+        "尚气与十环帮传奇(港)"
+      ],
+      "url": "https://movie.douban.com/subject/30394797/",
+      "cover": "data/posters/30394797.jpg",
+      "year": "2021",
+      "mark_date": "2026-09-29",
+      "rating": 2,
+      "comment": "难绷长相",
+      "countries": [
+        "美国",
+        "澳大利亚"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "奇幻",
+        "冒险"
+      ],
+      "languages": [
+        "英语",
+        "汉语普通话"
+      ],
+      "runtime": "132分钟",
+      "intro_raw": "2021-09-03(美国) / 2021-11-12(美国网络) / 刘思慕 / 梁朝伟 / 奥卡菲娜 / 张梦儿 / 陈法拉 / 杨紫琼 / 元华 / 王汉斌 / 弗罗里安·穆特鲁 / 黎明 / 美国 / 澳大利亚 / 德斯汀·丹尼尔·克雷顿 / 132分钟 / 尚气与十环传奇 / 动作 / 科幻 / 奇幻 / 冒险 / 戴夫·卡拉汉姆 Dave Callaham / 德斯汀·克里顿 Destin Cretton / 安德鲁·兰纳姆 Andrew Lanham / 史蒂夫·恩格尔哈特 Steve Englehart / 吉姆·斯特林 Jim Starlin / 英语 / 汉语普通话",
+      "people": [
+        "刘思慕",
+        "梁朝伟",
+        "奥卡菲娜",
+        "张梦儿",
+        "陈法拉",
+        "杨紫琼",
+        "元华",
+        "王汉斌",
+        "弗罗里安·穆特鲁",
+        "黎明",
+        "德斯汀·丹尼尔·克雷顿",
+        "尚气与十环传奇",
+        "戴夫·卡拉汉姆 Dave Callaham",
+        "德斯汀·克里顿 Destin Cretton",
+        "安德鲁·兰纳姆 Andrew Lanham",
+        "史蒂夫·恩格尔哈特 Steve Englehart",
+        "吉姆·斯特林 Jim Starlin"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2674321872.jpg"
+    },
     {
       "id": "1308232",
       "cid": "4870187590",
@@ -22726,23 +22823,23 @@
         "匈牙利语"
       ],
       "runtime": "101分钟",
-      "intro_raw": "2014-10-24(美国) / 2026(中国大陆) / 基努·里维斯 / 迈克尔·恩奎斯特 / 阿尔菲·艾伦 / 威廉·达福 / 迪恩·文特斯 / 阿德琳妮·帕里奇 / 奥默·巴尼亚 / 托比·莱昂纳德·摩尔 / 丹尼尔·伯哈特 / 布里吉特·莫伊纳汉 / 美国 / 查德·斯塔赫斯基 / 101分钟 / 疾速追杀 / 动作 / 犯罪 / 惊悚 / 德里克·科尔斯塔 Derek Kolstad / 英语 / 俄语 / 匈牙利语",
+      "intro_raw": "2014-10-24(美国) / 2026-10-30(中国大陆) / 基努·里维斯 / 迈克尔·恩奎斯特 / 阿尔菲·艾伦 / 阿德琳妮·帕里奇 / 布里吉特·莫伊纳汉 / 迪恩·文特斯 / 兰斯·莱迪克 / 托比·莱昂纳德·摩尔 / 伊恩·麦柯肖恩 / 约翰·雷吉扎莫 / 美国 / 查德·斯塔赫斯基 / 101分钟 / 疾速追杀 / 动作 / 犯罪 / 惊悚 / 德里克·科尔斯塔 Derek Kolstad / 英语 / 俄语 / 匈牙利语",
       "people": [
         "基努·里维斯",
         "迈克尔·恩奎斯特",
         "阿尔菲·艾伦",
-        "威廉·达福",
-        "迪恩·文特斯",
         "阿德琳妮·帕里奇",
-        "奥默·巴尼亚",
-        "托比·莱昂纳德·摩尔",
-        "丹尼尔·伯哈特",
         "布里吉特·莫伊纳汉",
+        "迪恩·文特斯",
+        "兰斯·莱迪克",
+        "托比·莱昂纳德·摩尔",
+        "伊恩·麦柯肖恩",
+        "约翰·雷吉扎莫",
         "查德·斯塔赫斯基",
         "疾速追杀",
         "德里克·科尔斯塔 Derek Kolstad"
       ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2933018274.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936253508.jpg"
     },
     {
       "id": "1296201",
@@ -36964,7 +37061,9 @@
       "title": "发现女巫 第一季",
       "aka": [
         "A Discovery of Witches Season 1",
-        "魔法觉醒 [可播放]"
+        "魔法觉醒",
+        "魔約之書(香港台湾FOX+",
+        "STAR WORLD) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/27119722/",
       "cover": "data/posters/27119722.jpg",
