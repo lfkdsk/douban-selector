@@ -2,10 +2,149 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 789,
-  "fetched": 782,
-  "fetched_at": "2026-10-06T02:06:34+0000",
+  "total_declared": 792,
+  "fetched": 785,
+  "fetched_at": "2026-10-13T02:53:41+0000",
   "movies": [
+    {
+      "id": "1891179",
+      "cid": "4961191547",
+      "title": "梅兰芳",
+      "aka": [
+        "Forever Enthralled [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1891179/",
+      "cover": "data/posters/1891179.jpg",
+      "year": "2008",
+      "mark_date": "2026-10-08",
+      "rating": 3,
+      "comment": "节奏拖沓，为啥不能把齐如山的故事直接写了，梅党的故事本身就很吸引人了。另外故事延伸到新政权鼎革以后就更好了。",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "传记",
+        "剧情",
+        "历史"
+      ],
+      "languages": [
+        "汉语普通话",
+        "日语"
+      ],
+      "runtime": "147分钟",
+      "intro_raw": "2008-12-05(中国大陆) / 黎明 / 章子怡 / 孙红雷 / 陈红 / 王学圻 / 余少群 / 英达 / 安藤政信 / 潘粤明 / 吴刚 / 中国大陆 / 陈凯歌 / 147分钟 / 传记 / 剧情 / 历史 / 严歌苓 Geling Yan / 陈国富 Kuo-fu Chen / 张家鲁 Jialu Zhang / 汉语普通话 / 北京话 / 日语",
+      "people": [
+        "黎明",
+        "章子怡",
+        "孙红雷",
+        "陈红",
+        "王学圻",
+        "余少群",
+        "英达",
+        "安藤政信",
+        "潘粤明",
+        "吴刚",
+        "陈凯歌",
+        "严歌苓 Geling Yan",
+        "陈国富 Kuo-fu Chen",
+        "张家鲁 Jialu Zhang",
+        "北京话"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p647040976.jpg"
+    },
+    {
+      "id": "1293941",
+      "cid": "4207146841",
+      "title": "奇迹",
+      "aka": [
+        "奇蹟",
+        "替身的传说",
+        "Mr. Canton and Lady Rose [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1293941/",
+      "cover": "data/posters/1293941.jpg",
+      "year": "1989",
+      "mark_date": "2026-10-06",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国香港"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "犯罪",
+        "剧情"
+      ],
+      "languages": [
+        "粤语",
+        "英语"
+      ],
+      "runtime": "127分钟",
+      "intro_raw": "1989-06-15(中国香港) / 成龙 / 梅艳芳 / 归亚蕾 / 柯俊雄 / 午马 / 董骠 / 冯克安 / 林敏骢 / 楼南光 / 黎小田 / 中国香港 / 成龙 / 127分钟 / 奇迹 / 动作 / 喜剧 / 犯罪 / 剧情 / 成龙 Jackie Chan / 邓景生 Edward Tang / 粤语 / 英语",
+      "people": [
+        "成龙",
+        "梅艳芳",
+        "归亚蕾",
+        "柯俊雄",
+        "午马",
+        "董骠",
+        "冯克安",
+        "林敏骢",
+        "楼南光",
+        "黎小田",
+        "成龙",
+        "奇迹",
+        "成龙 Jackie Chan",
+        "邓景生 Edward Tang"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1387139324.jpg"
+    },
+    {
+      "id": "3820191",
+      "cid": "4959389070",
+      "title": "杜拉拉升职记",
+      "aka": [
+        "Go LaLa Go! [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/3820191/",
+      "cover": "data/posters/3820191.jpg",
+      "year": "2010",
+      "mark_date": "2026-10-06",
+      "rating": 2,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "喜剧",
+        "剧情",
+        "爱情"
+      ],
+      "languages": [
+        "汉语普通话",
+        "英语"
+      ],
+      "runtime": "105分钟",
+      "intro_raw": "2010-04-15(中国大陆) / 徐静蕾 / 黄立行 / 莫文蔚 / 吴佩慈 / 李艾 / 宋宁峰 / 江铠同 / 刘嘉卉 / 王菁锳 / 罗异 / 中国大陆 / 徐静蕾 / 105分钟 / 喜剧 / 剧情 / 爱情 / 王芸 Yun Wang / 赵梦 Meng Zhao / 徐静蕾 Jinglei Xu / 汉语普通话 / 英语",
+      "people": [
+        "徐静蕾",
+        "黄立行",
+        "莫文蔚",
+        "吴佩慈",
+        "李艾",
+        "宋宁峰",
+        "江铠同",
+        "刘嘉卉",
+        "王菁锳",
+        "罗异",
+        "徐静蕾",
+        "王芸 Yun Wang",
+        "赵梦 Meng Zhao",
+        "徐静蕾 Jinglei Xu"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p458323215.jpg"
+    },
     {
       "id": "1306029",
       "cid": "3235910649",
@@ -8058,7 +8197,7 @@
         "汉语普通话"
       ],
       "runtime": "25分钟",
-      "intro_raw": "1999-07-23(中国大陆) / 沈晓谦 / 张涵予 / 乔榛 / 程玉珠 / 刘风 / 丁建华 / 童自荣 / 王肖兵 / 王建新 / 狄菲菲 / 中国大陆 / 方润南 / 陈家奇 / 李捷 / 潘积耀 / 耿少波 / 李剑平 / 25分钟 / 动画 / 奇幻 / 古装 / 凌纾 Shu Ling / 张松林 Songlin Zhang / 汉语普通话",
+      "intro_raw": "1999-07-23(中国大陆) / 沈晓谦 / 张涵予 / 乔榛 / 程玉珠 / 刘风 / 丁建华 / 童自荣 / 王肖兵 / 王建新 / 狄菲菲 / 中国大陆 / 方润南 / 陈家奇 / 李捷 / 潘积耀 / 李剑平 / 耿少波 / 25分钟 / 动画 / 奇幻 / 古装 / 凌纾 Shu Ling / 张松林 Songlin Zhang / 汉语普通话",
       "people": [
         "沈晓谦",
         "张涵予",
@@ -8074,8 +8213,8 @@
         "陈家奇",
         "李捷",
         "潘积耀",
-        "耿少波",
         "李剑平",
+        "耿少波",
         "凌纾 Shu Ling",
         "张松林 Songlin Zhang"
       ],
@@ -13381,7 +13520,7 @@
         "日语"
       ],
       "runtime": "45分钟",
-      "intro_raw": "2023-01-08(日本) / 安藤樱 / 夏帆 / 木南晴夏 / 松坂桃李 / 水川麻美 / 染谷将太 / 黑木华 / 笨蛋节奏 / 永尾柚乃 / 和田爱海 / 日本 / 水野格 / 狩山俊辅 / 45分钟 / 重启人生 / 剧情 / 喜剧 / 奇幻 / 笨蛋节奏 Bakarhythm / 日语",
+      "intro_raw": "2023-01-08(日本) / 安藤樱 / 夏帆 / 木南晴夏 / 松坂桃李 / 水川麻美 / 染谷将太 / 黑木华 / 笨蛋节奏 / 永尾柚乃 / 和田爱海 / 日本 / 水野格 / 狩山俊辅 / 松田健斗 / 45分钟 / 重启人生 / 剧情 / 喜剧 / 奇幻 / 笨蛋节奏 Bakarhythm / 日语",
       "people": [
         "安藤樱",
         "夏帆",
@@ -13395,6 +13534,7 @@
         "和田爱海",
         "水野格",
         "狩山俊辅",
+        "松田健斗",
         "重启人生",
         "笨蛋节奏 Bakarhythm"
       ],
@@ -22839,7 +22979,7 @@
         "疾速追杀",
         "德里克·科尔斯塔 Derek Kolstad"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936253508.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936502228.jpg"
     },
     {
       "id": "1296201",
@@ -34157,7 +34297,7 @@
       "cover": "data/posters/1828115.jpg",
       "year": "2007",
       "mark_date": "2022-02-05",
-      "rating": 0,
+      "rating": 5,
       "comment": "",
       "countries": [
         "中国台湾",
