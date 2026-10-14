@@ -3,6 +3,11 @@ name: Deploy to Pages
 on:
   push:
     branches: [main]
+  # sync.yml pushes with GITHUB_TOKEN, and pushes made with that token never
+  # fire `push` workflows, so chain off the sync run instead.
+  workflow_run:
+    workflows: ["Sync Douban Data"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -16,9 +21,12 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Stage deploy bundle (without poster cache)
         # Posters live in main for jsDelivr to serve, but excluding them from
