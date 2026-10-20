@@ -2,9 +2,9 @@
   "user": "lfkdsk",
   "type": "wish",
   "label": "想看",
-  "total_declared": 369,
-  "fetched": 367,
-  "fetched_at": "2026-10-13T02:51:22+0000",
+  "total_declared": 368,
+  "fetched": 366,
+  "fetched_at": "2026-10-20T00:55:18+0000",
   "movies": [
     {
       "id": "37068446",
@@ -732,7 +732,7 @@
         "旺角卡门",
         "王家卫 Kar Wai Wong"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2679997192.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2627349958.jpg"
     },
     {
       "id": "1291555",
@@ -1857,7 +1857,7 @@
         "麻将",
         "杨德昌 Edward Yang"
       ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2873829595.jpg"
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2327303475.jpg"
     },
     {
       "id": "36299873",
@@ -9006,48 +9006,6 @@
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2318231103.jpg"
     },
     {
-      "id": "1296253",
-      "cid": "4172569188",
-      "title": "没完没了",
-      "aka": [
-        "Sorry Baby [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1296253/",
-      "cover": "data/posters/1296253.jpg",
-      "year": "1999",
-      "mark_date": "2024-04-28",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "中国大陆"
-      ],
-      "genres": [
-        "剧情",
-        "喜剧"
-      ],
-      "languages": [
-        "汉语普通话"
-      ],
-      "runtime": "95分钟",
-      "intro_raw": "1999-12-15(北京首映) / 葛优 / 吴倩莲 / 傅彪 / 徐帆 / 刘蓓 / 刘威 / 韩童生 / 秦焰 / 何冰 / 张涵予 / 中国大陆 / 冯小刚 / 88分钟 / 95分钟 / 剧情 / 喜剧 / 王小柱 Xiao Zhu Wang / 白铁军 Tiejun Bai / 汉语普通话",
-      "people": [
-        "葛优",
-        "吴倩莲",
-        "傅彪",
-        "徐帆",
-        "刘蓓",
-        "刘威",
-        "韩童生",
-        "秦焰",
-        "何冰",
-        "张涵予",
-        "冯小刚",
-        "王小柱 Xiao Zhu Wang",
-        "白铁军 Tiejun Bai"
-      ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2104173609.jpg"
-    },
-    {
       "id": "4009651",
       "cid": "4172569044",
       "title": "斗牛",
@@ -14827,7 +14785,7 @@
         "E.T.外星人",
         "梅丽莎·马西森 Melissa Mathison"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p984732992.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2610282969.jpg"
     },
     {
       "id": "6307447",
