@@ -2,10 +2,133 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 793,
-  "fetched": 786,
-  "fetched_at": "2026-10-20T00:57:38+0000",
+  "total_declared": 796,
+  "fetched": 789,
+  "fetched_at": "2026-10-27T01:12:07+0000",
   "movies": [
+    {
+      "id": "25934116",
+      "cid": "3367310406",
+      "title": "变局1962：七千人大会始末",
+      "aka": [],
+      "url": "https://movie.douban.com/subject/25934116/",
+      "cover": "data/posters/25934116.jpg",
+      "year": "2012",
+      "mark_date": "2026-10-25",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国香港"
+      ],
+      "genres": [
+        "纪录片"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "30分钟",
+      "intro_raw": "2012-01-16(中国香港) / 陈晓楠 / 中国香港 / 30分钟 / 纪录片 / 汉语普通话",
+      "people": [
+        "陈晓楠"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192597742.jpg"
+    },
+    {
+      "id": "1293643",
+      "cid": "4642116038",
+      "title": "蝴蝶君",
+      "aka": [
+        "M. Butterfly",
+        "蝴蝶君"
+      ],
+      "url": "https://movie.douban.com/subject/1293643/",
+      "cover": "data/posters/1293643.jpg",
+      "year": "1993",
+      "mark_date": "2026-10-25",
+      "rating": 4,
+      "comment": "很早就知道这个故事，但是一直脑子里以为是一个 1920s 的发生的事情。毕竟 60s 发生这种故事也太离奇了，尊龙的表演很不错，女态足可乱真。不过全篇还是有不少让我感觉违和的地方，比如大部分角色都讲英语、看门的老太太 hk 口音不像本地人、以及那场游行的戏男主这种天天晃荡的外国人早被小将抓起来打了，哪给你看斗的机会......",
+      "countries": [
+        "美国",
+        "加拿大"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "同性"
+      ],
+      "languages": [
+        "英语",
+        "汉语普通话",
+        "法语",
+        "意大利语",
+        "粤语"
+      ],
+      "runtime": "101分钟",
+      "intro_raw": "1993-09-09 / 杰瑞米·艾恩斯 / 尊龙 / 芭芭拉·苏科瓦 / 伊恩·理查森 / 安娜贝尔·莱文顿 / 理查德·麦克米伦 / 弗农·多布切夫 / 大卫·海布伦 / Tristram Jellinek / 大卫·尼尔 / 美国 / 加拿大 / 大卫·柯南伯格 / 101分钟 / 蝴蝶君 / 剧情 / 爱情 / 同性 / 黄哲伦 David Henry Hwang / 英语 / 汉语普通话 / 法语 / 意大利语 / 粤语",
+      "people": [
+        "杰瑞米·艾恩斯",
+        "尊龙",
+        "芭芭拉·苏科瓦",
+        "伊恩·理查森",
+        "安娜贝尔·莱文顿",
+        "理查德·麦克米伦",
+        "弗农·多布切夫",
+        "大卫·海布伦",
+        "Tristram Jellinek",
+        "大卫·尼尔",
+        "大卫·柯南伯格",
+        "蝴蝶君",
+        "黄哲伦 David Henry Hwang"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p770583467.jpg"
+    },
+    {
+      "id": "1297574",
+      "cid": "4205087110",
+      "title": "英雄本色",
+      "aka": [
+        "A Better Tomorrow",
+        "Gangland Boss [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1297574/",
+      "cover": "data/posters/1297574.jpg",
+      "year": "1986",
+      "mark_date": "2026-10-21",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国香港"
+      ],
+      "genres": [
+        "剧情",
+        "动作",
+        "犯罪"
+      ],
+      "languages": [
+        "粤语",
+        "汉语普通话",
+        "英语"
+      ],
+      "runtime": "95分钟",
+      "intro_raw": "1986-08-02(中国香港) / 2017-11-17(中国大陆) / 周润发 / 狄龙 / 张国荣 / 朱宝意 / 李子雄 / 田丰 / 吴宇森 / 曾江 / 成奎安 / 徐克 / 中国香港 / 吴宇森 / 95分钟 / 剧情 / 动作 / 犯罪 / 陈庆嘉 Hing-Ka Chan / 吴宇森 John Woo / 梁淑华 Suk-Wah Leung / 粤语 / 汉语普通话 / 英语",
+      "people": [
+        "周润发",
+        "狄龙",
+        "张国荣",
+        "朱宝意",
+        "李子雄",
+        "田丰",
+        "吴宇森",
+        "曾江",
+        "成奎安",
+        "徐克",
+        "吴宇森",
+        "陈庆嘉 Hing-Ka Chan",
+        "吴宇森 John Woo",
+        "梁淑华 Suk-Wah Leung"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2504997087.jpg"
+    },
     {
       "id": "1296253",
       "cid": "4172569188",
@@ -14434,7 +14557,7 @@
         "陈凯歌 Kaige Chen",
         "张炭 Cheung Tan"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2167475807.jpg"
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2554737395.jpg"
     },
     {
       "id": "1316511",
@@ -20919,7 +21042,7 @@
       "aka": [
         "Venom: Let There Be Carnage",
         "毒魔：血战大屠杀(港)",
-        "猛毒2：血蜘蛛(台)"
+        "猛毒2：血蜘蛛(台) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/30382416/",
       "cover": "data/posters/30382416.jpg",
@@ -21756,7 +21879,7 @@
         "Jan Bartkowicz",
         "Łukasz Ludkowski"
       ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2610932249.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934314398.jpg"
     },
     {
       "id": "1291584",
@@ -31663,7 +31786,7 @@
         "粤语"
       ],
       "runtime": "107分钟",
-      "intro_raw": "1992-06-26(中国香港) / 2026-10-30(中国大陆) / 李连杰 / 林青霞 / 关之琳 / 李嘉欣 / 李子雄 / 袁洁莹 / 任世官 / 刘洵 / 余安安 / 钱嘉乐 / 中国香港 / 程小东 / 107分钟 / 笑傲江湖2：东方不败 / 动作 / 爱情 / 武侠 / 古装 / 徐克 / 邓碧燕 Elsa Tang / 陈天璇 Tin-suen Chan / 粤语",
+      "intro_raw": "1992-06-26(中国香港) / 2026-10-30(中国大陆) / 李连杰 / 林青霞 / 关之琳 / 李嘉欣 / 李子雄 / 袁洁莹 / 任世官 / 刘洵 / 余安安 / 钱嘉乐 / 中国香港 / 程小东 / 106分钟(中国大陆) / 107分钟 / 笑傲江湖2：东方不败 / 动作 / 爱情 / 武侠 / 古装 / 徐克 / 邓碧燕 Elsa Tang / 陈天璇 Tin-suen Chan / 粤语",
       "people": [
         "李连杰",
         "林青霞",
@@ -31676,12 +31799,13 @@
         "余安安",
         "钱嘉乐",
         "程小东",
+        "106分钟(中国大陆)",
         "笑傲江湖2：东方不败",
         "徐克",
         "邓碧燕 Elsa Tang",
         "陈天璇 Tin-suen Chan"
       ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2936705985.jpg"
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936705828.jpg"
     },
     {
       "id": "1316510",
@@ -32178,7 +32302,7 @@
       "aka": [
         "The Shawshank Redemption",
         "月黑高飞(港)",
-        "刺激1995(台)"
+        "刺激1995(台) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/1292052/",
       "cover": "data/posters/1292052.jpg",
@@ -35754,7 +35878,7 @@
         "汉语普通话"
       ],
       "runtime": "113分钟",
-      "intro_raw": "1961(中国大陆) / 1964(中国大陆) / 1978(中国大陆) / 邱岳峰 / 富润生 / 毕克 / 尚华 / 于鼎 / 李梓 / 刘广宁 / 中国大陆 / 万籁鸣 / 113分钟 / 44分钟(上集) / 69分钟(下集) / 84分钟(40周年纪念版) / 剧情 / 动画 / 奇幻 / 古装 / 李克弱 Keruo Li / 万籁鸣 Laiming Wan / 汉语普通话",
+      "intro_raw": "1961(中国大陆) / 1978(中国大陆) / 邱岳峰 / 富润生 / 毕克 / 尚华 / 于鼎 / 李梓 / 刘广宁 / 中国大陆 / 万籁鸣 / 113分钟 / 44分钟(上集) / 69分钟(下集) / 84分钟(40周年纪念版) / 剧情 / 动画 / 奇幻 / 古装 / 李克弱 Keruo Li / 万籁鸣 Laiming Wan / 汉语普通话",
       "people": [
         "邱岳峰",
         "富润生",
