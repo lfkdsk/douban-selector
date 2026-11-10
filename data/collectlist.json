@@ -2,10 +2,156 @@
   "user": "lfkdsk",
   "type": "collect",
   "label": "看过",
-  "total_declared": 803,
-  "fetched": 796,
-  "fetched_at": "2026-11-03T03:21:12+0000",
+  "total_declared": 806,
+  "fetched": 799,
+  "fetched_at": "2026-11-10T04:01:09+0000",
   "movies": [
+    {
+      "id": "1292329",
+      "cid": "3235918148",
+      "title": "牯岭街少年杀人事件",
+      "aka": [
+        "牯嶺街少年殺人事件",
+        "A Brighter Summer Day"
+      ],
+      "url": "https://movie.douban.com/subject/1292329/",
+      "cover": "data/posters/1292329.jpg",
+      "year": "1991",
+      "mark_date": "2026-11-07",
+      "rating": 4,
+      "comment": "",
+      "countries": [
+        "中国台湾"
+      ],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "languages": [
+        "汉语普通话",
+        "闽南语",
+        "上海话",
+        "粤语"
+      ],
+      "runtime": "",
+      "intro_raw": "1991-07-27(中国台湾) / 张震 / 杨静怡 / 张国柱 / 王启赞 / 林鸿铭 / 金燕玲 / 王琄 / 张翰 / 姜秀琼 / 赖梵耘 / 中国台湾 / 杨德昌 / 237分钟(导演剪辑版) / 牯岭街少年杀人事件 / 剧情 / 犯罪 / 杨德昌 Edward Yang / 赖铭堂 Mingtang Lai / 杨顺清 Alex Yang / 鸿鸿 Hung Hung / 汉语普通话 / 闽南语 / 上海话 / 粤语",
+      "people": [
+        "张震",
+        "杨静怡",
+        "张国柱",
+        "王启赞",
+        "林鸿铭",
+        "金燕玲",
+        "王琄",
+        "张翰",
+        "姜秀琼",
+        "赖梵耘",
+        "杨德昌",
+        "237分钟(导演剪辑版)",
+        "牯岭街少年杀人事件",
+        "杨德昌 Edward Yang",
+        "赖铭堂 Mingtang Lai",
+        "杨顺清 Alex Yang",
+        "鸿鸿 Hung Hung"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p848381236.jpg"
+    },
+    {
+      "id": "1292677",
+      "cid": "3373321112",
+      "title": "007之黄金眼",
+      "aka": [
+        "GoldenEye",
+        "新铁金刚之金眼睛",
+        "黄金眼 [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/1292677/",
+      "cover": "data/posters/1292677.jpg",
+      "year": "1995",
+      "mark_date": "2026-11-06",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "英国",
+        "美国"
+      ],
+      "genres": [
+        "动作",
+        "冒险",
+        "惊悚"
+      ],
+      "languages": [
+        "英语",
+        "俄语",
+        "西班牙语"
+      ],
+      "runtime": "130分钟",
+      "intro_raw": "1995-11-21(英国) / 皮尔斯·布鲁斯南 / 肖恩·宾 / 伊莎贝拉·斯科鲁普科 / 法米克·詹森 / 乔·唐·巴克 / 朱迪·丹奇 / 罗彼·考特拉尼 / 切基·卡尤 / 高夫莱德·约翰 / 艾伦·卡明 / 英国 / 美国 / 马丁·坎贝尔 / 1995-11-13 / 130分钟 / 007之黄金眼 / 动作 / 冒险 / 惊悚 / 伊恩·弗莱明 Ian Fleming / 迈克尔·弗朗斯 Michael France / 杰弗里·凯恩 Jeffrey Caine / 布鲁斯·费尔斯坦 Bruce Feirstein / 英语 / 俄语 / 西班牙语",
+      "people": [
+        "皮尔斯·布鲁斯南",
+        "肖恩·宾",
+        "伊莎贝拉·斯科鲁普科",
+        "法米克·詹森",
+        "乔·唐·巴克",
+        "朱迪·丹奇",
+        "罗彼·考特拉尼",
+        "切基·卡尤",
+        "高夫莱德·约翰",
+        "艾伦·卡明",
+        "马丁·坎贝尔",
+        "007之黄金眼",
+        "伊恩·弗莱明 Ian Fleming",
+        "迈克尔·弗朗斯 Michael France",
+        "杰弗里·凯恩 Jeffrey Caine",
+        "布鲁斯·费尔斯坦 Bruce Feirstein"
+      ],
+      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1720407604.jpg"
+    },
+    {
+      "id": "36953973",
+      "cid": "4982158829",
+      "title": "特立独行",
+      "aka": [
+        "乌合之众‎",
+        "Keep Real [可播放]"
+      ],
+      "url": "https://movie.douban.com/subject/36953973/",
+      "cover": "data/posters/36953973.jpg",
+      "year": "2026",
+      "mark_date": "2026-11-05",
+      "rating": 3,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "123分钟",
+      "intro_raw": "2026-07-03(中国大陆) / 白敬亭 / 魏翔 / 张国强 / 赵海燕 / 苏小玎 / 于洋 / 黄才伦 / 丁勇岱 / 王智 / 刘流 / 中国大陆 / 邢文雄 / 2026-06-27 / 123分钟 / 剧情 / 喜剧 / 邢文雄 Wenxiong Xing / 李舒野 Shuye Li / 李天亮 Tianliang Li / 史倩 Qian Shi / 汉语普通话",
+      "people": [
+        "白敬亭",
+        "魏翔",
+        "张国强",
+        "赵海燕",
+        "苏小玎",
+        "于洋",
+        "黄才伦",
+        "丁勇岱",
+        "王智",
+        "刘流",
+        "邢文雄",
+        "邢文雄 Wenxiong Xing",
+        "李舒野 Shuye Li",
+        "李天亮 Tianliang Li",
+        "史倩 Qian Shi"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933638302.jpg"
+    },
     {
       "id": "26895171",
       "cid": "3235852761",
@@ -282,7 +428,7 @@
       "aka": [
         "Spider-Man: Brand New Day",
         "蜘蛛侠：英雄重生(港)",
-        "蜘蛛人：重生日(台)"
+        "蜘蛛人：重生日(台) [可播放]"
       ],
       "url": "https://movie.douban.com/subject/36246195/",
       "cover": "data/posters/36246195.jpg",
@@ -34500,7 +34646,7 @@
       "aka": [
         "The Matrix Reloaded",
         "22世纪杀人网络2：决战未来(港)",
-        "骇客任务：重装上阵(台) [可播放]"
+        "骇客任务：重装上阵(台)"
       ],
       "url": "https://movie.douban.com/subject/1304141/",
       "cover": "data/posters/1304141.jpg",
@@ -35349,7 +35495,7 @@
       "aka": [
         "The Matrix",
         "22世纪杀人网络(港)",
-        "廿二世纪杀人网络(港) [可播放]"
+        "廿二世纪杀人网络(港)"
       ],
       "url": "https://movie.douban.com/subject/1291843/",
       "cover": "data/posters/1291843.jpg",

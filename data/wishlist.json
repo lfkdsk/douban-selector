@@ -2,10 +2,57 @@
   "user": "lfkdsk",
   "type": "wish",
   "label": "想看",
-  "total_declared": 373,
-  "fetched": 371,
-  "fetched_at": "2026-11-03T03:18:50+0000",
+  "total_declared": 372,
+  "fetched": 370,
+  "fetched_at": "2026-11-10T03:58:34+0000",
   "movies": [
+    {
+      "id": "36150763",
+      "cid": "4980838761",
+      "title": "万花世界",
+      "aka": [
+        "万渣朝凰"
+      ],
+      "url": "https://movie.douban.com/subject/36150763/",
+      "cover": "data/posters/36150763.jpg",
+      "year": "2026",
+      "mark_date": "2026-11-03",
+      "rating": 0,
+      "comment": "",
+      "countries": [
+        "中国大陆"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "奇幻"
+      ],
+      "languages": [
+        "汉语普通话"
+      ],
+      "runtime": "",
+      "intro_raw": "2026(中国大陆) / 鞠婧祎 / 郭品超 / 何宣林 / 代斯 / 陈鑫海 / 敖瑞鹏 / 赖艺 / 李汶翰 / 赖伟明 / 何洛洛 / 中国大陆 / 杜林 / 乔乐 / 宋洋 / 剧情 / 爱情 / 奇幻 / 席如远 Ruyuan Xi / 张臻 Zhen Zhang / 闫然 Ran Yan / 李哲君 / 汉语普通话",
+      "people": [
+        "鞠婧祎",
+        "郭品超",
+        "何宣林",
+        "代斯",
+        "陈鑫海",
+        "敖瑞鹏",
+        "赖艺",
+        "李汶翰",
+        "赖伟明",
+        "何洛洛",
+        "杜林",
+        "乔乐",
+        "宋洋",
+        "席如远 Ruyuan Xi",
+        "张臻 Zhen Zhang",
+        "闫然 Ran Yan",
+        "李哲君"
+      ],
+      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932758318.jpg"
+    },
     {
       "id": "26691320",
       "cid": "4970721847",
@@ -744,8 +791,8 @@
       "languages": [
         "英语"
       ],
-      "runtime": "166分钟",
-      "intro_raw": "2026-12-16(中国大陆) / 2026-12-18(美国) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 佩德罗·帕斯卡 / 凡妮莎·柯比 / 汤姆·希德勒斯顿 / 安东尼·麦凯 / 塞巴斯蒂安·斯坦 / 保罗·路德 / 约瑟夫·奎恩 / 美国 / 安东尼·罗素 / 乔·罗素 / 166分钟 / 复仇者联盟5 / 动作 / 科幻 / 冒险 / 斯蒂芬·麦克菲利 Stephen McFeely / 英语",
+      "runtime": "165分钟",
+      "intro_raw": "2026-12-16(中国大陆) / 2026-12-18(美国) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 佩德罗·帕斯卡 / 凡妮莎·柯比 / 汤姆·希德勒斯顿 / 安东尼·麦凯 / 塞巴斯蒂安·斯坦 / 保罗·路德 / 约瑟夫·奎恩 / 美国 / 安东尼·罗素 / 乔·罗素 / 165分钟 / 复仇者联盟5 / 动作 / 科幻 / 冒险 / 斯蒂芬·麦克菲利 Stephen McFeely / 英语",
       "people": [
         "小罗伯特·唐尼",
         "克里斯·埃文斯",
@@ -11956,57 +12003,6 @@
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2674392637.jpg"
     },
     {
-      "id": "1292677",
-      "cid": "3373321112",
-      "title": "007之黄金眼",
-      "aka": [
-        "GoldenEye",
-        "新铁金刚之金眼睛",
-        "黄金眼 [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1292677/",
-      "cover": "data/posters/1292677.jpg",
-      "year": "1995",
-      "mark_date": "2022-05-30",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "英国",
-        "美国"
-      ],
-      "genres": [
-        "动作",
-        "冒险",
-        "惊悚"
-      ],
-      "languages": [
-        "英语",
-        "俄语",
-        "西班牙语"
-      ],
-      "runtime": "130分钟",
-      "intro_raw": "1995-11-21(英国) / 皮尔斯·布鲁斯南 / 肖恩·宾 / 伊莎贝拉·斯科鲁普科 / 法米克·詹森 / 乔·唐·巴克 / 朱迪·丹奇 / 罗彼·考特拉尼 / 切基·卡尤 / 高夫莱德·约翰 / 艾伦·卡明 / 英国 / 美国 / 马丁·坎贝尔 / 1995-11-13 / 130分钟 / 007之黄金眼 / 动作 / 冒险 / 惊悚 / 伊恩·弗莱明 Ian Fleming / 迈克尔·弗朗斯 Michael France / 杰弗里·凯恩 Jeffrey Caine / 布鲁斯·费尔斯坦 Bruce Feirstein / 英语 / 俄语 / 西班牙语",
-      "people": [
-        "皮尔斯·布鲁斯南",
-        "肖恩·宾",
-        "伊莎贝拉·斯科鲁普科",
-        "法米克·詹森",
-        "乔·唐·巴克",
-        "朱迪·丹奇",
-        "罗彼·考特拉尼",
-        "切基·卡尤",
-        "高夫莱德·约翰",
-        "艾伦·卡明",
-        "马丁·坎贝尔",
-        "007之黄金眼",
-        "伊恩·弗莱明 Ian Fleming",
-        "迈克尔·弗朗斯 Michael France",
-        "杰弗里·凯恩 Jeffrey Caine",
-        "布鲁斯·费尔斯坦 Bruce Feirstein"
-      ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1720407604.jpg"
-    },
-    {
       "id": "3205624",
       "cid": "3342865695",
       "title": "社交网络",
@@ -12573,56 +12569,6 @@
       "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1598883511.jpg"
     },
     {
-      "id": "1292329",
-      "cid": "3235918148",
-      "title": "牯岭街少年杀人事件",
-      "aka": [
-        "牯嶺街少年殺人事件",
-        "A Brighter Summer Day"
-      ],
-      "url": "https://movie.douban.com/subject/1292329/",
-      "cover": "data/posters/1292329.jpg",
-      "year": "1991",
-      "mark_date": "2022-02-12",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "中国台湾"
-      ],
-      "genres": [
-        "剧情",
-        "犯罪"
-      ],
-      "languages": [
-        "汉语普通话",
-        "闽南语",
-        "上海话",
-        "粤语"
-      ],
-      "runtime": "",
-      "intro_raw": "1991-07-27(中国台湾) / 张震 / 杨静怡 / 张国柱 / 王启赞 / 林鸿铭 / 金燕玲 / 王琄 / 张翰 / 姜秀琼 / 赖梵耘 / 中国台湾 / 杨德昌 / 237分钟(导演剪辑版) / 牯岭街少年杀人事件 / 剧情 / 犯罪 / 杨德昌 Edward Yang / 赖铭堂 Mingtang Lai / 杨顺清 Alex Yang / 鸿鸿 Hung Hung / 汉语普通话 / 闽南语 / 上海话 / 粤语",
-      "people": [
-        "张震",
-        "杨静怡",
-        "张国柱",
-        "王启赞",
-        "林鸿铭",
-        "金燕玲",
-        "王琄",
-        "张翰",
-        "姜秀琼",
-        "赖梵耘",
-        "杨德昌",
-        "237分钟(导演剪辑版)",
-        "牯岭街少年杀人事件",
-        "杨德昌 Edward Yang",
-        "赖铭堂 Mingtang Lai",
-        "杨顺清 Alex Yang",
-        "鸿鸿 Hung Hung"
-      ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p848381236.jpg"
-    },
-    {
       "id": "1296909",
       "cid": "3235917871",
       "title": "虎口脱险",
@@ -12782,7 +12728,7 @@
       "aka": [
         "The Matrix Revolutions",
         "22世纪杀人网络3：惊变世纪(港)",
-        "骇客任务完结篇：最后战役(台) [可播放]"
+        "骇客任务完结篇：最后战役(台)"
       ],
       "url": "https://movie.douban.com/subject/1302467/",
       "cover": "data/posters/1302467.jpg",
@@ -14979,6 +14925,7 @@
       ],
       "genres": [
         "剧情",
+        "科幻",
         "悬疑",
         "惊悚"
       ],
@@ -14986,7 +14933,7 @@
         "英语"
       ],
       "runtime": "130分钟",
-      "intro_raw": "2006-10-17(罗马电影节) / 2006-10-20(美国) / 休·杰克曼 / 克里斯蒂安·贝尔 / 迈克尔·凯恩 / 丽贝卡·豪尔 / 斯嘉丽·约翰逊 / 大卫·鲍伊 / 安迪·瑟金斯 / 派珀·佩拉博 / 萨曼塔·马霍林 / 丹尼尔·戴维斯 / 英国 / 美国 / 克里斯托弗·诺兰 / 130分钟 / 致命魔术 / 剧情 / 悬疑 / 惊悚 / 乔纳森·诺兰 Jonathan Nolan / 克里斯托弗·诺兰 Christopher Nolan / 克里斯托弗·普瑞丝特 Christopher Priest / 英语",
+      "intro_raw": "2006-10-17(罗马电影节) / 2006-10-20(美国) / 休·杰克曼 / 克里斯蒂安·贝尔 / 迈克尔·凯恩 / 丽贝卡·豪尔 / 斯嘉丽·约翰逊 / 大卫·鲍伊 / 安迪·瑟金斯 / 派珀·佩拉博 / 萨曼塔·马霍林 / 丹尼尔·戴维斯 / 英国 / 美国 / 克里斯托弗·诺兰 / 130分钟 / 致命魔术 / 剧情 / 科幻 / 悬疑 / 惊悚 / 乔纳森·诺兰 Jonathan Nolan / 克里斯托弗·诺兰 Christopher Nolan / 克里斯托弗·普瑞丝特 Christopher Priest / 英语",
       "people": [
         "休·杰克曼",
         "克里斯蒂安·贝尔",
