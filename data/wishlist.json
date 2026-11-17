@@ -2,9 +2,9 @@
   "user": "lfkdsk",
   "type": "wish",
   "label": "想看",
-  "total_declared": 372,
-  "fetched": 370,
-  "fetched_at": "2026-11-10T03:58:34+0000",
+  "total_declared": 369,
+  "fetched": 367,
+  "fetched_at": "2026-11-17T04:20:01+0000",
   "movies": [
     {
       "id": "36150763",
@@ -792,7 +792,7 @@
         "英语"
       ],
       "runtime": "165分钟",
-      "intro_raw": "2026-12-16(中国大陆) / 2026-12-18(美国) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 佩德罗·帕斯卡 / 凡妮莎·柯比 / 汤姆·希德勒斯顿 / 安东尼·麦凯 / 塞巴斯蒂安·斯坦 / 保罗·路德 / 约瑟夫·奎恩 / 美国 / 安东尼·罗素 / 乔·罗素 / 165分钟 / 复仇者联盟5 / 动作 / 科幻 / 冒险 / 斯蒂芬·麦克菲利 Stephen McFeely / 英语",
+      "intro_raw": "2026-12-16(中国大陆) / 2026-12-18(美国) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 佩德罗·帕斯卡 / 凡妮莎·柯比 / 汤姆·希德勒斯顿 / 安东尼·麦凯 / 塞巴斯蒂安·斯坦 / 保罗·路德 / 约瑟夫·奎恩 / 美国 / 安东尼·罗素 / 乔·罗素 / 165分钟 / 复仇者联盟5 / 动作 / 科幻 / 冒险 / 斯蒂芬·麦克菲利 Stephen McFeely / 迈克尔·沃尔德伦 Michael Waldron / 杰克·科比 Jack Kirby / 斯坦·李 Stan Lee / 英语",
       "people": [
         "小罗伯特·唐尼",
         "克里斯·埃文斯",
@@ -807,7 +807,10 @@
         "安东尼·罗素",
         "乔·罗素",
         "复仇者联盟5",
-        "斯蒂芬·麦克菲利 Stephen McFeely"
+        "斯蒂芬·麦克菲利 Stephen McFeely",
+        "迈克尔·沃尔德伦 Michael Waldron",
+        "杰克·科比 Jack Kirby",
+        "斯坦·李 Stan Lee"
       ],
       "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2936595686.jpg"
     },
@@ -6209,7 +6212,7 @@
         "韩语"
       ],
       "runtime": "90分钟",
-      "intro_raw": "2015-11-06(韩国) / 成东日 / 李一花 / 罗美兰 / 金成畇 / 崔武成 / 金善映 / 柳慧英 / 李惠利 / 柳俊烈 / 高庚杓 / 韩国 / program.interest.me/tvn/reply1988 / 申元浩 / 刘学灿 / 90分钟 / 请回答1988 / 剧情 / 喜剧 / 爱情 / 李有静 Woo-Jeong Lee / 韩语",
+      "intro_raw": "2015-11-06(韩国) / 成东日 / 李一花 / 罗美兰 / 金成畇 / 崔武成 / 金善映 / 柳惠英 / 李惠利 / 柳俊烈 / 高庚杓 / 韩国 / program.interest.me/tvn/reply1988 / 申元浩 / 刘学灿 / 90分钟 / 请回答1988 / 剧情 / 喜剧 / 爱情 / 李有静 Woo-Jeong Lee / 韩语",
       "people": [
         "成东日",
         "李一花",
@@ -6217,7 +6220,7 @@
         "金成畇",
         "崔武成",
         "金善映",
-        "柳慧英",
+        "柳惠英",
         "李惠利",
         "柳俊烈",
         "高庚杓",
@@ -9081,47 +9084,6 @@
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2637651002.jpg"
     },
     {
-      "id": "1308573",
-      "cid": "4192967204",
-      "title": "卡拉是条狗",
-      "aka": [
-        "Cala, My Dog! [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1308573/",
-      "cover": "data/posters/1308573.jpg",
-      "year": "2003",
-      "mark_date": "2024-05-19",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "中国大陆"
-      ],
-      "genres": [
-        "剧情",
-        "喜剧"
-      ],
-      "languages": [
-        "汉语普通话"
-      ],
-      "runtime": "100分钟",
-      "intro_raw": "2003-02-02(中国大陆) / 葛优 / 丁嘉丽 / 李滨 / 夏雨 / 李勤勤 / 李佳璇 / 冯小刚 / 石孝军 / 曹伟 / 安鹏 / 中国大陆 / 路学长 / 100分钟 / 剧情 / 喜剧 / 路学长 Lu XueChang / 汉语普通话",
-      "people": [
-        "葛优",
-        "丁嘉丽",
-        "李滨",
-        "夏雨",
-        "李勤勤",
-        "李佳璇",
-        "冯小刚",
-        "石孝军",
-        "曹伟",
-        "安鹏",
-        "路学长",
-        "路学长 Lu XueChang"
-      ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2378852609.jpg"
-    },
-    {
       "id": "1301168",
       "cid": "4192966630",
       "title": "卧虎藏龙",
@@ -9890,54 +9852,6 @@
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2375882763.jpg"
     },
     {
-      "id": "26311973",
-      "cid": "4172559958",
-      "title": "唐人街探案",
-      "aka": [
-        "唐人街·探案",
-        "唐探 [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/26311973/",
-      "cover": "data/posters/26311973.jpg",
-      "year": "2015",
-      "mark_date": "2024-04-28",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "中国大陆"
-      ],
-      "genres": [
-        "喜剧",
-        "动作",
-        "悬疑"
-      ],
-      "languages": [
-        "汉语普通话",
-        "泰语",
-        "英语"
-      ],
-      "runtime": "135分钟",
-      "intro_raw": "2015-12-31(中国大陆) / 王宝强 / 刘昊然 / 佟丽娅 / 陈赫 / 肖央 / 小沈阳 / 潘粤明 / 马浴柯 / 张子枫 / 赵英俊 / 中国大陆 / 陈思诚 / 135分钟 / 喜剧 / 动作 / 悬疑 / 陈思诚 Sicheng Chen / 程佳客 Jiake Cheng / 刘凯 Kai Liu / 白鹤 He Bai / 汉语普通话 / 泰语 / 英语",
-      "people": [
-        "王宝强",
-        "刘昊然",
-        "佟丽娅",
-        "陈赫",
-        "肖央",
-        "小沈阳",
-        "潘粤明",
-        "马浴柯",
-        "张子枫",
-        "赵英俊",
-        "陈思诚",
-        "陈思诚 Sicheng Chen",
-        "程佳客 Jiake Cheng",
-        "刘凯 Kai Liu",
-        "白鹤 He Bai"
-      ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2302930556.jpg"
-    },
-    {
       "id": "24405378",
       "cid": "4172558960",
       "title": "王牌特工：特工学院",
@@ -10263,54 +10177,6 @@
         "王晶 Wong Jing"
       ],
       "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2677766485.jpg"
-    },
-    {
-      "id": "1292895",
-      "cid": "4172555913",
-      "title": "精武英雄",
-      "aka": [
-        "Fist of Legend [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1292895/",
-      "cover": "data/posters/1292895.jpg",
-      "year": "1994",
-      "mark_date": "2024-04-28",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "中国香港",
-        "中国大陆"
-      ],
-      "genres": [
-        "动作",
-        "剧情"
-      ],
-      "languages": [
-        "英语",
-        "粤语",
-        "日语",
-        "汉语普通话"
-      ],
-      "runtime": "107分钟",
-      "intro_raw": "1994-12-22(中国香港) / 李连杰 / 中山忍 / 钱小豪 / 蔡少芬 / 周比利 / 秦沛 / 仓田保昭 / 袁祥仁 / 楼学贤 / 高桥利道 / 中国香港 / 中国大陆 / 陈嘉上 / 107分钟 / 98分钟(德国) / 动作 / 剧情 / 陈嘉上 Gordon Chan / 叶广俭 Kwong Kim Yip / 林纪陶 Kee-To Lam / 英语 / 粤语 / 日语 / 汉语普通话",
-      "people": [
-        "李连杰",
-        "中山忍",
-        "钱小豪",
-        "蔡少芬",
-        "周比利",
-        "秦沛",
-        "仓田保昭",
-        "袁祥仁",
-        "楼学贤",
-        "高桥利道",
-        "陈嘉上",
-        "98分钟(德国)",
-        "陈嘉上 Gordon Chan",
-        "叶广俭 Kwong Kim Yip",
-        "林纪陶 Kee-To Lam"
-      ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2431081842.jpg"
     },
     {
       "id": "1296272",
