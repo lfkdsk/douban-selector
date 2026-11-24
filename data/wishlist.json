@@ -2,9 +2,9 @@
   "user": "lfkdsk",
   "type": "wish",
   "label": "想看",
-  "total_declared": 369,
-  "fetched": 367,
-  "fetched_at": "2026-11-17T04:20:01+0000",
+  "total_declared": 363,
+  "fetched": 361,
+  "fetched_at": "2026-11-24T05:45:23+0000",
   "movies": [
     {
       "id": "36150763",
@@ -791,8 +791,8 @@
       "languages": [
         "英语"
       ],
-      "runtime": "165分钟",
-      "intro_raw": "2026-12-16(中国大陆) / 2026-12-18(美国) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 佩德罗·帕斯卡 / 凡妮莎·柯比 / 汤姆·希德勒斯顿 / 安东尼·麦凯 / 塞巴斯蒂安·斯坦 / 保罗·路德 / 约瑟夫·奎恩 / 美国 / 安东尼·罗素 / 乔·罗素 / 165分钟 / 复仇者联盟5 / 动作 / 科幻 / 冒险 / 斯蒂芬·麦克菲利 Stephen McFeely / 迈克尔·沃尔德伦 Michael Waldron / 杰克·科比 Jack Kirby / 斯坦·李 Stan Lee / 英语",
+      "runtime": "150分钟",
+      "intro_raw": "2026-12-16(中国大陆) / 2026-12-18(美国) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 佩德罗·帕斯卡 / 凡妮莎·柯比 / 汤姆·希德勒斯顿 / 安东尼·麦凯 / 塞巴斯蒂安·斯坦 / 保罗·路德 / 约瑟夫·奎恩 / 美国 / 安东尼·罗素 / 乔·罗素 / 150分钟 / 复仇者联盟5 / 动作 / 科幻 / 冒险 / 斯蒂芬·麦克菲利 Stephen McFeely / 迈克尔·沃尔德伦 Michael Waldron / 杰克·科比 Jack Kirby / 斯坦·李 Stan Lee / 英语",
       "people": [
         "小罗伯特·唐尼",
         "克里斯·埃文斯",
@@ -10407,52 +10407,6 @@
       "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1583456026.jpg"
     },
     {
-      "id": "1306160",
-      "cid": "4172553600",
-      "title": "新警察故事",
-      "aka": [
-        "New Police Story [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1306160/",
-      "cover": "data/posters/1306160.jpg",
-      "year": "2004",
-      "mark_date": "2024-04-28",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "中国大陆",
-        "中国香港"
-      ],
-      "genres": [
-        "动作",
-        "犯罪",
-        "剧情",
-        "惊悚"
-      ],
-      "languages": [
-        "英语",
-        "汉语普通话",
-        "粤语"
-      ],
-      "runtime": "123分钟",
-      "intro_raw": "2004-09-24(中国大陆) / 成龙 / 谢霆锋 / 杨采妮 / 蔡卓妍 / 吴彦祖 / 安志杰 / 尹子维 / 王杰 / 于荣光 / 叶山豪 / 中国大陆 / 中国香港 / 陈木胜 / 123分钟 / 动作 / 犯罪 / 剧情 / 惊悚 / 袁锦麟 Alan Yuen / 英语 / 汉语普通话 / 粤语",
-      "people": [
-        "成龙",
-        "谢霆锋",
-        "杨采妮",
-        "蔡卓妍",
-        "吴彦祖",
-        "安志杰",
-        "尹子维",
-        "王杰",
-        "于荣光",
-        "叶山豪",
-        "陈木胜",
-        "袁锦麟 Alan Yuen"
-      ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p481963295.jpg"
-    },
-    {
       "id": "1309220",
       "cid": "4172553262",
       "title": "黑社会",
@@ -13481,51 +13435,6 @@
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931989223.jpg"
     },
     {
-      "id": "26611804",
-      "cid": "3235893863",
-      "title": "三块广告牌",
-      "aka": [
-        "Three Billboards Outside Ebbing, Missouri",
-        "广告牌杀人事件(港)",
-        "意外(台) [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/26611804/",
-      "cover": "data/posters/26611804.jpg",
-      "year": "2017",
-      "mark_date": "2022-02-12",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "英国",
-        "美国"
-      ],
-      "genres": [
-        "剧情",
-        "犯罪"
-      ],
-      "languages": [
-        "英语"
-      ],
-      "runtime": "115分钟",
-      "intro_raw": "2017-09-04(威尼斯电影节) / 2017-12-01(美国) / 2018-03-02(中国大陆) / 弗兰西斯·麦克多蒙德 / 伍迪·哈里森 / 山姆·洛克威尔 / 艾比·考尼什 / 卢卡斯·赫奇斯 / 彼特·丁拉基 / 约翰·浩克斯 / 卡莱伯·兰德里·琼斯 / 凯瑟琳·纽顿 / 凯瑞·康顿 / 英国 / 美国 / 马丁·麦克唐纳 / 115分钟 / 三块广告牌 / 剧情 / 犯罪 / 马丁·麦克唐纳 Martin McDonagh / 英语",
-      "people": [
-        "弗兰西斯·麦克多蒙德",
-        "伍迪·哈里森",
-        "山姆·洛克威尔",
-        "艾比·考尼什",
-        "卢卡斯·赫奇斯",
-        "彼特·丁拉基",
-        "约翰·浩克斯",
-        "卡莱伯·兰德里·琼斯",
-        "凯瑟琳·纽顿",
-        "凯瑞·康顿",
-        "马丁·麦克唐纳",
-        "三块广告牌",
-        "马丁·麦克唐纳 Martin McDonagh"
-      ],
-      "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2502943384.jpg"
-    },
-    {
       "id": "1293544",
       "cid": "3235893769",
       "title": "沉默的羔羊",
@@ -13569,53 +13478,6 @@
         "泰德·塔里 Ted Tally"
       ],
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1593414327.jpg"
-    },
-    {
-      "id": "1305487",
-      "cid": "3235893635",
-      "title": "猫鼠游戏",
-      "aka": [
-        "Catch Me If You Can",
-        "逍遥法外",
-        "捉智双雄(港) [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1305487/",
-      "cover": "data/posters/1305487.jpg",
-      "year": "2002",
-      "mark_date": "2022-02-12",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "美国",
-        "加拿大"
-      ],
-      "genres": [
-        "传记",
-        "犯罪",
-        "剧情"
-      ],
-      "languages": [
-        "英语",
-        "法语"
-      ],
-      "runtime": "141 分钟",
-      "intro_raw": "2002-12-16(洛杉矶首映) / 2002-12-25(美国) / 2003-04-11(中国大陆) / 莱昂纳多·迪卡普里奥 / 汤姆·汉克斯 / 克里斯托弗·沃肯 / 马丁·辛 / 艾米·亚当斯 / 詹妮弗·加纳 / 伊丽莎白·班克斯 / 纳塔莉·贝伊 / 詹姆斯·布洛林 / 艾伦·旁派 / 美国 / 加拿大 / 史蒂文·斯皮尔伯格 / 141 分钟 / 猫鼠游戏 / 传记 / 犯罪 / 剧情 / 杰夫·内桑森 Jeff Nathanson / 英语 / 法语",
-      "people": [
-        "莱昂纳多·迪卡普里奥",
-        "汤姆·汉克斯",
-        "克里斯托弗·沃肯",
-        "马丁·辛",
-        "艾米·亚当斯",
-        "詹妮弗·加纳",
-        "伊丽莎白·班克斯",
-        "纳塔莉·贝伊",
-        "詹姆斯·布洛林",
-        "艾伦·旁派",
-        "史蒂文·斯皮尔伯格",
-        "猫鼠游戏",
-        "杰夫·内桑森 Jeff Nathanson"
-      ],
-      "cover_remote": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p453924541.jpg"
     },
     {
       "id": "34809360",
@@ -14820,50 +14682,6 @@
       "cover_remote": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480383375.jpg"
     },
     {
-      "id": "1294638",
-      "cid": "3223451139",
-      "title": "E.T.外星人",
-      "aka": [
-        "E.T. the Extra-Terrestrial",
-        "外星人E.T.",
-        "外星人 [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1294638/",
-      "cover": "data/posters/1294638.jpg",
-      "year": "1982",
-      "mark_date": "2022-02-05",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "美国"
-      ],
-      "genres": [
-        "剧情",
-        "科幻"
-      ],
-      "languages": [
-        "英语"
-      ],
-      "runtime": "115分钟",
-      "intro_raw": "1982-05-26(戛纳电影节) / 1982-06-11(美国) / 2002-06-20(中国大陆) / 亨利·托马斯 / 迪·沃伦斯 / 罗伯特·麦克纳夫顿 / 德鲁·巴里摩尔 / 彼德·考约特 / 童自荣 / 埃丽卡·埃伦尼克 / K.C.马特尔 / 帕特·威尔士 / 美国 / 史蒂文·斯皮尔伯格 / 115分钟 / 120分钟(加长版) / E.T.外星人 / 剧情 / 科幻 / 梅丽莎·马西森 Melissa Mathison / 英语",
-      "people": [
-        "亨利·托马斯",
-        "迪·沃伦斯",
-        "罗伯特·麦克纳夫顿",
-        "德鲁·巴里摩尔",
-        "彼德·考约特",
-        "童自荣",
-        "埃丽卡·埃伦尼克",
-        "K.C.马特尔",
-        "帕特·威尔士",
-        "史蒂文·斯皮尔伯格",
-        "120分钟(加长版)",
-        "E.T.外星人",
-        "梅丽莎·马西森 Melissa Mathison"
-      ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2610282969.jpg"
-    },
-    {
       "id": "6307447",
       "cid": "3223451089",
       "title": "被解救的姜戈",
@@ -15530,55 +15348,6 @@
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792238287.jpg"
     },
     {
-      "id": "2133323",
-      "cid": "3223448982",
-      "title": "白日梦想家",
-      "aka": [
-        "The Secret Life of Walter Mitty",
-        "发梦王大历险(港)",
-        "白日梦冒险王(台) [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/2133323/",
-      "cover": "data/posters/2133323.jpg",
-      "year": "2013",
-      "mark_date": "2022-02-05",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "美国",
-        "英国"
-      ],
-      "genres": [
-        "剧情",
-        "喜剧",
-        "冒险"
-      ],
-      "languages": [
-        "英语",
-        "西班牙语"
-      ],
-      "runtime": "114分钟",
-      "intro_raw": "2013-12-25(美国) / 本·斯蒂勒 / 克里斯汀·韦格 / 亚当·斯科特 / 西恩·潘 / 凯瑟琳·哈恩 / 泰伦斯·伯尼·海恩斯 / 保罗·菲兹杰拉德 / 乔恩·戴利 / 乔伊·斯洛特尼克 / 格蕾丝·雷克斯 / 美国 / 英国 / 本·斯蒂勒 / 114分钟 / 白日梦想家 / 剧情 / 喜剧 / 冒险 / 斯蒂夫·康拉德 Steve Conrad / 詹姆斯·瑟伯 James Thurber / 英语 / 西班牙语 / 冰岛语",
-      "people": [
-        "本·斯蒂勒",
-        "克里斯汀·韦格",
-        "亚当·斯科特",
-        "西恩·潘",
-        "凯瑟琳·哈恩",
-        "泰伦斯·伯尼·海恩斯",
-        "保罗·菲兹杰拉德",
-        "乔恩·戴利",
-        "乔伊·斯洛特尼克",
-        "格蕾丝·雷克斯",
-        "本·斯蒂勒",
-        "白日梦想家",
-        "斯蒂夫·康拉德 Steve Conrad",
-        "詹姆斯·瑟伯 James Thurber",
-        "冰岛语"
-      ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2893896472.jpg"
-    },
-    {
       "id": "25837262",
       "cid": "3223448877",
       "title": "至爱梵高·星空之谜",
@@ -15856,52 +15625,6 @@
         "让-皮埃尔·热内 Jean-Pierre Jeunet"
       ],
       "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2447590313.jpg"
-    },
-    {
-      "id": "1292370",
-      "cid": "3223446571",
-      "title": "剪刀手爱德华",
-      "aka": [
-        "Edward Scissorhands",
-        "幻海奇缘(港)",
-        "剪刀手爱德华 [可播放]"
-      ],
-      "url": "https://movie.douban.com/subject/1292370/",
-      "cover": "data/posters/1292370.jpg",
-      "year": "1990",
-      "mark_date": "2022-02-05",
-      "rating": 0,
-      "comment": "",
-      "countries": [
-        "美国"
-      ],
-      "genres": [
-        "剧情",
-        "爱情",
-        "奇幻"
-      ],
-      "languages": [
-        "英语"
-      ],
-      "runtime": "105分钟",
-      "intro_raw": "1990-12-06(美国) / 约翰尼·德普 / 薇诺娜·瑞德 / 黛安·韦斯特 / 安东尼·迈克尔·豪尔 / 凯西·贝克 / 罗伯特·奥利维里 / 康查塔·费雷尔 / 卡罗琳·阿隆 / 迪克·安东尼·威廉姆斯 / 澳澜·琼斯 / 美国 / 蒂姆·波顿 / 105分钟 / 剪刀手爱德华 / 剧情 / 爱情 / 奇幻 / 蒂姆·波顿 Tim Burton / 卡罗琳·汤普森 Caroline Thompson / 英语",
-      "people": [
-        "约翰尼·德普",
-        "薇诺娜·瑞德",
-        "黛安·韦斯特",
-        "安东尼·迈克尔·豪尔",
-        "凯西·贝克",
-        "罗伯特·奥利维里",
-        "康查塔·费雷尔",
-        "卡罗琳·阿隆",
-        "迪克·安东尼·威廉姆斯",
-        "澳澜·琼斯",
-        "蒂姆·波顿",
-        "剪刀手爱德华",
-        "蒂姆·波顿 Tim Burton",
-        "卡罗琳·汤普森 Caroline Thompson"
-      ],
-      "cover_remote": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480956937.jpg"
     },
     {
       "id": "11525673",
